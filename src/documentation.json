@@ -15,5 +15,16 @@
       "manager": "string"
     },
     "description": "Returns list of all the employees along with their geo location and risk score etc."
+  },
+  "/ll/:address": {
+    "method": "GET",
+    "params": {
+      "address": "string"
+    },
+    "description": "Returns geo coordinates of the address."
+  },
+  "/master": {
+    "method": "GET",
+    "description": "Returns master data set with covid stats from all over India."
   }
 }

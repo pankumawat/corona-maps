@@ -1,0 +1,7816 @@
+{
+  "State Unassigned": {
+    "Unassigned": {
+      "geo": {
+        "lat": -1,
+        "lng": -1
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    }
+  },
+  "Andaman and Nicobar Islands": {
+    "Nicobars": {
+      "geo": {
+        "lat": "10.21548245",
+        "lng": "93.250342"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "North and Middle Andaman": {
+      "geo": {
+        "lat": "12.8694796",
+        "lng": "92.87604515"
+      },
+      "active": 0,
+      "confirmed": 1,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "South Andaman": {
+      "geo": {
+        "lat": "11.8590436",
+        "lng": "92.65085255"
+      },
+      "active": 19,
+      "confirmed": 51,
+      "deceased": 0,
+      "recovered": 32
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "10.22271055",
+        "lng": "93.23022325"
+      },
+      "active": 170,
+      "confirmed": 3692,
+      "deceased": 52,
+      "recovered": 3470
+    }
+  },
+  "Andhra Pradesh": {
+    "Prakasam": {
+      "geo": {
+        "lat": "15.6364276",
+        "lng": "79.60616515"
+      },
+      "active": 10639,
+      "confirmed": 44637,
+      "deceased": 437,
+      "recovered": 33561
+    },
+    "Kurnool": {
+      "geo": {
+        "lat": "15.8118442",
+        "lng": "78.03980205"
+      },
+      "active": 2544,
+      "confirmed": 55045,
+      "deceased": 456,
+      "recovered": 52045
+    },
+    "Chittoor": {
+      "geo": {
+        "lat": "13.21636475",
+        "lng": "79.10631385"
+      },
+      "active": 6599,
+      "confirmed": 57555,
+      "deceased": 617,
+      "recovered": 50339
+    },
+    "Y.S.R. Kadapa": {
+      "geo": {
+        "lat": "14.4762481",
+        "lng": "78.7075332"
+      },
+      "active": 3544,
+      "confirmed": 41484,
+      "deceased": 354,
+      "recovered": 37586
+    },
+    "West Godavari": {
+      "geo": {
+        "lat": "16.98384665",
+        "lng": "81.35088945"
+      },
+      "active": 6580,
+      "confirmed": 61651,
+      "deceased": 431,
+      "recovered": 54640
+    },
+    "Other State": {
+      "geo": {
+        "lat": "15.89469185",
+        "lng": "80.76262485"
+      },
+      "active": 0,
+      "confirmed": 2461,
+      "deceased": 0,
+      "recovered": 2461
+    },
+    "Foreign Evacuees": {
+      "geo": {
+        "lat": "15.89469185",
+        "lng": "80.76262485"
+      },
+      "active": 0,
+      "confirmed": 434,
+      "deceased": 0,
+      "recovered": 434
+    },
+    "Visakhapatnam": {
+      "geo": {
+        "lat": "17.7386722",
+        "lng": "83.26259125"
+      },
+      "active": 4130,
+      "confirmed": 48249,
+      "deceased": 411,
+      "recovered": 43708
+    },
+    "Vizianagaram": {
+      "geo": {
+        "lat": "18.09999385",
+        "lng": "83.40321885"
+      },
+      "active": 5183,
+      "confirmed": 32981,
+      "deceased": 215,
+      "recovered": 27583
+    },
+    "East Godavari": {
+      "geo": {
+        "lat": "17.1574913",
+        "lng": "81.74029325"
+      },
+      "active": 11395,
+      "confirmed": 91142,
+      "deceased": 501,
+      "recovered": 79246
+    },
+    "Srikakulam": {
+      "geo": {
+        "lat": "18.30314955",
+        "lng": "83.89048565"
+      },
+      "active": 4442,
+      "confirmed": 37354,
+      "deceased": 315,
+      "recovered": 32597
+    },
+    "Anantapur": {
+      "geo": {
+        "lat": "14.66496015",
+        "lng": "77.5942064"
+      },
+      "active": 2456,
+      "confirmed": 54760,
+      "deceased": 466,
+      "recovered": 51838
+    },
+    "Guntur": {
+      "geo": {
+        "lat": "16.3235706",
+        "lng": "80.4345186"
+      },
+      "active": 6469,
+      "confirmed": 51783,
+      "deceased": 509,
+      "recovered": 44805
+    },
+    "Krishna": {
+      "geo": {
+        "lat": "16.4314861",
+        "lng": "80.78141095"
+      },
+      "active": 2830,
+      "confirmed": 25281,
+      "deceased": 413,
+      "recovered": 22038
+    },
+    "S.P.S. Nellore": {
+      "geo": {
+        "lat": "14.4289599",
+        "lng": "79.98070475"
+      },
+      "active": 2542,
+      "confirmed": 49568,
+      "deceased": 433,
+      "recovered": 46593
+    }
+  },
+  "Arunachal Pradesh": {
+    "West Siang": {
+      "geo": {
+        "lat": "28.1664586",
+        "lng": "94.7673798"
+      },
+      "active": 151,
+      "confirmed": 406,
+      "deceased": 0,
+      "recovered": 255
+    },
+    "West Kameng": {
+      "geo": {
+        "lat": "27.30871865",
+        "lng": "92.40130325"
+      },
+      "active": 60,
+      "confirmed": 499,
+      "deceased": 3,
+      "recovered": 436
+    },
+    "Lower Siang": {
+      "geo": {
+        "lat": "28.1664586",
+        "lng": "94.7673798"
+      },
+      "active": 29,
+      "confirmed": 174,
+      "deceased": 0,
+      "recovered": 145
+    },
+    "Papum Pare": {
+      "geo": {
+        "lat": "27.1571672",
+        "lng": "93.6934662"
+      },
+      "active": 1366,
+      "confirmed": 3609,
+      "deceased": 5,
+      "recovered": 2238
+    },
+    "Tirap": {
+      "geo": {
+        "lat": "27.0144831",
+        "lng": "95.5700684"
+      },
+      "active": 38,
+      "confirmed": 264,
+      "deceased": 0,
+      "recovered": 226
+    },
+    "Changlang": {
+      "geo": {
+        "lat": "27.75616975",
+        "lng": "96.6226959"
+      },
+      "active": 129,
+      "confirmed": 729,
+      "deceased": 2,
+      "recovered": 598
+    },
+    "Tawang": {
+      "geo": {
+        "lat": "27.58605695",
+        "lng": "91.8594062"
+      },
+      "active": 47,
+      "confirmed": 263,
+      "deceased": 1,
+      "recovered": 215
+    },
+    "Namsai": {
+      "geo": {
+        "lat": "27.6697654",
+        "lng": "95.86271885"
+      },
+      "active": 26,
+      "confirmed": 233,
+      "deceased": 1,
+      "recovered": 206
+    },
+    "Upper Siang": {
+      "geo": {
+        "lat": "28.72867595",
+        "lng": "94.92462155"
+      },
+      "active": 31,
+      "confirmed": 132,
+      "deceased": 0,
+      "recovered": 101
+    },
+    "Longding": {
+      "geo": {
+        "lat": "26.87281555",
+        "lng": "95.305748"
+      },
+      "active": 61,
+      "confirmed": 157,
+      "deceased": 0,
+      "recovered": 96
+    },
+    "Pakke Kessang": {
+      "geo": {
+        "lat": "27.14585255",
+        "lng": "93.246261"
+      },
+      "active": 34,
+      "confirmed": 65,
+      "deceased": 0,
+      "recovered": 31
+    },
+    "East Siang": {
+      "geo": {
+        "lat": "28.26570385",
+        "lng": "95.0928504"
+      },
+      "active": 80,
+      "confirmed": 487,
+      "deceased": 1,
+      "recovered": 406
+    },
+    "Siang": {
+      "geo": {
+        "lat": "28.26570385",
+        "lng": "95.0928504"
+      },
+      "active": 3,
+      "confirmed": 46,
+      "deceased": 0,
+      "recovered": 43
+    },
+    "Kamle": {
+      "geo": {
+        "lat": "23.54054",
+        "lng": "84.737745"
+      },
+      "active": 0,
+      "confirmed": 3,
+      "deceased": 0,
+      "recovered": 3
+    },
+    "Upper Dibang Valley": {
+      "geo": {
+        "lat": "28.91698725",
+        "lng": "96.16590505"
+      },
+      "active": 3,
+      "confirmed": 4,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "East Kameng": {
+      "geo": {
+        "lat": "27.49153775",
+        "lng": "93.00845825"
+      },
+      "active": 26,
+      "confirmed": 265,
+      "deceased": 0,
+      "recovered": 239
+    },
+    "Upper Subansiri": {
+      "geo": {
+        "lat": "27.80264405",
+        "lng": "94.3560791"
+      },
+      "active": 61,
+      "confirmed": 225,
+      "deceased": 0,
+      "recovered": 164
+    },
+    "Lohit": {
+      "geo": {
+        "lat": "27.91009695",
+        "lng": "96.17019645"
+      },
+      "active": 25,
+      "confirmed": 220,
+      "deceased": 0,
+      "recovered": 195
+    },
+    "Lower Dibang Valley": {
+      "geo": {
+        "lat": "28.14287235",
+        "lng": "95.8431018"
+      },
+      "active": 44,
+      "confirmed": 193,
+      "deceased": 0,
+      "recovered": 149
+    },
+    "Kra Daadi": {
+      "geo": {
+        "lat": "27.96707905",
+        "lng": "94.4756333"
+      },
+      "active": 3,
+      "confirmed": 7,
+      "deceased": 0,
+      "recovered": 4
+    },
+    "Shi Yomi": {
+      "geo": {
+        "lat": "28.01678975",
+        "lng": "94.47883335"
+      },
+      "active": 3,
+      "confirmed": 24,
+      "deceased": 0,
+      "recovered": 21
+    },
+    "Lepa Rada": {
+      "geo": {
+        "lat": "28.01678975",
+        "lng": "94.47883335"
+      },
+      "active": 9,
+      "confirmed": 90,
+      "deceased": 0,
+      "recovered": 81
+    },
+    "Lower Subansiri": {
+      "geo": {
+        "lat": "27.63122845",
+        "lng": "93.8349152"
+      },
+      "active": 59,
+      "confirmed": 177,
+      "deceased": 1,
+      "recovered": 117
+    },
+    "Anjaw": {
+      "geo": {
+        "lat": "28.01678975",
+        "lng": "94.47883335"
+      },
+      "active": 31,
+      "confirmed": 107,
+      "deceased": 0,
+      "recovered": 76
+    },
+    "Kurung Kumey": {
+      "geo": {
+        "lat": "27.9538727",
+        "lng": "93.9372477"
+      },
+      "active": 12,
+      "confirmed": 37,
+      "deceased": 0,
+      "recovered": 25
+    }
+  },
+  "Assam": {
+    "Sonitpur": {
+      "geo": {
+        "lat": "26.74026865",
+        "lng": "93.0656816"
+      },
+      "active": 620,
+      "confirmed": 2351,
+      "deceased": 4,
+      "recovered": 1727
+    },
+    "Dhemaji": {
+      "geo": {
+        "lat": "27.4774009",
+        "lng": "94.55415965"
+      },
+      "active": 322,
+      "confirmed": 765,
+      "deceased": 3,
+      "recovered": 440
+    },
+    "Biswanath": {
+      "geo": {
+        "lat": "26.72337365",
+        "lng": "93.1401587"
+      },
+      "active": 88,
+      "confirmed": 467,
+      "deceased": 0,
+      "recovered": 379
+    },
+    "Lakhimpur": {
+      "geo": {
+        "lat": "27.17118195",
+        "lng": "94.14895975"
+      },
+      "active": 1867,
+      "confirmed": 3006,
+      "deceased": 4,
+      "recovered": 1135
+    },
+    "Karimganj": {
+      "geo": {
+        "lat": "24.86852015",
+        "lng": "92.35998995"
+      },
+      "active": 222,
+      "confirmed": 1200,
+      "deceased": 23,
+      "recovered": 955
+    },
+    "Cachar": {
+      "geo": {
+        "lat": "24.7457856",
+        "lng": "92.83579395"
+      },
+      "active": 4583,
+      "confirmed": 6111,
+      "deceased": 30,
+      "recovered": 1498
+    },
+    "Hojai": {
+      "geo": {
+        "lat": "26.00163645",
+        "lng": "92.8558982"
+      },
+      "active": 475,
+      "confirmed": 1646,
+      "deceased": 11,
+      "recovered": 1160
+    },
+    "Morigaon": {
+      "geo": {
+        "lat": "26.25196915",
+        "lng": "92.3397017"
+      },
+      "active": 77,
+      "confirmed": 638,
+      "deceased": 4,
+      "recovered": 557
+    },
+    "Hailakandi": {
+      "geo": {
+        "lat": "24.67981795",
+        "lng": "92.56315595"
+      },
+      "active": 509,
+      "confirmed": 1632,
+      "deceased": 7,
+      "recovered": 1116
+    },
+    "Tinsukia": {
+      "geo": {
+        "lat": "27.49513845",
+        "lng": "95.35534135"
+      },
+      "active": 1543,
+      "confirmed": 3366,
+      "deceased": 25,
+      "recovered": 1798
+    },
+    "Majuli": {
+      "geo": {
+        "lat": "27.00748765",
+        "lng": "94.19467455"
+      },
+      "active": 84,
+      "confirmed": 165,
+      "deceased": 1,
+      "recovered": 80
+    },
+    "Goalpara": {
+      "geo": {
+        "lat": "26.16108915",
+        "lng": "90.62989935"
+      },
+      "active": 38,
+      "confirmed": 658,
+      "deceased": 2,
+      "recovered": 568
+    },
+    "Nalbari": {
+      "geo": {
+        "lat": "26.4445015",
+        "lng": "91.43792575"
+      },
+      "active": 110,
+      "confirmed": 948,
+      "deceased": 10,
+      "recovered": 828
+    },
+    "Chirang": {
+      "geo": {
+        "lat": "26.53729545",
+        "lng": "90.6932512"
+      },
+      "active": 58,
+      "confirmed": 280,
+      "deceased": 3,
+      "recovered": 219
+    },
+    "Karbi Anglong": {
+      "geo": {
+        "lat": "26.0621483",
+        "lng": "93.0227397"
+      },
+      "active": 72,
+      "confirmed": 632,
+      "deceased": 8,
+      "recovered": 552
+    },
+    "Kamrup Metropolitan": {
+      "geo": {
+        "lat": "26.0457401",
+        "lng": "91.77224245"
+      },
+      "active": 27291,
+      "confirmed": 41975,
+      "deceased": 85,
+      "recovered": 14599
+    },
+    "Dhubri": {
+      "geo": {
+        "lat": "26.02574215",
+        "lng": "89.97594585"
+      },
+      "active": 502,
+      "confirmed": 1723,
+      "deceased": 6,
+      "recovered": 1215
+    },
+    "Dima Hasao": {
+      "geo": {
+        "lat": "25.38848115",
+        "lng": "93.019379"
+      },
+      "active": 38,
+      "confirmed": 237,
+      "deceased": 0,
+      "recovered": 199
+    },
+    "Darrang": {
+      "geo": {
+        "lat": "26.41343975",
+        "lng": "92.0900407"
+      },
+      "active": 224,
+      "confirmed": 1967,
+      "deceased": 13,
+      "recovered": 1730
+    },
+    "Other State": {
+      "geo": {
+        "lat": "26.05335745",
+        "lng": "92.8512748"
+      },
+      "active": 0,
+      "confirmed": 1,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "Sivasagar": {
+      "geo": {
+        "lat": "26.9877493",
+        "lng": "94.6429911"
+      },
+      "active": 44,
+      "confirmed": 529,
+      "deceased": 12,
+      "recovered": 473
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "26.05335745",
+        "lng": "92.8512748"
+      },
+      "active": -28747,
+      "confirmed": 61444,
+      "deceased": 199,
+      "recovered": 89989
+    },
+    "Dibrugarh": {
+      "geo": {
+        "lat": "27.47033185",
+        "lng": "94.9175936"
+      },
+      "active": 6649,
+      "confirmed": 9117,
+      "deceased": 59,
+      "recovered": 2409
+    },
+    "West Karbi Anglong": {
+      "geo": {
+        "lat": "26.0621483",
+        "lng": "93.0227397"
+      },
+      "active": 1,
+      "confirmed": 39,
+      "deceased": 1,
+      "recovered": 37
+    },
+    "Golaghat": {
+      "geo": {
+        "lat": "26.51432675",
+        "lng": "93.96587135"
+      },
+      "active": 1850,
+      "confirmed": 3519,
+      "deceased": 13,
+      "recovered": 1656
+    },
+    "Udalguri": {
+      "geo": {
+        "lat": "26.7402034",
+        "lng": "92.0945262"
+      },
+      "active": 88,
+      "confirmed": 758,
+      "deceased": 4,
+      "recovered": 666
+    },
+    "Bongaigaon": {
+      "geo": {
+        "lat": "26.48943355",
+        "lng": "90.53572635"
+      },
+      "active": 465,
+      "confirmed": 1303,
+      "deceased": 4,
+      "recovered": 834
+    },
+    "Jorhat": {
+      "geo": {
+        "lat": "26.7428816",
+        "lng": "94.20248135"
+      },
+      "active": 5834,
+      "confirmed": 7607,
+      "deceased": 21,
+      "recovered": 1752
+    },
+    "Nagaon": {
+      "geo": {
+        "lat": "26.3455542",
+        "lng": "92.6892363"
+      },
+      "active": 1999,
+      "confirmed": 4515,
+      "deceased": 10,
+      "recovered": 2506
+    },
+    "Baksa": {
+      "geo": {
+        "lat": "26.657129",
+        "lng": "91.33976685"
+      },
+      "active": 234,
+      "confirmed": 687,
+      "deceased": 6,
+      "recovered": 447
+    },
+    "Kamrup": {
+      "geo": {
+        "lat": "26.1575507",
+        "lng": "91.37367935"
+      },
+      "active": 2495,
+      "confirmed": 4590,
+      "deceased": 21,
+      "recovered": 2074
+    },
+    "Kokrajhar": {
+      "geo": {
+        "lat": "26.4018633",
+        "lng": "90.2695083"
+      },
+      "active": 47,
+      "confirmed": 408,
+      "deceased": 8,
+      "recovered": 353
+    },
+    "Barpeta": {
+      "geo": {
+        "lat": "26.32273075",
+        "lng": "90.99453175"
+      },
+      "active": 92,
+      "confirmed": 1121,
+      "deceased": 5,
+      "recovered": 1024
+    },
+    "South Salmara Mankachar": {
+      "geo": {
+        "lat": "25.69509475",
+        "lng": "89.9315318"
+      },
+      "active": 4,
+      "confirmed": 51,
+      "deceased": 0,
+      "recovered": 47
+    },
+    "Airport Quarantine": {
+      "geo": {
+        "lat": "26.1980537",
+        "lng": "93.3009288"
+      },
+      "active": 0,
+      "confirmed": 13,
+      "deceased": 0,
+      "recovered": 13
+    },
+    "Charaideo": {
+      "geo": {
+        "lat": "26.63638025",
+        "lng": "93.4212125"
+      },
+      "active": 2,
+      "confirmed": 113,
+      "deceased": 6,
+      "recovered": 105
+    }
+  },
+  "Bihar": {
+    "Vaishali": {
+      "geo": {
+        "lat": "25.7529992",
+        "lng": "85.36151115"
+      },
+      "active": 212,
+      "confirmed": 4051,
+      "deceased": 29,
+      "recovered": 3809
+    },
+    "Jehanabad": {
+      "geo": {
+        "lat": "25.21169055",
+        "lng": "84.98956905"
+      },
+      "active": 149,
+      "confirmed": 2822,
+      "deceased": 8,
+      "recovered": 2665
+    },
+    "Bhojpur": {
+      "geo": {
+        "lat": "25.4484481",
+        "lng": "84.56406405"
+      },
+      "active": 137,
+      "confirmed": 4059,
+      "deceased": 31,
+      "recovered": 3891
+    },
+    "Sheikhpura": {
+      "geo": {
+        "lat": "25.1384858",
+        "lng": "85.85004325"
+      },
+      "active": 189,
+      "confirmed": 2204,
+      "deceased": 5,
+      "recovered": 2010
+    },
+    "East Champaran": {
+      "geo": {
+        "lat": "26.6373092",
+        "lng": "84.88779055"
+      },
+      "active": 466,
+      "confirmed": 6308,
+      "deceased": 35,
+      "recovered": 5807
+    },
+    "Banka": {
+      "geo": {
+        "lat": "24.8855796",
+        "lng": "86.921339"
+      },
+      "active": 283,
+      "confirmed": 2283,
+      "deceased": 9,
+      "recovered": 1991
+    },
+    "Darbhanga": {
+      "geo": {
+        "lat": "26.15063095",
+        "lng": "85.9031781"
+      },
+      "active": 312,
+      "confirmed": 3056,
+      "deceased": 20,
+      "recovered": 2724
+    },
+    "Katihar": {
+      "geo": {
+        "lat": "25.5510336",
+        "lng": "87.5688708"
+      },
+      "active": 325,
+      "confirmed": 5502,
+      "deceased": 11,
+      "recovered": 5166
+    },
+    "Kishanganj": {
+      "geo": {
+        "lat": "26.09390205",
+        "lng": "87.94699785"
+      },
+      "active": 286,
+      "confirmed": 2901,
+      "deceased": 10,
+      "recovered": 2605
+    },
+    "Gaya": {
+      "geo": {
+        "lat": "24.78331625",
+        "lng": "84.9820808"
+      },
+      "active": 306,
+      "confirmed": 5462,
+      "deceased": 45,
+      "recovered": 5111
+    },
+    "Siwan": {
+      "geo": {
+        "lat": "26.22281825",
+        "lng": "84.3598212"
+      },
+      "active": 267,
+      "confirmed": 3534,
+      "deceased": 19,
+      "recovered": 3248
+    },
+    "Nawada": {
+      "geo": {
+        "lat": "24.89057875",
+        "lng": "85.53474425"
+      },
+      "active": 261,
+      "confirmed": 2619,
+      "deceased": 16,
+      "recovered": 2342
+    },
+    "Madhepura": {
+      "geo": {
+        "lat": "25.9239673",
+        "lng": "86.7946387"
+      },
+      "active": 378,
+      "confirmed": 3030,
+      "deceased": 9,
+      "recovered": 2643
+    },
+    "Jamui": {
+      "geo": {
+        "lat": "24.92850955",
+        "lng": "86.22392165"
+      },
+      "active": 255,
+      "confirmed": 2132,
+      "deceased": 6,
+      "recovered": 1871
+    },
+    "Patna": {
+      "geo": {
+        "lat": "25.60803745",
+        "lng": "85.14304295"
+      },
+      "active": 2076,
+      "confirmed": 26445,
+      "deceased": 202,
+      "recovered": 24167
+    },
+    "West Champaran": {
+      "geo": {
+        "lat": "27.05037525",
+        "lng": "84.29924065"
+      },
+      "active": 338,
+      "confirmed": 4618,
+      "deceased": 16,
+      "recovered": 4264
+    },
+    "Rohtas": {
+      "geo": {
+        "lat": "24.9383726",
+        "lng": "83.9829673"
+      },
+      "active": 397,
+      "confirmed": 5329,
+      "deceased": 36,
+      "recovered": 4896
+    },
+    "Kaimur": {
+      "geo": {
+        "lat": "24.90683425",
+        "lng": "83.53165825"
+      },
+      "active": 90,
+      "confirmed": 1574,
+      "deceased": 9,
+      "recovered": 1475
+    },
+    "Saharsa": {
+      "geo": {
+        "lat": "25.8787017",
+        "lng": "86.5997516"
+      },
+      "active": 506,
+      "confirmed": 4655,
+      "deceased": 7,
+      "recovered": 4142
+    },
+    "Buxar": {
+      "geo": {
+        "lat": "25.5703185",
+        "lng": "83.9784614"
+      },
+      "active": 151,
+      "confirmed": 3364,
+      "deceased": 12,
+      "recovered": 3201
+    },
+    "Begusarai": {
+      "geo": {
+        "lat": "25.41786815",
+        "lng": "86.1250335"
+      },
+      "active": 194,
+      "confirmed": 6138,
+      "deceased": 25,
+      "recovered": 5919
+    },
+    "Gopalganj": {
+      "geo": {
+        "lat": "26.48315795",
+        "lng": "84.43655"
+      },
+      "active": 385,
+      "confirmed": 3939,
+      "deceased": 2,
+      "recovered": 3552
+    },
+    "Saran": {
+      "geo": {
+        "lat": "25.92097085",
+        "lng": "84.8029632"
+      },
+      "active": 359,
+      "confirmed": 5307,
+      "deceased": 29,
+      "recovered": 4919
+    },
+    "Madhubani": {
+      "geo": {
+        "lat": "26.3460284",
+        "lng": "86.0736023"
+      },
+      "active": 572,
+      "confirmed": 5944,
+      "deceased": 17,
+      "recovered": 5355
+    },
+    "Supaul": {
+      "geo": {
+        "lat": "26.12337135",
+        "lng": "86.6045134"
+      },
+      "active": 605,
+      "confirmed": 3867,
+      "deceased": 9,
+      "recovered": 3253
+    },
+    "Arwal": {
+      "geo": {
+        "lat": "25.2427599",
+        "lng": "84.6655981"
+      },
+      "active": 178,
+      "confirmed": 1729,
+      "deceased": 7,
+      "recovered": 1544
+    },
+    "Sitamarhi": {
+      "geo": {
+        "lat": "26.58156215",
+        "lng": "85.502714"
+      },
+      "active": 111,
+      "confirmed": 3252,
+      "deceased": 11,
+      "recovered": 3130
+    },
+    "Munger": {
+      "geo": {
+        "lat": "25.37100925",
+        "lng": "86.4734434"
+      },
+      "active": 261,
+      "confirmed": 2860,
+      "deceased": 36,
+      "recovered": 2563
+    },
+    "Lakhisarai": {
+      "geo": {
+        "lat": "25.17258215",
+        "lng": "86.09904205"
+      },
+      "active": 253,
+      "confirmed": 2560,
+      "deceased": 7,
+      "recovered": 2300
+    },
+    "Aurangabad": {
+      "geo": {
+        "lat": "24.80307",
+        "lng": "84.37894455"
+      },
+      "active": 184,
+      "confirmed": 3530,
+      "deceased": 10,
+      "recovered": 3336
+    },
+    "Sheohar": {
+      "geo": {
+        "lat": "26.5142823",
+        "lng": "85.29441845"
+      },
+      "active": 75,
+      "confirmed": 1023,
+      "deceased": 1,
+      "recovered": 947
+    },
+    "Khagaria": {
+      "geo": {
+        "lat": "25.51022695",
+        "lng": "86.47443845"
+      },
+      "active": 53,
+      "confirmed": 2601,
+      "deceased": 10,
+      "recovered": 2538
+    },
+    "Nalanda": {
+      "geo": {
+        "lat": "25.20752425",
+        "lng": "85.54153065"
+      },
+      "active": 555,
+      "confirmed": 5754,
+      "deceased": 39,
+      "recovered": 5160
+    },
+    "Araria": {
+      "geo": {
+        "lat": "26.13168555",
+        "lng": "87.4454641"
+      },
+      "active": 592,
+      "confirmed": 4963,
+      "deceased": 14,
+      "recovered": 4357
+    },
+    "Muzaffarpur": {
+      "geo": {
+        "lat": "26.12045065",
+        "lng": "85.3863369"
+      },
+      "active": 748,
+      "confirmed": 7895,
+      "deceased": 31,
+      "recovered": 7116
+    },
+    "Purnia": {
+      "geo": {
+        "lat": "25.7757221",
+        "lng": "87.47911515"
+      },
+      "active": 538,
+      "confirmed": 5788,
+      "deceased": 9,
+      "recovered": 5241
+    },
+    "Samastipur": {
+      "geo": {
+        "lat": "25.8560267",
+        "lng": "85.7868233"
+      },
+      "active": 225,
+      "confirmed": 4035,
+      "deceased": 28,
+      "recovered": 3782
+    },
+    "Bhagalpur": {
+      "geo": {
+        "lat": "25.2403541",
+        "lng": "86.9918061"
+      },
+      "active": 415,
+      "confirmed": 7133,
+      "deceased": 58,
+      "recovered": 6660
+    }
+  },
+  "Chandigarh": {
+    "Chandigarh": {
+      "geo": {
+        "lat": "30.73508145",
+        "lng": "76.76352895"
+      },
+      "active": 2482,
+      "confirmed": 10968,
+      "deceased": 144,
+      "recovered": 8342
+    }
+  },
+  "Chhattisgarh": {
+    "Baloda Bazar": {
+      "geo": {
+        "lat": "21.6580262",
+        "lng": "82.1581012"
+      },
+      "active": 1193,
+      "confirmed": 2558,
+      "deceased": 15,
+      "recovered": 1350
+    },
+    "Mahasamund": {
+      "geo": {
+        "lat": "21.11240635",
+        "lng": "82.095962"
+      },
+      "active": 879,
+      "confirmed": 2108,
+      "deceased": 19,
+      "recovered": 1210
+    },
+    "Raipur": {
+      "geo": {
+        "lat": "21.26190555",
+        "lng": "81.6190733"
+      },
+      "active": 10345,
+      "confirmed": 30306,
+      "deceased": 361,
+      "recovered": 19600
+    },
+    "Jashpur": {
+      "geo": {
+        "lat": "22.8759327",
+        "lng": "84.1381159"
+      },
+      "active": 293,
+      "confirmed": 913,
+      "deceased": 2,
+      "recovered": 618
+    },
+    "Bilaspur": {
+      "geo": {
+        "lat": "22.0796541",
+        "lng": "82.1409152"
+      },
+      "active": 1526,
+      "confirmed": 6483,
+      "deceased": 75,
+      "recovered": 4882
+    },
+    "Surajpur": {
+      "geo": {
+        "lat": "23.2136007",
+        "lng": "82.8679549"
+      },
+      "active": 523,
+      "confirmed": 1334,
+      "deceased": 5,
+      "recovered": 806
+    },
+    "Gaurela Pendra Marwahi": {
+      "geo": {
+        "lat": "23.0062096",
+        "lng": "82.0541902"
+      },
+      "active": 210,
+      "confirmed": 277,
+      "deceased": 1,
+      "recovered": 66
+    },
+    "Other State": {
+      "geo": {
+        "lat": "20.95062005",
+        "lng": "82.319949"
+      },
+      "active": 17,
+      "confirmed": 154,
+      "deceased": 16,
+      "recovered": 121
+    },
+    "Mungeli": {
+      "geo": {
+        "lat": "22.0648401",
+        "lng": "81.6863537"
+      },
+      "active": 681,
+      "confirmed": 1194,
+      "deceased": 1,
+      "recovered": 512
+    },
+    "Uttar Bastar Kanker": {
+      "geo": {
+        "lat": "20.26416315",
+        "lng": "81.4980353"
+      },
+      "active": 736,
+      "confirmed": 1718,
+      "deceased": 8,
+      "recovered": 974
+    },
+    "Bastar": {
+      "geo": {
+        "lat": "19.20732755",
+        "lng": "81.9338685"
+      },
+      "active": 1364,
+      "confirmed": 2567,
+      "deceased": 6,
+      "recovered": 1197
+    },
+    "Gariaband": {
+      "geo": {
+        "lat": "20.63478935",
+        "lng": "82.0614974"
+      },
+      "active": 561,
+      "confirmed": 1163,
+      "deceased": 13,
+      "recovered": 589
+    },
+    "Balod": {
+      "geo": {
+        "lat": "20.72706515",
+        "lng": "81.2055798"
+      },
+      "active": 887,
+      "confirmed": 1964,
+      "deceased": 2,
+      "recovered": 1075
+    },
+    "Dhamtari": {
+      "geo": {
+        "lat": "20.70216765",
+        "lng": "81.54974565"
+      },
+      "active": 976,
+      "confirmed": 1935,
+      "deceased": 3,
+      "recovered": 956
+    },
+    "Surguja": {
+      "geo": {
+        "lat": "22.95004005",
+        "lng": "83.22206495"
+      },
+      "active": 708,
+      "confirmed": 2065,
+      "deceased": 17,
+      "recovered": 1340
+    },
+    "Raigarh": {
+      "geo": {
+        "lat": "21.89499335",
+        "lng": "83.3950763"
+      },
+      "active": 1699,
+      "confirmed": 5164,
+      "deceased": 36,
+      "recovered": 3429
+    },
+    "Korba": {
+      "geo": {
+        "lat": "22.3343142",
+        "lng": "82.74684485"
+      },
+      "active": 942,
+      "confirmed": 2182,
+      "deceased": 5,
+      "recovered": 1235
+    },
+    "Sukma": {
+      "geo": {
+        "lat": "18.3909115",
+        "lng": "81.6588003"
+      },
+      "active": 377,
+      "confirmed": 1418,
+      "deceased": 4,
+      "recovered": 1037
+    },
+    "Rajnandgaon": {
+      "geo": {
+        "lat": "21.09721195",
+        "lng": "81.0337501"
+      },
+      "active": 2203,
+      "confirmed": 7008,
+      "deceased": 35,
+      "recovered": 4770
+    },
+    "Dakshin Bastar Dantewada": {
+      "geo": {
+        "lat": "18.78833005",
+        "lng": "81.46056005"
+      },
+      "active": 1117,
+      "confirmed": 1644,
+      "deceased": 3,
+      "recovered": 524
+    },
+    "Kabeerdham": {
+      "geo": {
+        "lat": "22.1146299",
+        "lng": "81.19451995"
+      },
+      "active": 698,
+      "confirmed": 1699,
+      "deceased": 5,
+      "recovered": 996
+    },
+    "Bametara": {
+      "geo": {
+        "lat": "21.71309765",
+        "lng": "81.53554915"
+      },
+      "active": 286,
+      "confirmed": 1134,
+      "deceased": 13,
+      "recovered": 835
+    },
+    "Koriya": {
+      "geo": {
+        "lat": "23.43054495",
+        "lng": "82.17685995"
+      },
+      "active": 514,
+      "confirmed": 1154,
+      "deceased": 11,
+      "recovered": 629
+    },
+    "Balrampur": {
+      "geo": {
+        "lat": "23.60853",
+        "lng": "83.60751505"
+      },
+      "active": 344,
+      "confirmed": 838,
+      "deceased": 1,
+      "recovered": 493
+    },
+    "Kondagaon": {
+      "geo": {
+        "lat": "19.5942687",
+        "lng": "81.6688536"
+      },
+      "active": 393,
+      "confirmed": 974,
+      "deceased": 2,
+      "recovered": 579
+    },
+    "Durg": {
+      "geo": {
+        "lat": "21.1923787",
+        "lng": "81.28292075"
+      },
+      "active": 3911,
+      "confirmed": 9504,
+      "deceased": 71,
+      "recovered": 5522
+    },
+    "Janjgir Champa": {
+      "geo": {
+        "lat": "21.97068",
+        "lng": "82.81242995"
+      },
+      "active": 1714,
+      "confirmed": 3608,
+      "deceased": 16,
+      "recovered": 1878
+    },
+    "Bijapur": {
+      "geo": {
+        "lat": "18.79703775",
+        "lng": "80.8139179"
+      },
+      "active": 466,
+      "confirmed": 1381,
+      "deceased": 6,
+      "recovered": 909
+    },
+    "Narayanpur": {
+      "geo": {
+        "lat": "19.71955645",
+        "lng": "81.2471973"
+      },
+      "active": 475,
+      "confirmed": 1176,
+      "deceased": 0,
+      "recovered": 701
+    }
+  },
+  "Delhi": {
+    "South Delhi": {
+      "geo": {
+        "lat": "28.48209",
+        "lng": "77.188555"
+      },
+      "active": 70,
+      "confirmed": 70,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "West Delhi": {
+      "geo": {
+        "lat": "28.65415",
+        "lng": "77.06735995"
+      },
+      "active": 122,
+      "confirmed": 122,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Shahdara": {
+      "geo": {
+        "lat": "28.68249545",
+        "lng": "77.26700435"
+      },
+      "active": 48,
+      "confirmed": 48,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "South East Delhi": {
+      "geo": {
+        "lat": "28.5481349",
+        "lng": "77.2734"
+      },
+      "active": 130,
+      "confirmed": 130,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Central Delhi": {
+      "geo": {
+        "lat": "28.70291505",
+        "lng": "77.215065"
+      },
+      "active": 184,
+      "confirmed": 184,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "North East Delhi": {
+      "geo": {
+        "lat": "28.72419995",
+        "lng": "77.25814505"
+      },
+      "active": 25,
+      "confirmed": 25,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "New Delhi": {
+      "geo": {
+        "lat": "28.5273522",
+        "lng": "77.2089851"
+      },
+      "active": 37,
+      "confirmed": 37,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "South West Delhi": {
+      "geo": {
+        "lat": "28.5872",
+        "lng": "76.9734849"
+      },
+      "active": 42,
+      "confirmed": 42,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "North West Delhi": {
+      "geo": {
+        "lat": "28.743575",
+        "lng": "77.06556495"
+      },
+      "active": 31,
+      "confirmed": 32,
+      "deceased": 1,
+      "recovered": 0
+    },
+    "East Delhi": {
+      "geo": {
+        "lat": "28.62462495",
+        "lng": "77.29633995"
+      },
+      "active": 38,
+      "confirmed": 38,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "North Delhi": {
+      "geo": {
+        "lat": "28.784955",
+        "lng": "77.0953"
+      },
+      "active": 60,
+      "confirmed": 60,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "21.1337907",
+        "lng": "82.77893295"
+      },
+      "active": 30338,
+      "confirmed": 259835,
+      "deceased": 5122,
+      "recovered": 224375
+    }
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "Daman": {
+      "geo": {
+        "lat": "20.3977055",
+        "lng": "72.04832605"
+      },
+      "active": 70,
+      "confirmed": 1227,
+      "deceased": 1,
+      "recovered": 1136
+    },
+    "Dadra and Nagar Haveli": {
+      "geo": {
+        "lat": "20.3213269",
+        "lng": "72.9656124"
+      },
+      "active": 105,
+      "confirmed": 1449,
+      "deceased": 1,
+      "recovered": 1338
+    },
+    "Other State": {
+      "geo": {
+        "lat": "20.20739495",
+        "lng": "73.07376055"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Diu": {
+      "geo": {
+        "lat": "20.55488695",
+        "lng": "71.88877845"
+      },
+      "active": 22,
+      "confirmed": 302,
+      "deceased": 0,
+      "recovered": 275
+    }
+  },
+  "Goa": {
+    "South Goa": {
+      "geo": {
+        "lat": "15.19516",
+        "lng": "74.052615"
+      },
+      "active": 1978,
+      "confirmed": 3511,
+      "deceased": 126,
+      "recovered": 1407
+    },
+    "North Goa": {
+      "geo": {
+        "lat": "15.53458505",
+        "lng": "73.97957995"
+      },
+      "active": 1639,
+      "confirmed": 2668,
+      "deceased": 65,
+      "recovered": 964
+    },
+    "Other State": {
+      "geo": {
+        "lat": "15.34721295",
+        "lng": "74.01230745"
+      },
+      "active": 9,
+      "confirmed": 200,
+      "deceased": 1,
+      "recovered": 190
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "15.34801185",
+        "lng": "73.94930035"
+      },
+      "active": 2196,
+      "confirmed": 24173,
+      "deceased": 191,
+      "recovered": 21786
+    }
+  },
+  "Gujarat": {
+    "Porbandar": {
+      "geo": {
+        "lat": "21.6354606",
+        "lng": "69.63028575"
+      },
+      "active": 26,
+      "confirmed": 438,
+      "deceased": 4,
+      "recovered": 408
+    },
+    "Banaskantha": {
+      "geo": {
+        "lat": "24.26827005",
+        "lng": "72.14"
+      },
+      "active": 10,
+      "confirmed": 1830,
+      "deceased": 21,
+      "recovered": 1799
+    },
+    "Chhota Udaipur": {
+      "geo": {
+        "lat": "22.3084328",
+        "lng": "74.01059025"
+      },
+      "active": 72,
+      "confirmed": 470,
+      "deceased": 2,
+      "recovered": 396
+    },
+    "Devbhumi Dwarka": {
+      "geo": {
+        "lat": "22.16058995",
+        "lng": "69.4360399"
+      },
+      "active": 83,
+      "confirmed": 517,
+      "deceased": 5,
+      "recovered": 429
+    },
+    "Narmada": {
+      "geo": {
+        "lat": "21.73848",
+        "lng": "73.64262005"
+      },
+      "active": 78,
+      "confirmed": 871,
+      "deceased": 0,
+      "recovered": 793
+    },
+    "Dang": {
+      "geo": {
+        "lat": "20.8243749",
+        "lng": "73.70668005"
+      },
+      "active": 34,
+      "confirmed": 100,
+      "deceased": 0,
+      "recovered": 66
+    },
+    "Gir Somnath": {
+      "geo": {
+        "lat": "20.99199005",
+        "lng": "70.73176"
+      },
+      "active": 189,
+      "confirmed": 1325,
+      "deceased": 18,
+      "recovered": 1118
+    },
+    "Valsad": {
+      "geo": {
+        "lat": "20.60670375",
+        "lng": "72.92999265"
+      },
+      "active": 54,
+      "confirmed": 1144,
+      "deceased": 10,
+      "recovered": 1080
+    },
+    "Tapi": {
+      "geo": {
+        "lat": "21.187615",
+        "lng": "73.76644995"
+      },
+      "active": 15,
+      "confirmed": 552,
+      "deceased": 4,
+      "recovered": 533
+    },
+    "Jamnagar": {
+      "geo": {
+        "lat": "22.47433045",
+        "lng": "70.0584135"
+      },
+      "active": 299,
+      "confirmed": 5488,
+      "deceased": 34,
+      "recovered": 5155
+    },
+    "Aravalli": {
+      "geo": {
+        "lat": "23.4818301",
+        "lng": "73.3143449"
+      },
+      "active": 147,
+      "confirmed": 559,
+      "deceased": 24,
+      "recovered": 388
+    },
+    "Botad": {
+      "geo": {
+        "lat": "22.1720622",
+        "lng": "71.6595442"
+      },
+      "active": 158,
+      "confirmed": 709,
+      "deceased": 5,
+      "recovered": 546
+    },
+    "Sabarkantha": {
+      "geo": {
+        "lat": "23.86819495",
+        "lng": "73.07345995"
+      },
+      "active": 226,
+      "confirmed": 1008,
+      "deceased": 10,
+      "recovered": 772
+    },
+    "Bharuch": {
+      "geo": {
+        "lat": "21.72776225",
+        "lng": "73.0036299"
+      },
+      "active": 234,
+      "confirmed": 2095,
+      "deceased": 16,
+      "recovered": 1845
+    },
+    "Ahmedabad": {
+      "geo": {
+        "lat": "23.0202434",
+        "lng": "72.5797426"
+      },
+      "active": 4252,
+      "confirmed": 35672,
+      "deceased": 1794,
+      "recovered": 29626
+    },
+    "Anand": {
+      "geo": {
+        "lat": "22.5488724",
+        "lng": "72.9447341"
+      },
+      "active": 55,
+      "confirmed": 1020,
+      "deceased": 16,
+      "recovered": 949
+    },
+    "Mahisagar": {
+      "geo": {
+        "lat": "23.190845",
+        "lng": "73.636025"
+      },
+      "active": 114,
+      "confirmed": 900,
+      "deceased": 4,
+      "recovered": 782
+    },
+    "Surendranagar": {
+      "geo": {
+        "lat": "22.7231069",
+        "lng": "71.6465674"
+      },
+      "active": 256,
+      "confirmed": 1613,
+      "deceased": 12,
+      "recovered": 1345
+    },
+    "Morbi": {
+      "geo": {
+        "lat": "22.80497805",
+        "lng": "70.85679525"
+      },
+      "active": 274,
+      "confirmed": 1532,
+      "deceased": 16,
+      "recovered": 1242
+    },
+    "Rajkot": {
+      "geo": {
+        "lat": "22.27348695",
+        "lng": "70.82129635"
+      },
+      "active": 1598,
+      "confirmed": 8317,
+      "deceased": 132,
+      "recovered": 6587
+    },
+    "Dahod": {
+      "geo": {
+        "lat": "22.8494003",
+        "lng": "74.2525786"
+      },
+      "active": 268,
+      "confirmed": 1586,
+      "deceased": 6,
+      "recovered": 1312
+    },
+    "Gandhinagar": {
+      "geo": {
+        "lat": "23.2207097",
+        "lng": "72.6455481"
+      },
+      "active": 572,
+      "confirmed": 3421,
+      "deceased": 75,
+      "recovered": 2774
+    },
+    "Mehsana": {
+      "geo": {
+        "lat": "23.589872",
+        "lng": "72.38297895"
+      },
+      "active": 605,
+      "confirmed": 2439,
+      "deceased": 29,
+      "recovered": 1805
+    },
+    "Panchmahal": {
+      "geo": {
+        "lat": "22.7711936",
+        "lng": "73.62610155"
+      },
+      "active": 315,
+      "confirmed": 2165,
+      "deceased": 17,
+      "recovered": 1833
+    },
+    "Patan": {
+      "geo": {
+        "lat": "23.8481837",
+        "lng": "72.1223259"
+      },
+      "active": 180,
+      "confirmed": 1612,
+      "deceased": 39,
+      "recovered": 1393
+    },
+    "Other State": {
+      "geo": {
+        "lat": "22.4168315",
+        "lng": "71.31966105"
+      },
+      "active": 27,
+      "confirmed": 162,
+      "deceased": 3,
+      "recovered": 132
+    },
+    "Surat": {
+      "geo": {
+        "lat": "21.15920015",
+        "lng": "72.82229625"
+      },
+      "active": 2620,
+      "confirmed": 27392,
+      "deceased": 745,
+      "recovered": 24027
+    },
+    "Vadodara": {
+      "geo": {
+        "lat": "22.32210265",
+        "lng": "73.17308625"
+      },
+      "active": 1731,
+      "confirmed": 11280,
+      "deceased": 171,
+      "recovered": 9378
+    },
+    "Navsari": {
+      "geo": {
+        "lat": "20.9437227",
+        "lng": "72.9453349"
+      },
+      "active": 67,
+      "confirmed": 1120,
+      "deceased": 6,
+      "recovered": 1047
+    },
+    "Kheda": {
+      "geo": {
+        "lat": "22.75026655",
+        "lng": "72.68517785"
+      },
+      "active": 74,
+      "confirmed": 1215,
+      "deceased": 16,
+      "recovered": 1125
+    },
+    "Amreli": {
+      "geo": {
+        "lat": "21.59939635",
+        "lng": "71.22105075"
+      },
+      "active": 396,
+      "confirmed": 1942,
+      "deceased": 25,
+      "recovered": 1521
+    },
+    "Junagadh": {
+      "geo": {
+        "lat": "21.53056625",
+        "lng": "70.4376099"
+      },
+      "active": 358,
+      "confirmed": 2595,
+      "deceased": 30,
+      "recovered": 2207
+    },
+    "Bhavnagar": {
+      "geo": {
+        "lat": "21.76383365",
+        "lng": "72.1549061"
+      },
+      "active": 356,
+      "confirmed": 3929,
+      "deceased": 61,
+      "recovered": 3512
+    },
+    "Kutch": {
+      "geo": {
+        "lat": "23.71240495",
+        "lng": "69.9228488"
+      },
+      "active": 513,
+      "confirmed": 1931,
+      "deceased": 32,
+      "recovered": 1386
+    }
+  },
+  "Himachal Pradesh": {
+    "Bilaspur": {
+      "geo": {
+        "lat": "31.401205",
+        "lng": "76.65988"
+      },
+      "active": 245,
+      "confirmed": 724,
+      "deceased": 1,
+      "recovered": 478
+    },
+    "Shimla": {
+      "geo": {
+        "lat": "31.0782194",
+        "lng": "77.15902125"
+      },
+      "active": 477,
+      "confirmed": 1071,
+      "deceased": 24,
+      "recovered": 562
+    },
+    "Lahaul and Spiti": {
+      "geo": {
+        "lat": "32.50346995",
+        "lng": "77.52353995"
+      },
+      "active": 110,
+      "confirmed": 131,
+      "deceased": 0,
+      "recovered": 21
+    },
+    "Kinnaur": {
+      "geo": {
+        "lat": "31.59311",
+        "lng": "78.37598995"
+      },
+      "active": 52,
+      "confirmed": 172,
+      "deceased": 1,
+      "recovered": 119
+    },
+    "Sirmaur": {
+      "geo": {
+        "lat": "30.701965",
+        "lng": "77.42253"
+      },
+      "active": 348,
+      "confirmed": 1670,
+      "deceased": 10,
+      "recovered": 1312
+    },
+    "Hamirpur": {
+      "geo": {
+        "lat": "31.69080795",
+        "lng": "76.51853075"
+      },
+      "active": 135,
+      "confirmed": 844,
+      "deceased": 6,
+      "recovered": 703
+    },
+    "Kullu": {
+      "geo": {
+        "lat": "31.95458555",
+        "lng": "77.1112924"
+      },
+      "active": 193,
+      "confirmed": 545,
+      "deceased": 5,
+      "recovered": 345
+    },
+    "Solan": {
+      "geo": {
+        "lat": "30.9017696",
+        "lng": "77.09873345"
+      },
+      "active": 820,
+      "confirmed": 2780,
+      "deceased": 23,
+      "recovered": 1929
+    },
+    "Kangra": {
+      "geo": {
+        "lat": "32.1029695",
+        "lng": "76.27262595"
+      },
+      "active": 483,
+      "confirmed": 1979,
+      "deceased": 37,
+      "recovered": 1459
+    },
+    "Chamba": {
+      "geo": {
+        "lat": "32.5473482",
+        "lng": "76.1312225"
+      },
+      "active": 126,
+      "confirmed": 780,
+      "deceased": 8,
+      "recovered": 642
+    },
+    "Mandi": {
+      "geo": {
+        "lat": "31.65203505",
+        "lng": "77.00601"
+      },
+      "active": 645,
+      "confirmed": 1521,
+      "deceased": 20,
+      "recovered": 856
+    },
+    "Una": {
+      "geo": {
+        "lat": "31.4707283",
+        "lng": "76.268843"
+      },
+      "active": 353,
+      "confirmed": 1169,
+      "deceased": 10,
+      "recovered": 806
+    }
+  },
+  "Haryana": {
+    "Jhajjar": {
+      "geo": {
+        "lat": "28.6065394",
+        "lng": "76.6577713"
+      },
+      "active": 328,
+      "confirmed": 2306,
+      "deceased": 21,
+      "recovered": 1957
+    },
+    "Karnal": {
+      "geo": {
+        "lat": "29.6852452",
+        "lng": "76.98843205"
+      },
+      "active": 1460,
+      "confirmed": 6925,
+      "deceased": 98,
+      "recovered": 5367
+    },
+    "Fatehabad": {
+      "geo": {
+        "lat": "29.5049092",
+        "lng": "75.4555026"
+      },
+      "active": 417,
+      "confirmed": 2120,
+      "deceased": 30,
+      "recovered": 1673
+    },
+    "Faridabad": {
+      "geo": {
+        "lat": "28.4021415",
+        "lng": "77.31907425"
+      },
+      "active": 1556,
+      "confirmed": 18707,
+      "deceased": 211,
+      "recovered": 16940
+    },
+    "Sonipat": {
+      "geo": {
+        "lat": "28.9490649",
+        "lng": "77.08385465"
+      },
+      "active": 804,
+      "confirmed": 7565,
+      "deceased": 44,
+      "recovered": 6717
+    },
+    "Foreign Evacuees": {
+      "geo": {
+        "lat": "29.282929",
+        "lng": "76.026532"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Mahendragarh": {
+      "geo": {
+        "lat": "28.26386135",
+        "lng": "76.144622"
+      },
+      "active": 531,
+      "confirmed": 3126,
+      "deceased": 7,
+      "recovered": 2588
+    },
+    "Panipat": {
+      "geo": {
+        "lat": "29.3963612",
+        "lng": "76.9641209"
+      },
+      "active": 1052,
+      "confirmed": 6997,
+      "deceased": 67,
+      "recovered": 5878
+    },
+    "Yamunanagar": {
+      "geo": {
+        "lat": "30.13217255",
+        "lng": "77.27021215"
+      },
+      "active": 673,
+      "confirmed": 3709,
+      "deceased": 60,
+      "recovered": 2976
+    },
+    "Nuh": {
+      "geo": {
+        "lat": "28.1012204",
+        "lng": "76.99817075"
+      },
+      "active": 85,
+      "confirmed": 1069,
+      "deceased": 21,
+      "recovered": 963
+    },
+    "Rohtak": {
+      "geo": {
+        "lat": "28.88953605",
+        "lng": "76.61633495"
+      },
+      "active": 872,
+      "confirmed": 5325,
+      "deceased": 57,
+      "recovered": 4396
+    },
+    "Gurugram": {
+      "geo": {
+        "lat": "28.42295755",
+        "lng": "76.9897491"
+      },
+      "active": 2989,
+      "confirmed": 19102,
+      "deceased": 167,
+      "recovered": 15946
+    },
+    "Sirsa": {
+      "geo": {
+        "lat": "29.53698425",
+        "lng": "75.0304069"
+      },
+      "active": 905,
+      "confirmed": 3358,
+      "deceased": 54,
+      "recovered": 2399
+    },
+    "Kurukshetra": {
+      "geo": {
+        "lat": "29.96928165",
+        "lng": "76.8819017"
+      },
+      "active": 1350,
+      "confirmed": 4986,
+      "deceased": 85,
+      "recovered": 3551
+    },
+    "Rewari": {
+      "geo": {
+        "lat": "28.1990345",
+        "lng": "76.61997525"
+      },
+      "active": 490,
+      "confirmed": 5209,
+      "deceased": 26,
+      "recovered": 4693
+    },
+    "Charkhi Dadri": {
+      "geo": {
+        "lat": "28.5949581",
+        "lng": "76.26730445"
+      },
+      "active": 227,
+      "confirmed": 546,
+      "deceased": 1,
+      "recovered": 318
+    },
+    "Ambala": {
+      "geo": {
+        "lat": "30.37212805",
+        "lng": "76.77742685"
+      },
+      "active": 1289,
+      "confirmed": 7489,
+      "deceased": 82,
+      "recovered": 6118
+    },
+    "Palwal": {
+      "geo": {
+        "lat": "28.1445896",
+        "lng": "77.32557355"
+      },
+      "active": 229,
+      "confirmed": 2452,
+      "deceased": 14,
+      "recovered": 2209
+    },
+    "Hisar": {
+      "geo": {
+        "lat": "29.156191",
+        "lng": "75.75553895"
+      },
+      "active": 1315,
+      "confirmed": 5420,
+      "deceased": 47,
+      "recovered": 4058
+    },
+    "Panchkula": {
+      "geo": {
+        "lat": "30.70250495",
+        "lng": "76.8622511"
+      },
+      "active": 1160,
+      "confirmed": 5429,
+      "deceased": 76,
+      "recovered": 4193
+    },
+    "Kaithal": {
+      "geo": {
+        "lat": "29.7918595",
+        "lng": "76.40759465"
+      },
+      "active": 395,
+      "confirmed": 2271,
+      "deceased": 36,
+      "recovered": 1840
+    },
+    "Jind": {
+      "geo": {
+        "lat": "29.3132673",
+        "lng": "76.3203049"
+      },
+      "active": 436,
+      "confirmed": 1908,
+      "deceased": 22,
+      "recovered": 1450
+    },
+    "Bhiwani": {
+      "geo": {
+        "lat": "28.80265235",
+        "lng": "76.13960195"
+      },
+      "active": 326,
+      "confirmed": 2535,
+      "deceased": 29,
+      "recovered": 2180
+    },
+    "Italians": {
+      "geo": {
+        "lat": "29.3592087",
+        "lng": "76.9951534"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    }
+  },
+  "Jharkhand": {
+    "Jamtara": {
+      "geo": {
+        "lat": "23.95778445",
+        "lng": "86.811137"
+      },
+      "active": 98,
+      "confirmed": 709,
+      "deceased": 2,
+      "recovered": 609
+    },
+    "Ramgarh": {
+      "geo": {
+        "lat": "23.63519655",
+        "lng": "85.5134368"
+      },
+      "active": 301,
+      "confirmed": 3357,
+      "deceased": 18,
+      "recovered": 3038
+    },
+    "East Singhbhum": {
+      "geo": {
+        "lat": "22.61284995",
+        "lng": "86.47928495"
+      },
+      "active": 2537,
+      "confirmed": 13059,
+      "deceased": 282,
+      "recovered": 10240
+    },
+    "Khunti": {
+      "geo": {
+        "lat": "23.07094455",
+        "lng": "85.27982715"
+      },
+      "active": 246,
+      "confirmed": 1319,
+      "deceased": 3,
+      "recovered": 1070
+    },
+    "Hazaribagh": {
+      "geo": {
+        "lat": "23.9938505",
+        "lng": "85.36529315"
+      },
+      "active": 661,
+      "confirmed": 3231,
+      "deceased": 22,
+      "recovered": 2548
+    },
+    "Garhwa": {
+      "geo": {
+        "lat": "24.1610426",
+        "lng": "83.79978555"
+      },
+      "active": 200,
+      "confirmed": 1967,
+      "deceased": 8,
+      "recovered": 1759
+    },
+    "Giridih": {
+      "geo": {
+        "lat": "24.18985",
+        "lng": "86.28945"
+      },
+      "active": 228,
+      "confirmed": 2963,
+      "deceased": 9,
+      "recovered": 2726
+    },
+    "Koderma": {
+      "geo": {
+        "lat": "24.46677585",
+        "lng": "85.5942131"
+      },
+      "active": 381,
+      "confirmed": 2714,
+      "deceased": 20,
+      "recovered": 2313
+    },
+    "Godda": {
+      "geo": {
+        "lat": "24.8198245",
+        "lng": "87.21061"
+      },
+      "active": 239,
+      "confirmed": 1400,
+      "deceased": 6,
+      "recovered": 1155
+    },
+    "Lohardaga": {
+      "geo": {
+        "lat": "23.4394037",
+        "lng": "84.6828962"
+      },
+      "active": 233,
+      "confirmed": 1063,
+      "deceased": 6,
+      "recovered": 824
+    },
+    "West Singhbhum": {
+      "geo": {
+        "lat": "22.4259301",
+        "lng": "85.51838005"
+      },
+      "active": 429,
+      "confirmed": 3271,
+      "deceased": 29,
+      "recovered": 2813
+    },
+    "Palamu": {
+      "geo": {
+        "lat": "24.21922995",
+        "lng": "84.20177005"
+      },
+      "active": 191,
+      "confirmed": 2565,
+      "deceased": 9,
+      "recovered": 2365
+    },
+    "Bokaro": {
+      "geo": {
+        "lat": "23.6674677",
+        "lng": "86.11912245"
+      },
+      "active": 416,
+      "confirmed": 3627,
+      "deceased": 22,
+      "recovered": 3189
+    },
+    "Saraikela-Kharsawan": {
+      "geo": {
+        "lat": "22.82374",
+        "lng": "85.87666495"
+      },
+      "active": 401,
+      "confirmed": 2660,
+      "deceased": 7,
+      "recovered": 2252
+    },
+    "Deoghar": {
+      "geo": {
+        "lat": "24.47399735",
+        "lng": "86.700207"
+      },
+      "active": 182,
+      "confirmed": 2267,
+      "deceased": 15,
+      "recovered": 2070
+    },
+    "Simdega": {
+      "geo": {
+        "lat": "22.61652135",
+        "lng": "84.49381115"
+      },
+      "active": 213,
+      "confirmed": 1530,
+      "deceased": 4,
+      "recovered": 1313
+    },
+    "Dumka": {
+      "geo": {
+        "lat": "24.2755858",
+        "lng": "87.2568512"
+      },
+      "active": 229,
+      "confirmed": 954,
+      "deceased": 7,
+      "recovered": 718
+    },
+    "Gumla": {
+      "geo": {
+        "lat": "23.0503264",
+        "lng": "84.5410974"
+      },
+      "active": 336,
+      "confirmed": 1563,
+      "deceased": 2,
+      "recovered": 1225
+    },
+    "Chatra": {
+      "geo": {
+        "lat": "24.2049384",
+        "lng": "84.8721886"
+      },
+      "active": 314,
+      "confirmed": 1164,
+      "deceased": 7,
+      "recovered": 843
+    },
+    "Pakur": {
+      "geo": {
+        "lat": "24.63703965",
+        "lng": "87.8423511"
+      },
+      "active": 83,
+      "confirmed": 669,
+      "deceased": 2,
+      "recovered": 584
+    },
+    "Latehar": {
+      "geo": {
+        "lat": "23.74622055",
+        "lng": "84.50873085"
+      },
+      "active": 239,
+      "confirmed": 1403,
+      "deceased": 2,
+      "recovered": 1162
+    },
+    "Ranchi": {
+      "geo": {
+        "lat": "23.3432048",
+        "lng": "85.32132625"
+      },
+      "active": 3624,
+      "confirmed": 16936,
+      "deceased": 102,
+      "recovered": 13210
+    },
+    "Dhanbad": {
+      "geo": {
+        "lat": "23.8020526",
+        "lng": "86.4342498"
+      },
+      "active": 939,
+      "confirmed": 4802,
+      "deceased": 59,
+      "recovered": 3804
+    },
+    "Sahibganj": {
+      "geo": {
+        "lat": "25.2289337",
+        "lng": "87.6445269"
+      },
+      "active": 121,
+      "confirmed": 1245,
+      "deceased": 9,
+      "recovered": 1115
+    }
+  },
+  "Jammu and Kashmir": {
+    "Shopiyan": {
+      "geo": {
+        "lat": "33.719092",
+        "lng": "74.83330965"
+      },
+      "active": 203,
+      "confirmed": 1970,
+      "deceased": 30,
+      "recovered": 1737
+    },
+    "Samba": {
+      "geo": {
+        "lat": "32.5474618",
+        "lng": "75.1091449"
+      },
+      "active": 831,
+      "confirmed": 1576,
+      "deceased": 18,
+      "recovered": 727
+    },
+    "Doda": {
+      "geo": {
+        "lat": "33.1454563",
+        "lng": "75.5460692"
+      },
+      "active": 1220,
+      "confirmed": 1958,
+      "deceased": 24,
+      "recovered": 714
+    },
+    "Reasi": {
+      "geo": {
+        "lat": "33.0803559",
+        "lng": "74.8364413"
+      },
+      "active": 306,
+      "confirmed": 831,
+      "deceased": 5,
+      "recovered": 520
+    },
+    "Pulwama": {
+      "geo": {
+        "lat": "33.87193655",
+        "lng": "74.8966746"
+      },
+      "active": 507,
+      "confirmed": 3708,
+      "deceased": 64,
+      "recovered": 3137
+    },
+    "Kulgam": {
+      "geo": {
+        "lat": "33.6462592",
+        "lng": "75.0163584"
+      },
+      "active": 137,
+      "confirmed": 2224,
+      "deceased": 43,
+      "recovered": 2044
+    },
+    "Kishtwar": {
+      "geo": {
+        "lat": "33.31908005",
+        "lng": "75.7669048"
+      },
+      "active": 457,
+      "confirmed": 997,
+      "deceased": 6,
+      "recovered": 534
+    },
+    "Anantnag": {
+      "geo": {
+        "lat": "33.72788655",
+        "lng": "75.1482386"
+      },
+      "active": 412,
+      "confirmed": 3380,
+      "deceased": 62,
+      "recovered": 2906
+    },
+    "Udhampur": {
+      "geo": {
+        "lat": "32.91583385",
+        "lng": "75.14253785"
+      },
+      "active": 487,
+      "confirmed": 1988,
+      "deceased": 10,
+      "recovered": 1491
+    },
+    "Jammu": {
+      "geo": {
+        "lat": "32.7146742",
+        "lng": "74.859964"
+      },
+      "active": 4618,
+      "confirmed": 11147,
+      "deceased": 154,
+      "recovered": 6375
+    },
+    "Punch": {
+      "geo": {
+        "lat": "33.6457871",
+        "lng": "74.2832872"
+      },
+      "active": 903,
+      "confirmed": 1555,
+      "deceased": 9,
+      "recovered": 643
+    },
+    "Budgam": {
+      "geo": {
+        "lat": "33.89703",
+        "lng": "74.67106125"
+      },
+      "active": 1487,
+      "confirmed": 4595,
+      "deceased": 80,
+      "recovered": 3028
+    },
+    "Kupwara": {
+      "geo": {
+        "lat": "34.5261285",
+        "lng": "74.25375945"
+      },
+      "active": 826,
+      "confirmed": 3346,
+      "deceased": 64,
+      "recovered": 2456
+    },
+    "Mirpur": {
+      "geo": {
+        "lat": "33.1480918",
+        "lng": "73.7418222"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Kathua": {
+      "geo": {
+        "lat": "32.3827228",
+        "lng": "75.52768265"
+      },
+      "active": 629,
+      "confirmed": 1854,
+      "deceased": 19,
+      "recovered": 1206
+    },
+    "Baramulla": {
+      "geo": {
+        "lat": "34.143145",
+        "lng": "74.303905"
+      },
+      "active": 1203,
+      "confirmed": 4105,
+      "deceased": 121,
+      "recovered": 2781
+    },
+    "Ganderbal": {
+      "geo": {
+        "lat": "34.21649495",
+        "lng": "74.7719431"
+      },
+      "active": 611,
+      "confirmed": 2740,
+      "deceased": 26,
+      "recovered": 2103
+    },
+    "Srinagar": {
+      "geo": {
+        "lat": "34.1067185",
+        "lng": "74.80675515"
+      },
+      "active": 2122,
+      "confirmed": 13800,
+      "deceased": 277,
+      "recovered": 11401
+    },
+    "Ramban": {
+      "geo": {
+        "lat": "33.246387",
+        "lng": "75.1938909"
+      },
+      "active": 423,
+      "confirmed": 1209,
+      "deceased": 8,
+      "recovered": 778
+    },
+    "Rajouri": {
+      "geo": {
+        "lat": "33.3815951",
+        "lng": "74.33178425"
+      },
+      "active": 1320,
+      "confirmed": 2357,
+      "deceased": 30,
+      "recovered": 1007
+    },
+    "Bandipora": {
+      "geo": {
+        "lat": "34.4372168",
+        "lng": "74.85880265"
+      },
+      "active": 749,
+      "confirmed": 3274,
+      "deceased": 34,
+      "recovered": 2491
+    },
+    "Muzaffarabad": {
+      "geo": {
+        "lat": "34.3060647",
+        "lng": "73.4807842"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    }
+  },
+  "Karnataka": {
+    "Bengaluru Rural": {
+      "geo": {
+        "lat": "13.1813499",
+        "lng": "77.57521"
+      },
+      "active": 1869,
+      "confirmed": 8222,
+      "deceased": 83,
+      "recovered": 6270
+    },
+    "Yadgir": {
+      "geo": {
+        "lat": "16.7581932",
+        "lng": "77.1371555"
+      },
+      "active": 798,
+      "confirmed": 7929,
+      "deceased": 49,
+      "recovered": 7082
+    },
+    "Hassan": {
+      "geo": {
+        "lat": "13.0126213",
+        "lng": "76.10398475"
+      },
+      "active": 2682,
+      "confirmed": 14750,
+      "deceased": 263,
+      "recovered": 11805
+    },
+    "Davanagere": {
+      "geo": {
+        "lat": "14.45587185",
+        "lng": "75.9162998"
+      },
+      "active": 2835,
+      "confirmed": 15165,
+      "deceased": 238,
+      "recovered": 12092
+    },
+    "Other State": {
+      "geo": {
+        "lat": "12.98061025",
+        "lng": "77.6143368"
+      },
+      "active": 0,
+      "confirmed": 36,
+      "deceased": 3,
+      "recovered": 33
+    },
+    "Bengaluru Urban": {
+      "geo": {
+        "lat": "12.94141",
+        "lng": "77.58184"
+      },
+      "active": 40285,
+      "confirmed": 208467,
+      "deceased": 2762,
+      "recovered": 165419
+    },
+    "Belagavi": {
+      "geo": {
+        "lat": "15.8667131",
+        "lng": "74.5084405"
+      },
+      "active": 2331,
+      "confirmed": 18542,
+      "deceased": 272,
+      "recovered": 15939
+    },
+    "Dakshina Kannada": {
+      "geo": {
+        "lat": "12.8178349",
+        "lng": "75.22311995"
+      },
+      "active": 4808,
+      "confirmed": 21030,
+      "deceased": 494,
+      "recovered": 15726
+    },
+    "Chikkamagaluru": {
+      "geo": {
+        "lat": "13.3131132",
+        "lng": "75.7724486"
+      },
+      "active": 1524,
+      "confirmed": 7802,
+      "deceased": 112,
+      "recovered": 6166
+    },
+    "Tumakuru": {
+      "geo": {
+        "lat": "13.34938435",
+        "lng": "77.097609"
+      },
+      "active": 3008,
+      "confirmed": 11723,
+      "deceased": 216,
+      "recovered": 8499
+    },
+    "Shivamogga": {
+      "geo": {
+        "lat": "13.93220895",
+        "lng": "75.564715"
+      },
+      "active": 3195,
+      "confirmed": 14976,
+      "deceased": 256,
+      "recovered": 11525
+    },
+    "Chikkaballapura": {
+      "geo": {
+        "lat": "13.43111345",
+        "lng": "77.73162775"
+      },
+      "active": 1138,
+      "confirmed": 6770,
+      "deceased": 81,
+      "recovered": 5550
+    },
+    "Vijayapura": {
+      "geo": {
+        "lat": "16.8298013",
+        "lng": "75.71753745"
+      },
+      "active": 704,
+      "confirmed": 8876,
+      "deceased": 154,
+      "recovered": 8018
+    },
+    "Bidar": {
+      "geo": {
+        "lat": "17.90853805",
+        "lng": "77.4945472"
+      },
+      "active": 494,
+      "confirmed": 6024,
+      "deceased": 149,
+      "recovered": 5377
+    },
+    "Haveri": {
+      "geo": {
+        "lat": "14.7963967",
+        "lng": "75.4019594"
+      },
+      "active": 1576,
+      "confirmed": 7877,
+      "deceased": 147,
+      "recovered": 6154
+    },
+    "Mysuru": {
+      "geo": {
+        "lat": "12.31064575",
+        "lng": "76.6356898"
+      },
+      "active": 4807,
+      "confirmed": 31573,
+      "deceased": 715,
+      "recovered": 26051
+    },
+    "Udupi": {
+      "geo": {
+        "lat": "13.3318086",
+        "lng": "74.7470912"
+      },
+      "active": 1595,
+      "confirmed": 15914,
+      "deceased": 143,
+      "recovered": 14176
+    },
+    "Raichur": {
+      "geo": {
+        "lat": "16.21644135",
+        "lng": "77.35218295"
+      },
+      "active": 1746,
+      "confirmed": 10716,
+      "deceased": 133,
+      "recovered": 8837
+    },
+    "Ballari": {
+      "geo": {
+        "lat": "15.13576905",
+        "lng": "76.9065928"
+      },
+      "active": 4054,
+      "confirmed": 29673,
+      "deceased": 428,
+      "recovered": 25191
+    },
+    "Uttara Kannada": {
+      "geo": {
+        "lat": "14.723535",
+        "lng": "74.595645"
+      },
+      "active": 2129,
+      "confirmed": 8741,
+      "deceased": 109,
+      "recovered": 6503
+    },
+    "Kodagu": {
+      "geo": {
+        "lat": "12.378965",
+        "lng": "75.77973005"
+      },
+      "active": 380,
+      "confirmed": 2368,
+      "deceased": 31,
+      "recovered": 1957
+    },
+    "Gadag": {
+      "geo": {
+        "lat": "15.4289263",
+        "lng": "75.6335079"
+      },
+      "active": 811,
+      "confirmed": 8694,
+      "deceased": 125,
+      "recovered": 7758
+    },
+    "Kalaburagi": {
+      "geo": {
+        "lat": "17.3390052",
+        "lng": "76.83994015"
+      },
+      "active": 2249,
+      "confirmed": 16083,
+      "deceased": 262,
+      "recovered": 13572
+    },
+    "Koppal": {
+      "geo": {
+        "lat": "15.3454481",
+        "lng": "76.14742125"
+      },
+      "active": 2137,
+      "confirmed": 10746,
+      "deceased": 213,
+      "recovered": 8396
+    },
+    "Bagalkote": {
+      "geo": {
+        "lat": "16.16706615",
+        "lng": "75.6588189"
+      },
+      "active": 986,
+      "confirmed": 9539,
+      "deceased": 102,
+      "recovered": 8451
+    },
+    "Chitradurga": {
+      "geo": {
+        "lat": "14.226801",
+        "lng": "76.40007635"
+      },
+      "active": 1389,
+      "confirmed": 6464,
+      "deceased": 33,
+      "recovered": 5042
+    },
+    "Mandya": {
+      "geo": {
+        "lat": "12.52245835",
+        "lng": "76.89671935"
+      },
+      "active": 1402,
+      "confirmed": 9691,
+      "deceased": 97,
+      "recovered": 8192
+    },
+    "Ramanagara": {
+      "geo": {
+        "lat": "12.71435955",
+        "lng": "77.28440685"
+      },
+      "active": 645,
+      "confirmed": 4816,
+      "deceased": 44,
+      "recovered": 4127
+    },
+    "Kolar": {
+      "geo": {
+        "lat": "13.1297385",
+        "lng": "78.1260753"
+      },
+      "active": 853,
+      "confirmed": 5263,
+      "deceased": 78,
+      "recovered": 4332
+    },
+    "Dharwad": {
+      "geo": {
+        "lat": "15.4630869",
+        "lng": "74.9976658"
+      },
+      "active": 2444,
+      "confirmed": 16429,
+      "deceased": 470,
+      "recovered": 13515
+    },
+    "Chamarajanagara": {
+      "geo": {
+        "lat": "11.922483",
+        "lng": "76.9417103"
+      },
+      "active": 675,
+      "confirmed": 3658,
+      "deceased": 69,
+      "recovered": 2903
+    }
+  },
+  "Kerala": {
+    "Wayanad": {
+      "geo": {
+        "lat": "11.71426055",
+        "lng": "76.1091843"
+      },
+      "active": 708,
+      "confirmed": 2881,
+      "deceased": 5,
+      "recovered": 2168
+    },
+    "Other State": {
+      "geo": {
+        "lat": "10.54063",
+        "lng": "76.12831845"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Kottayam": {
+      "geo": {
+        "lat": "9.5946258",
+        "lng": "76.5205927"
+      },
+      "active": 3053,
+      "confirmed": 8589,
+      "deceased": 8,
+      "recovered": 5528
+    },
+    "Ernakulam": {
+      "geo": {
+        "lat": "9.9708746",
+        "lng": "76.30829335"
+      },
+      "active": 4491,
+      "confirmed": 13474,
+      "deceased": 56,
+      "recovered": 8918
+    },
+    "Kozhikode": {
+      "geo": {
+        "lat": "11.25583475",
+        "lng": "75.81081395"
+      },
+      "active": 4515,
+      "confirmed": 13793,
+      "deceased": 60,
+      "recovered": 9213
+    },
+    "Kollam": {
+      "geo": {
+        "lat": "8.9040623",
+        "lng": "76.59507335"
+      },
+      "active": 3603,
+      "confirmed": 10420,
+      "deceased": 45,
+      "recovered": 6769
+    },
+    "Pathanamthitta": {
+      "geo": {
+        "lat": "9.26032995",
+        "lng": "76.77806145"
+      },
+      "active": 1581,
+      "confirmed": 6467,
+      "deceased": 3,
+      "recovered": 4881
+    },
+    "Thiruvananthapuram": {
+      "geo": {
+        "lat": "8.49973295",
+        "lng": "76.92416665"
+      },
+      "active": 8349,
+      "confirmed": 29356,
+      "deceased": 200,
+      "recovered": 20775
+    },
+    "Malappuram": {
+      "geo": {
+        "lat": "11.0618617",
+        "lng": "76.06839175"
+      },
+      "active": 3941,
+      "confirmed": 17596,
+      "deceased": 60,
+      "recovered": 13589
+    },
+    "Idukki": {
+      "geo": {
+        "lat": "9.8564047",
+        "lng": "76.94694675"
+      },
+      "active": 823,
+      "confirmed": 3118,
+      "deceased": 3,
+      "recovered": 2290
+    },
+    "Kannur": {
+      "geo": {
+        "lat": "11.86664435",
+        "lng": "75.3698629"
+      },
+      "active": 3162,
+      "confirmed": 9040,
+      "deceased": 41,
+      "recovered": 5834
+    },
+    "Palakkad": {
+      "geo": {
+        "lat": "10.7881671",
+        "lng": "76.6539073"
+      },
+      "active": 2657,
+      "confirmed": 9026,
+      "deceased": 26,
+      "recovered": 6341
+    },
+    "Kasaragod": {
+      "geo": {
+        "lat": "12.50002155",
+        "lng": "74.9840065"
+      },
+      "active": 2126,
+      "confirmed": 9146,
+      "deceased": 42,
+      "recovered": 6975
+    },
+    "Thrissur": {
+      "geo": {
+        "lat": "10.5113876",
+        "lng": "76.22325045"
+      },
+      "active": 3474,
+      "confirmed": 10184,
+      "deceased": 40,
+      "recovered": 6666
+    },
+    "Alappuzha": {
+      "geo": {
+        "lat": "9.5010367",
+        "lng": "76.3421059"
+      },
+      "active": 3438,
+      "confirmed": 11368,
+      "deceased": 25,
+      "recovered": 7899
+    }
+  },
+  "Ladakh": {
+    "Leh": {
+      "geo": {
+        "lat": "34.16626165",
+        "lng": "77.5667382"
+      },
+      "active": 593,
+      "confirmed": 2322,
+      "deceased": 23,
+      "recovered": 1706
+    },
+    "Kargil": {
+      "geo": {
+        "lat": "33.8115096",
+        "lng": "76.42768005"
+      },
+      "active": 429,
+      "confirmed": 1647,
+      "deceased": 31,
+      "recovered": 1187
+    }
+  },
+  "Lakshadweep": {
+    "Lakshadweep": {
+      "geo": {
+        "lat": "10.3280265",
+        "lng": "72.78463355"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    }
+  },
+  "Maharashtra": {
+    "Akola": {
+      "geo": {
+        "lat": "20.7020941",
+        "lng": "77.0255243"
+      },
+      "active": 2336,
+      "confirmed": 6691,
+      "deceased": 215,
+      "recovered": 4139
+    },
+    "Solapur": {
+      "geo": {
+        "lat": "17.6614693",
+        "lng": "75.9186173"
+      },
+      "active": 7486,
+      "confirmed": 33431,
+      "deceased": 1097,
+      "recovered": 24847
+    },
+    "Satara": {
+      "geo": {
+        "lat": "17.67453725",
+        "lng": "74.01826135"
+      },
+      "active": 8813,
+      "confirmed": 32853,
+      "deceased": 822,
+      "recovered": 23216
+    },
+    "Bhandara": {
+      "geo": {
+        "lat": "21.1770058",
+        "lng": "79.6533519"
+      },
+      "active": 1984,
+      "confirmed": 4601,
+      "deceased": 90,
+      "recovered": 2527
+    },
+    "Parbhani": {
+      "geo": {
+        "lat": "19.25960415",
+        "lng": "76.78181655"
+      },
+      "active": 1266,
+      "confirmed": 4987,
+      "deceased": 170,
+      "recovered": 3551
+    },
+    "Sangli": {
+      "geo": {
+        "lat": "16.8542823",
+        "lng": "74.5841002"
+      },
+      "active": 10912,
+      "confirmed": 34500,
+      "deceased": 1041,
+      "recovered": 22547
+    },
+    "Mumbai Suburban": {
+      "geo": {
+        "lat": "19.13128495",
+        "lng": "72.879465"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Mumbai": {
+      "geo": {
+        "lat": "19.08225075",
+        "lng": "72.88118615"
+      },
+      "active": 27741,
+      "confirmed": 192427,
+      "deceased": 8658,
+      "recovered": 155638
+    },
+    "Osmanabad": {
+      "geo": {
+        "lat": "18.1928203",
+        "lng": "76.0444315"
+      },
+      "active": 2987,
+      "confirmed": 11155,
+      "deceased": 317,
+      "recovered": 7851
+    },
+    "Yavatmal": {
+      "geo": {
+        "lat": "20.3883527",
+        "lng": "78.1188869"
+      },
+      "active": 2537,
+      "confirmed": 7687,
+      "deceased": 167,
+      "recovered": 4983
+    },
+    "Chandrapur": {
+      "geo": {
+        "lat": "19.9660938",
+        "lng": "79.2755413"
+      },
+      "active": 4564,
+      "confirmed": 8611,
+      "deceased": 78,
+      "recovered": 3969
+    },
+    "Dhule": {
+      "geo": {
+        "lat": "20.8857252",
+        "lng": "74.7638608"
+      },
+      "active": 1303,
+      "confirmed": 11987,
+      "deceased": 327,
+      "recovered": 10355
+    },
+    "Amravati": {
+      "geo": {
+        "lat": "20.9040872",
+        "lng": "77.7617455"
+      },
+      "active": 3080,
+      "confirmed": 12182,
+      "deceased": 244,
+      "recovered": 8858
+    },
+    "Latur": {
+      "geo": {
+        "lat": "18.40315995",
+        "lng": "76.56696765"
+      },
+      "active": 3963,
+      "confirmed": 15910,
+      "deceased": 454,
+      "recovered": 11493
+    },
+    "Nanded": {
+      "geo": {
+        "lat": "19.14726425",
+        "lng": "77.31585495"
+      },
+      "active": 6867,
+      "confirmed": 14411,
+      "deceased": 369,
+      "recovered": 7175
+    },
+    "Jalgaon": {
+      "geo": {
+        "lat": "20.99008435",
+        "lng": "75.57542325"
+      },
+      "active": 8031,
+      "confirmed": 45225,
+      "deceased": 1196,
+      "recovered": 35998
+    },
+    "Ratnagiri": {
+      "geo": {
+        "lat": "16.9939387",
+        "lng": "73.3255971"
+      },
+      "active": 2736,
+      "confirmed": 7918,
+      "deceased": 239,
+      "recovered": 4943
+    },
+    "Nagpur": {
+      "geo": {
+        "lat": "21.16108585",
+        "lng": "79.07251015"
+      },
+      "active": 18762,
+      "confirmed": 70414,
+      "deceased": 1874,
+      "recovered": 49769
+    },
+    "Sindhudurg": {
+      "geo": {
+        "lat": "16.13170995",
+        "lng": "73.7639601"
+      },
+      "active": 1324,
+      "confirmed": 3410,
+      "deceased": 69,
+      "recovered": 2017
+    },
+    "Nashik": {
+      "geo": {
+        "lat": "19.99096305",
+        "lng": "73.80348085"
+      },
+      "active": 14748,
+      "confirmed": 69099,
+      "deceased": 1193,
+      "recovered": 53158
+    },
+    "Hingoli": {
+      "geo": {
+        "lat": "19.72249185",
+        "lng": "77.15289835"
+      },
+      "active": 566,
+      "confirmed": 2734,
+      "deceased": 52,
+      "recovered": 2116
+    },
+    "Beed": {
+      "geo": {
+        "lat": "18.99647015",
+        "lng": "75.74914385"
+      },
+      "active": 3045,
+      "confirmed": 9287,
+      "deceased": 254,
+      "recovered": 5988
+    },
+    "Wardha": {
+      "geo": {
+        "lat": "20.74888915",
+        "lng": "78.6126858"
+      },
+      "active": 1380,
+      "confirmed": 3483,
+      "deceased": 50,
+      "recovered": 2052
+    },
+    "Other State": {
+      "geo": {
+        "lat": "18.81542655",
+        "lng": "76.7751435"
+      },
+      "active": 885,
+      "confirmed": 1435,
+      "deceased": 122,
+      "recovered": 428
+    },
+    "Raigad": {
+      "geo": {
+        "lat": "18.48948",
+        "lng": "73.25703995"
+      },
+      "active": 7920,
+      "confirmed": 48375,
+      "deceased": 1076,
+      "recovered": 39377
+    },
+    "Palghar": {
+      "geo": {
+        "lat": "19.6942008",
+        "lng": "72.76904275"
+      },
+      "active": 6409,
+      "confirmed": 35126,
+      "deceased": 797,
+      "recovered": 27920
+    },
+    "Nandurbar": {
+      "geo": {
+        "lat": "21.36919775",
+        "lng": "74.24733"
+      },
+      "active": 974,
+      "confirmed": 4941,
+      "deceased": 113,
+      "recovered": 3854
+    },
+    "Ahmednagar": {
+      "geo": {
+        "lat": "19.1103224",
+        "lng": "74.7426734"
+      },
+      "active": 8079,
+      "confirmed": 38257,
+      "deceased": 624,
+      "recovered": 29554
+    },
+    "Aurangabad": {
+      "geo": {
+        "lat": "19.87009625",
+        "lng": "75.30520145"
+      },
+      "active": 9252,
+      "confirmed": 34036,
+      "deceased": 851,
+      "recovered": 23933
+    },
+    "Buldhana": {
+      "geo": {
+        "lat": "20.52822775",
+        "lng": "76.1865485"
+      },
+      "active": 1763,
+      "confirmed": 6814,
+      "deceased": 107,
+      "recovered": 4944
+    },
+    "Gondia": {
+      "geo": {
+        "lat": "21.4691922",
+        "lng": "80.21673915"
+      },
+      "active": 2276,
+      "confirmed": 5664,
+      "deceased": 59,
+      "recovered": 3329
+    },
+    "Gadchiroli": {
+      "geo": {
+        "lat": "20.1749716",
+        "lng": "79.9957641"
+      },
+      "active": 437,
+      "confirmed": 1777,
+      "deceased": 13,
+      "recovered": 1327
+    },
+    "Pune": {
+      "geo": {
+        "lat": "18.52461645",
+        "lng": "73.8629674"
+      },
+      "active": 60146,
+      "confirmed": 274421,
+      "deceased": 5478,
+      "recovered": 208796
+    },
+    "Washim": {
+      "geo": {
+        "lat": "20.11396885",
+        "lng": "77.12413075"
+      },
+      "active": 833,
+      "confirmed": 3833,
+      "deceased": 79,
+      "recovered": 2920
+    },
+    "Kolhapur": {
+      "geo": {
+        "lat": "16.70846855",
+        "lng": "74.2388679"
+      },
+      "active": 7942,
+      "confirmed": 40686,
+      "deceased": 1219,
+      "recovered": 31525
+    },
+    "Jalna": {
+      "geo": {
+        "lat": "19.84173825",
+        "lng": "75.8895636"
+      },
+      "active": 1882,
+      "confirmed": 7066,
+      "deceased": 184,
+      "recovered": 5000
+    },
+    "Thane": {
+      "geo": {
+        "lat": "19.21389195",
+        "lng": "73.0014603"
+      },
+      "active": 29764,
+      "confirmed": 177529,
+      "deceased": 4647,
+      "recovered": 143117
+    }
+  },
+  "Meghalaya": {
+    "East Garo Hills": {
+      "geo": {
+        "lat": "25.6215475",
+        "lng": "90.6351471"
+      },
+      "active": 7,
+      "confirmed": 110,
+      "deceased": 0,
+      "recovered": 103
+    },
+    "South West Khasi Hills": {
+      "geo": {
+        "lat": "25.3106026",
+        "lng": "91.2059641"
+      },
+      "active": 5,
+      "confirmed": 9,
+      "deceased": 0,
+      "recovered": 4
+    },
+    "South West Garo Hills": {
+      "geo": {
+        "lat": "25.5730288",
+        "lng": "90.131278"
+      },
+      "active": 17,
+      "confirmed": 38,
+      "deceased": 0,
+      "recovered": 21
+    },
+    "Ribhoi": {
+      "geo": {
+        "lat": "25.87426055",
+        "lng": "91.8034744"
+      },
+      "active": 122,
+      "confirmed": 410,
+      "deceased": 3,
+      "recovered": 285
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "25.5769515",
+        "lng": "91.3109744"
+      },
+      "active": -2,
+      "confirmed": 0,
+      "deceased": 3,
+      "recovered": -1
+    },
+    "East Khasi Hills": {
+      "geo": {
+        "lat": "25.4225553",
+        "lng": "91.75583845"
+      },
+      "active": 1426,
+      "confirmed": 3330,
+      "deceased": 34,
+      "recovered": 1870
+    },
+    "East Jaintia Hills": {
+      "geo": {
+        "lat": "25.25737135",
+        "lng": "92.5098609"
+      },
+      "active": 276,
+      "confirmed": 331,
+      "deceased": 0,
+      "recovered": 55
+    },
+    "South Garo Hills": {
+      "geo": {
+        "lat": "25.34927125",
+        "lng": "90.61453895"
+      },
+      "active": 4,
+      "confirmed": 37,
+      "deceased": 0,
+      "recovered": 33
+    },
+    "West Jaintia Hills": {
+      "geo": {
+        "lat": "25.44964485",
+        "lng": "92.33665465"
+      },
+      "active": 8,
+      "confirmed": 45,
+      "deceased": 0,
+      "recovered": 37
+    },
+    "West Garo Hills": {
+      "geo": {
+        "lat": "25.5730288",
+        "lng": "90.131278"
+      },
+      "active": 101,
+      "confirmed": 663,
+      "deceased": 2,
+      "recovered": 560
+    },
+    "North Garo Hills": {
+      "geo": {
+        "lat": "25.89655625",
+        "lng": "90.5984116"
+      },
+      "active": 16,
+      "confirmed": 44,
+      "deceased": 0,
+      "recovered": 28
+    },
+    "West Khasi Hills": {
+      "geo": {
+        "lat": "25.618528",
+        "lng": "91.2889838"
+      },
+      "active": 2,
+      "confirmed": 66,
+      "deceased": 1,
+      "recovered": 63
+    }
+  },
+  "Manipur": {
+    "Senapati": {
+      "geo": {
+        "lat": "25.27031145",
+        "lng": "94.02249815"
+      },
+      "active": 266,
+      "confirmed": 287,
+      "deceased": 0,
+      "recovered": 21
+    },
+    "Tengnoupal": {
+      "geo": {
+        "lat": "24.3849383",
+        "lng": "94.1487658"
+      },
+      "active": 75,
+      "confirmed": 88,
+      "deceased": 0,
+      "recovered": 13
+    },
+    "Churachandpur": {
+      "geo": {
+        "lat": "24.3451755",
+        "lng": "93.7032509"
+      },
+      "active": 479,
+      "confirmed": 541,
+      "deceased": 4,
+      "recovered": 58
+    },
+    "Imphal East": {
+      "geo": {
+        "lat": "24.85485495",
+        "lng": "94.02080505"
+      },
+      "active": 1143,
+      "confirmed": 1173,
+      "deceased": 14,
+      "recovered": 16
+    },
+    "Kangpokpi": {
+      "geo": {
+        "lat": "25.15161855",
+        "lng": "93.96700045"
+      },
+      "active": 352,
+      "confirmed": 374,
+      "deceased": 3,
+      "recovered": 19
+    },
+    "Noney": {
+      "geo": {
+        "lat": "24.8491141",
+        "lng": "93.6142461"
+      },
+      "active": 76,
+      "confirmed": 94,
+      "deceased": 0,
+      "recovered": 18
+    },
+    "Thoubal": {
+      "geo": {
+        "lat": "24.64952615",
+        "lng": "93.98767375"
+      },
+      "active": 964,
+      "confirmed": 1001,
+      "deceased": 14,
+      "recovered": 23
+    },
+    "Ukhrul": {
+      "geo": {
+        "lat": "25.09504175",
+        "lng": "94.36303135"
+      },
+      "active": 306,
+      "confirmed": 324,
+      "deceased": 0,
+      "recovered": 18
+    },
+    "Imphal West": {
+      "geo": {
+        "lat": "24.748735",
+        "lng": "93.8873399"
+      },
+      "active": 2394,
+      "confirmed": 2461,
+      "deceased": 15,
+      "recovered": 52
+    },
+    "Chandel": {
+      "geo": {
+        "lat": "24.3301651",
+        "lng": "94.0053749"
+      },
+      "active": 117,
+      "confirmed": 125,
+      "deceased": 4,
+      "recovered": 4
+    },
+    "Kakching": {
+      "geo": {
+        "lat": "24.49708575",
+        "lng": "93.9828383"
+      },
+      "active": 235,
+      "confirmed": 262,
+      "deceased": 0,
+      "recovered": 27
+    },
+    "Jiribam": {
+      "geo": {
+        "lat": "24.7941014",
+        "lng": "93.1346081"
+      },
+      "active": 150,
+      "confirmed": 152,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "Kamjong": {
+      "geo": {
+        "lat": "24.85996885",
+        "lng": "94.5146191"
+      },
+      "active": 145,
+      "confirmed": 162,
+      "deceased": 0,
+      "recovered": 17
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "24.76396095",
+        "lng": "93.857159"
+      },
+      "active": -5263,
+      "confirmed": 321,
+      "deceased": 5,
+      "recovered": 5579
+    },
+    "Pherzawl": {
+      "geo": {
+        "lat": "24.26083385",
+        "lng": "93.19160285"
+      },
+      "active": 18,
+      "confirmed": 33,
+      "deceased": 0,
+      "recovered": 15
+    },
+    "Bishnupur": {
+      "geo": {
+        "lat": "24.6249661",
+        "lng": "93.7568093"
+      },
+      "active": 291,
+      "confirmed": 351,
+      "deceased": 2,
+      "recovered": 58
+    },
+    "Tamenglong": {
+      "geo": {
+        "lat": "24.98655825",
+        "lng": "93.49614145"
+      },
+      "active": 265,
+      "confirmed": 297,
+      "deceased": 0,
+      "recovered": 32
+    },
+    "CAPF Personnel": {
+      "geo": {
+        "lat": "24.76396095",
+        "lng": "93.857159"
+      },
+      "active": 93,
+      "confirmed": 1491,
+      "deceased": 1,
+      "recovered": 1397
+    }
+  },
+  "Madhya Pradesh": {
+    "Rewa": {
+      "geo": {
+        "lat": "24.5406421",
+        "lng": "81.30307675"
+      },
+      "active": 439,
+      "confirmed": 1557,
+      "deceased": 25,
+      "recovered": 1093
+    },
+    "Ashoknagar": {
+      "geo": {
+        "lat": "24.5728559",
+        "lng": "77.73420455"
+      },
+      "active": 106,
+      "confirmed": 429,
+      "deceased": 13,
+      "recovered": 310
+    },
+    "Tikamgarh": {
+      "geo": {
+        "lat": "24.7486987",
+        "lng": "78.8333416"
+      },
+      "active": 172,
+      "confirmed": 748,
+      "deceased": 21,
+      "recovered": 555
+    },
+    "Dhar": {
+      "geo": {
+        "lat": "22.5967951",
+        "lng": "75.3100361"
+      },
+      "active": 660,
+      "confirmed": 2018,
+      "deceased": 28,
+      "recovered": 1330
+    },
+    "Anuppur": {
+      "geo": {
+        "lat": "23.1149425",
+        "lng": "81.69525795"
+      },
+      "active": 348,
+      "confirmed": 964,
+      "deceased": 7,
+      "recovered": 609
+    },
+    "Guna": {
+      "geo": {
+        "lat": "24.64660855",
+        "lng": "77.31215445"
+      },
+      "active": 221,
+      "confirmed": 692,
+      "deceased": 12,
+      "recovered": 459
+    },
+    "Shivpuri": {
+      "geo": {
+        "lat": "25.43330855",
+        "lng": "77.6640487"
+      },
+      "active": 321,
+      "confirmed": 1982,
+      "deceased": 20,
+      "recovered": 1641
+    },
+    "Sagar": {
+      "geo": {
+        "lat": "23.8374857",
+        "lng": "78.74862675"
+      },
+      "active": 716,
+      "confirmed": 2170,
+      "deceased": 92,
+      "recovered": 1362
+    },
+    "Khandwa": {
+      "geo": {
+        "lat": "21.8305679",
+        "lng": "76.35241495"
+      },
+      "active": 275,
+      "confirmed": 1419,
+      "deceased": 31,
+      "recovered": 1113
+    },
+    "Sehore": {
+      "geo": {
+        "lat": "23.2087714",
+        "lng": "77.08798415"
+      },
+      "active": 361,
+      "confirmed": 1405,
+      "deceased": 28,
+      "recovered": 1016
+    },
+    "Niwari": {
+      "geo": {
+        "lat": "25.36063495",
+        "lng": "78.8067449"
+      },
+      "active": 37,
+      "confirmed": 319,
+      "deceased": 1,
+      "recovered": 281
+    },
+    "Chhatarpur": {
+      "geo": {
+        "lat": "24.9066335",
+        "lng": "79.5856879"
+      },
+      "active": 198,
+      "confirmed": 1148,
+      "deceased": 25,
+      "recovered": 925
+    },
+    "Betul": {
+      "geo": {
+        "lat": "21.90699495",
+        "lng": "77.90037985"
+      },
+      "active": 441,
+      "confirmed": 1638,
+      "deceased": 39,
+      "recovered": 1158
+    },
+    "Satna": {
+      "geo": {
+        "lat": "24.5793846",
+        "lng": "80.8030486"
+      },
+      "active": 259,
+      "confirmed": 1327,
+      "deceased": 26,
+      "recovered": 1042
+    },
+    "Datia": {
+      "geo": {
+        "lat": "25.66624275",
+        "lng": "78.4544206"
+      },
+      "active": 254,
+      "confirmed": 1160,
+      "deceased": 15,
+      "recovered": 891
+    },
+    "Mandla": {
+      "geo": {
+        "lat": "22.5957859",
+        "lng": "80.37063365"
+      },
+      "active": 160,
+      "confirmed": 581,
+      "deceased": 6,
+      "recovered": 415
+    },
+    "Rajgarh": {
+      "geo": {
+        "lat": "23.86926005",
+        "lng": "76.70778495"
+      },
+      "active": 212,
+      "confirmed": 1211,
+      "deceased": 21,
+      "recovered": 978
+    },
+    "Agar Malwa": {
+      "geo": {
+        "lat": "23.71141665",
+        "lng": "76.018515"
+      },
+      "active": 65,
+      "confirmed": 373,
+      "deceased": 7,
+      "recovered": 301
+    },
+    "Damoh": {
+      "geo": {
+        "lat": "23.82460675",
+        "lng": "79.4371176"
+      },
+      "active": 514,
+      "confirmed": 1460,
+      "deceased": 30,
+      "recovered": 916
+    },
+    "Sidhi": {
+      "geo": {
+        "lat": "24.39958065",
+        "lng": "81.8853802"
+      },
+      "active": 171,
+      "confirmed": 695,
+      "deceased": 3,
+      "recovered": 521
+    },
+    "Balaghat": {
+      "geo": {
+        "lat": "21.8117",
+        "lng": "80.18903725"
+      },
+      "active": 362,
+      "confirmed": 878,
+      "deceased": 4,
+      "recovered": 512
+    },
+    "Morena": {
+      "geo": {
+        "lat": "26.49081525",
+        "lng": "77.99238425"
+      },
+      "active": 191,
+      "confirmed": 2500,
+      "deceased": 21,
+      "recovered": 2288
+    },
+    "Singrauli": {
+      "geo": {
+        "lat": "24.19894305",
+        "lng": "82.6609611"
+      },
+      "active": 188,
+      "confirmed": 690,
+      "deceased": 15,
+      "recovered": 487
+    },
+    "Raisen": {
+      "geo": {
+        "lat": "23.3333887",
+        "lng": "77.78950095"
+      },
+      "active": 190,
+      "confirmed": 1143,
+      "deceased": 25,
+      "recovered": 928
+    },
+    "Harda": {
+      "geo": {
+        "lat": "22.34848715",
+        "lng": "77.0909816"
+      },
+      "active": 115,
+      "confirmed": 774,
+      "deceased": 15,
+      "recovered": 644
+    },
+    "Chhindwara": {
+      "geo": {
+        "lat": "22.04983575",
+        "lng": "78.9372215"
+      },
+      "active": 359,
+      "confirmed": 1128,
+      "deceased": 17,
+      "recovered": 752
+    },
+    "Shajapur": {
+      "geo": {
+        "lat": "23.41723155",
+        "lng": "76.27625765"
+      },
+      "active": 141,
+      "confirmed": 819,
+      "deceased": 11,
+      "recovered": 667
+    },
+    "Khargone": {
+      "geo": {
+        "lat": "21.82436905",
+        "lng": "75.6130339"
+      },
+      "active": 475,
+      "confirmed": 3053,
+      "deceased": 39,
+      "recovered": 2539
+    },
+    "Dewas": {
+      "geo": {
+        "lat": "22.96073185",
+        "lng": "76.04254625"
+      },
+      "active": 204,
+      "confirmed": 1240,
+      "deceased": 20,
+      "recovered": 1016
+    },
+    "Hoshangabad": {
+      "geo": {
+        "lat": "22.7533968",
+        "lng": "77.73122305"
+      },
+      "active": 443,
+      "confirmed": 1337,
+      "deceased": 25,
+      "recovered": 869
+    },
+    "Alirajpur": {
+      "geo": {
+        "lat": "22.3054552",
+        "lng": "74.3541813"
+      },
+      "active": 62,
+      "confirmed": 927,
+      "deceased": 12,
+      "recovered": 853
+    },
+    "Jabalpur": {
+      "geo": {
+        "lat": "23.1756951",
+        "lng": "79.9687529"
+      },
+      "active": 1319,
+      "confirmed": 8568,
+      "deceased": 134,
+      "recovered": 7115
+    },
+    "Umaria": {
+      "geo": {
+        "lat": "23.53135245",
+        "lng": "80.82497835"
+      },
+      "active": 214,
+      "confirmed": 464,
+      "deceased": 7,
+      "recovered": 243
+    },
+    "Indore": {
+      "geo": {
+        "lat": "22.72397275",
+        "lng": "75.8638499"
+      },
+      "active": 3944,
+      "confirmed": 21248,
+      "deceased": 524,
+      "recovered": 16780
+    },
+    "Panna": {
+      "geo": {
+        "lat": "24.7138081",
+        "lng": "80.1827448"
+      },
+      "active": 150,
+      "confirmed": 591,
+      "deceased": 2,
+      "recovered": 439
+    },
+    "Ratlam": {
+      "geo": {
+        "lat": "23.3366964",
+        "lng": "75.04244595"
+      },
+      "active": 293,
+      "confirmed": 1846,
+      "deceased": 37,
+      "recovered": 1516
+    },
+    "Seoni": {
+      "geo": {
+        "lat": "22.08675195",
+        "lng": "79.54807515"
+      },
+      "active": 249,
+      "confirmed": 788,
+      "deceased": 7,
+      "recovered": 532
+    },
+    "Ujjain": {
+      "geo": {
+        "lat": "23.16899865",
+        "lng": "75.79722045"
+      },
+      "active": 544,
+      "confirmed": 2779,
+      "deceased": 90,
+      "recovered": 2145
+    },
+    "Mandsaur": {
+      "geo": {
+        "lat": "24.0733739",
+        "lng": "75.06365645"
+      },
+      "active": 262,
+      "confirmed": 1466,
+      "deceased": 14,
+      "recovered": 1190
+    },
+    "Burhanpur": {
+      "geo": {
+        "lat": "21.31765155",
+        "lng": "76.21801445"
+      },
+      "active": 61,
+      "confirmed": 689,
+      "deceased": 25,
+      "recovered": 603
+    },
+    "Jhabua": {
+      "geo": {
+        "lat": "22.76820755",
+        "lng": "74.59596635"
+      },
+      "active": 244,
+      "confirmed": 1244,
+      "deceased": 11,
+      "recovered": 989
+    },
+    "Bhopal": {
+      "geo": {
+        "lat": "23.1994097",
+        "lng": "77.40589145"
+      },
+      "active": 2077,
+      "confirmed": 15910,
+      "deceased": 368,
+      "recovered": 13465
+    },
+    "Katni": {
+      "geo": {
+        "lat": "23.8236265",
+        "lng": "80.39987585"
+      },
+      "active": 223,
+      "confirmed": 1071,
+      "deceased": 15,
+      "recovered": 833
+    },
+    "Shahdol": {
+      "geo": {
+        "lat": "23.30388855",
+        "lng": "81.3626111"
+      },
+      "active": 643,
+      "confirmed": 1724,
+      "deceased": 17,
+      "recovered": 1064
+    },
+    "Neemuch": {
+      "geo": {
+        "lat": "24.4678496",
+        "lng": "74.8721266"
+      },
+      "active": 492,
+      "confirmed": 1902,
+      "deceased": 31,
+      "recovered": 1379
+    },
+    "Bhind": {
+      "geo": {
+        "lat": "26.56572645",
+        "lng": "78.7934304"
+      },
+      "active": 159,
+      "confirmed": 891,
+      "deceased": 7,
+      "recovered": 725
+    },
+    "Narsinghpur": {
+      "geo": {
+        "lat": "22.9463305",
+        "lng": "79.20047105"
+      },
+      "active": 353,
+      "confirmed": 2063,
+      "deceased": 12,
+      "recovered": 1698
+    },
+    "Barwani": {
+      "geo": {
+        "lat": "22.0378596",
+        "lng": "74.90428205"
+      },
+      "active": 314,
+      "confirmed": 1731,
+      "deceased": 20,
+      "recovered": 1397
+    },
+    "Sheopur": {
+      "geo": {
+        "lat": "25.6701084",
+        "lng": "76.69669385"
+      },
+      "active": 148,
+      "confirmed": 791,
+      "deceased": 4,
+      "recovered": 639
+    },
+    "Dindori": {
+      "geo": {
+        "lat": "22.94072795",
+        "lng": "81.07601175"
+      },
+      "active": 154,
+      "confirmed": 428,
+      "deceased": 0,
+      "recovered": 274
+    },
+    "Vidisha": {
+      "geo": {
+        "lat": "23.52019605",
+        "lng": "77.8151027"
+      },
+      "active": 268,
+      "confirmed": 1564,
+      "deceased": 31,
+      "recovered": 1265
+    },
+    "Other Region": {
+      "geo": {
+        "lat": "23.9740114",
+        "lng": "78.42296105"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Gwalior": {
+      "geo": {
+        "lat": "26.21415585",
+        "lng": "78.19089895"
+      },
+      "active": 1973,
+      "confirmed": 9818,
+      "deceased": 112,
+      "recovered": 7733
+    }
+  },
+  "Mizoram": {
+    "Saitual": {
+      "geo": {
+        "lat": "23.97078845",
+        "lng": "92.57559115"
+      },
+      "active": 7,
+      "confirmed": 11,
+      "deceased": 0,
+      "recovered": 4
+    },
+    "Hnahthial": {
+      "geo": {
+        "lat": "22.96688785",
+        "lng": "92.9285431"
+      },
+      "active": 3,
+      "confirmed": 5,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "Saiha": {
+      "geo": {
+        "lat": "22.49261375",
+        "lng": "92.98660745"
+      },
+      "active": 1,
+      "confirmed": 31,
+      "deceased": 0,
+      "recovered": 30
+    },
+    "Lunglei": {
+      "geo": {
+        "lat": "22.8945506",
+        "lng": "92.7822147"
+      },
+      "active": 64,
+      "confirmed": 183,
+      "deceased": 0,
+      "recovered": 119
+    },
+    "Mamit": {
+      "geo": {
+        "lat": "23.9153347",
+        "lng": "92.4953127"
+      },
+      "active": 6,
+      "confirmed": 37,
+      "deceased": 0,
+      "recovered": 31
+    },
+    "Aizawl": {
+      "geo": {
+        "lat": "23.7443772",
+        "lng": "92.71158455"
+      },
+      "active": 538,
+      "confirmed": 1181,
+      "deceased": 0,
+      "recovered": 643
+    },
+    "Khawzawl": {
+      "geo": {
+        "lat": "23.51999305",
+        "lng": "93.1862013"
+      },
+      "active": 1,
+      "confirmed": 4,
+      "deceased": 0,
+      "recovered": 3
+    },
+    "Serchhip": {
+      "geo": {
+        "lat": "23.3431118",
+        "lng": "92.8522396"
+      },
+      "active": 20,
+      "confirmed": 36,
+      "deceased": 0,
+      "recovered": 16
+    },
+    "Champhai": {
+      "geo": {
+        "lat": "23.4731382",
+        "lng": "93.33639715"
+      },
+      "active": 1,
+      "confirmed": 17,
+      "deceased": 0,
+      "recovered": 16
+    },
+    "Lawngtlai": {
+      "geo": {
+        "lat": "22.52896545",
+        "lng": "92.89189335"
+      },
+      "active": 10,
+      "confirmed": 40,
+      "deceased": 0,
+      "recovered": 30
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "23.23204845",
+        "lng": "92.84802005"
+      },
+      "active": -9,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 9
+    },
+    "Kolasib": {
+      "geo": {
+        "lat": "24.2250475",
+        "lng": "92.6832497"
+      },
+      "active": 13,
+      "confirmed": 214,
+      "deceased": 0,
+      "recovered": 201
+    }
+  },
+  "Nagaland": {
+    "Zunheboto": {
+      "geo": {
+        "lat": "26.0132084",
+        "lng": "94.52398535"
+      },
+      "active": 6,
+      "confirmed": 125,
+      "deceased": 0,
+      "recovered": 119
+    },
+    "Others": {
+      "geo": {
+        "lat": "26.1170955",
+        "lng": "94.2861465"
+      },
+      "active": 0,
+      "confirmed": 46,
+      "deceased": 0,
+      "recovered": 46
+    },
+    "Dimapur": {
+      "geo": {
+        "lat": "25.86081915",
+        "lng": "93.7464512"
+      },
+      "active": 743,
+      "confirmed": 2878,
+      "deceased": 9,
+      "recovered": 2105
+    },
+    "Kohima": {
+      "geo": {
+        "lat": "25.674635",
+        "lng": "94.10674005"
+      },
+      "active": 298,
+      "confirmed": 1775,
+      "deceased": 0,
+      "recovered": 1472
+    },
+    "Tuensang": {
+      "geo": {
+        "lat": "26.23656185",
+        "lng": "94.80373975"
+      },
+      "active": 4,
+      "confirmed": 79,
+      "deceased": 0,
+      "recovered": 75
+    },
+    "Mokokchung": {
+      "geo": {
+        "lat": "26.32211235",
+        "lng": "94.51825615"
+      },
+      "active": 17,
+      "confirmed": 44,
+      "deceased": 0,
+      "recovered": 27
+    },
+    "Kiphire": {
+      "geo": {
+        "lat": "25.8693604",
+        "lng": "94.78546865"
+      },
+      "active": 2,
+      "confirmed": 16,
+      "deceased": 0,
+      "recovered": 14
+    },
+    "Wokha": {
+      "geo": {
+        "lat": "26.091127",
+        "lng": "94.2547131"
+      },
+      "active": 0,
+      "confirmed": 35,
+      "deceased": 0,
+      "recovered": 35
+    },
+    "Mon": {
+      "geo": {
+        "lat": "26.73309555",
+        "lng": "95.0615119"
+      },
+      "active": 13,
+      "confirmed": 338,
+      "deceased": 2,
+      "recovered": 318
+    },
+    "Phek": {
+      "geo": {
+        "lat": "25.6640316",
+        "lng": "94.47004255"
+      },
+      "active": 1,
+      "confirmed": 35,
+      "deceased": 0,
+      "recovered": 34
+    },
+    "Longleng": {
+      "geo": {
+        "lat": "26.4907493",
+        "lng": "94.8136049"
+      },
+      "active": 0,
+      "confirmed": 8,
+      "deceased": 0,
+      "recovered": 6
+    },
+    "Peren": {
+      "geo": {
+        "lat": "25.51237075",
+        "lng": "93.73924615"
+      },
+      "active": 4,
+      "confirmed": 351,
+      "deceased": 0,
+      "recovered": 347
+    }
+  },
+  "Odisha": {
+    "Nuapada": {
+      "geo": {
+        "lat": "20.80770175",
+        "lng": "82.53373865"
+      },
+      "active": 688,
+      "confirmed": 2392,
+      "deceased": 1,
+      "recovered": 1703
+    },
+    "Bargarh": {
+      "geo": {
+        "lat": "21.34818415",
+        "lng": "83.6295763"
+      },
+      "active": 1099,
+      "confirmed": 5693,
+      "deceased": 12,
+      "recovered": 4582
+    },
+    "Malkangiri": {
+      "geo": {
+        "lat": "18.35048145",
+        "lng": "81.8883691"
+      },
+      "active": 442,
+      "confirmed": 3333,
+      "deceased": 14,
+      "recovered": 2877
+    },
+    "Nayagarh": {
+      "geo": {
+        "lat": "20.1267874",
+        "lng": "85.10400575"
+      },
+      "active": 543,
+      "confirmed": 4442,
+      "deceased": 22,
+      "recovered": 3877
+    },
+    "Kendujhar": {
+      "geo": {
+        "lat": "21.64737195",
+        "lng": "85.602293"
+      },
+      "active": 489,
+      "confirmed": 3638,
+      "deceased": 12,
+      "recovered": 3137
+    },
+    "Deogarh": {
+      "geo": {
+        "lat": "21.53660305",
+        "lng": "84.72812895"
+      },
+      "active": 98,
+      "confirmed": 557,
+      "deceased": 0,
+      "recovered": 459
+    },
+    "Nabarangapur": {
+      "geo": {
+        "lat": "19.2302114",
+        "lng": "82.54518"
+      },
+      "active": 790,
+      "confirmed": 3159,
+      "deceased": 5,
+      "recovered": 2364
+    },
+    "Koraput": {
+      "geo": {
+        "lat": "18.8137329",
+        "lng": "82.7104425"
+      },
+      "active": 731,
+      "confirmed": 5760,
+      "deceased": 7,
+      "recovered": 5022
+    },
+    "Boudh": {
+      "geo": {
+        "lat": "20.84367505",
+        "lng": "84.31881005"
+      },
+      "active": 501,
+      "confirmed": 1648,
+      "deceased": 1,
+      "recovered": 1146
+    },
+    "Kandhamal": {
+      "geo": {
+        "lat": "20.12775495",
+        "lng": "84.04313495"
+      },
+      "active": 699,
+      "confirmed": 3988,
+      "deceased": 20,
+      "recovered": 3269
+    },
+    "Khordha": {
+      "geo": {
+        "lat": "20.17956985",
+        "lng": "85.65937085"
+      },
+      "active": 5812,
+      "confirmed": 33453,
+      "deceased": 125,
+      "recovered": 27516
+    },
+    "Mayurbhanj": {
+      "geo": {
+        "lat": "21.92731745",
+        "lng": "86.7629004"
+      },
+      "active": 1293,
+      "confirmed": 7199,
+      "deceased": 21,
+      "recovered": 5885
+    },
+    "Jharsuguda": {
+      "geo": {
+        "lat": "21.8690197",
+        "lng": "84.0180408"
+      },
+      "active": 982,
+      "confirmed": 3910,
+      "deceased": 1,
+      "recovered": 2927
+    },
+    "Balangir": {
+      "geo": {
+        "lat": "20.69890785",
+        "lng": "83.4841834"
+      },
+      "active": 565,
+      "confirmed": 3778,
+      "deceased": 18,
+      "recovered": 3195
+    },
+    "Jagatsinghpur": {
+      "geo": {
+        "lat": "20.24903995",
+        "lng": "86.1671448"
+      },
+      "active": 1267,
+      "confirmed": 4584,
+      "deceased": 7,
+      "recovered": 3310
+    },
+    "Balasore": {
+      "geo": {
+        "lat": "21.4894075",
+        "lng": "86.91915935"
+      },
+      "active": 1346,
+      "confirmed": 6816,
+      "deceased": 25,
+      "recovered": 5445
+    },
+    "Sundargarh": {
+      "geo": {
+        "lat": "22.1268515",
+        "lng": "84.03992755"
+      },
+      "active": 1120,
+      "confirmed": 6987,
+      "deceased": 43,
+      "recovered": 5824
+    },
+    "Puri": {
+      "geo": {
+        "lat": "19.80882635",
+        "lng": "85.82159995"
+      },
+      "active": 1695,
+      "confirmed": 9074,
+      "deceased": 47,
+      "recovered": 7332
+    },
+    "Dhenkanal": {
+      "geo": {
+        "lat": "20.65487",
+        "lng": "85.5999662"
+      },
+      "active": 530,
+      "confirmed": 3301,
+      "deceased": 3,
+      "recovered": 2768
+    },
+    "Sambalpur": {
+      "geo": {
+        "lat": "21.470398",
+        "lng": "83.9728832"
+      },
+      "active": 1059,
+      "confirmed": 5304,
+      "deceased": 22,
+      "recovered": 4223
+    },
+    "Bhadrak": {
+      "geo": {
+        "lat": "21.0511629",
+        "lng": "86.5026176"
+      },
+      "active": 782,
+      "confirmed": 4797,
+      "deceased": 16,
+      "recovered": 3999
+    },
+    "Kendrapara": {
+      "geo": {
+        "lat": "20.49895715",
+        "lng": "86.42077865"
+      },
+      "active": 1078,
+      "confirmed": 4400,
+      "deceased": 8,
+      "recovered": 3314
+    },
+    "Jajpur": {
+      "geo": {
+        "lat": "20.83899835",
+        "lng": "86.33189275"
+      },
+      "active": 1482,
+      "confirmed": 7506,
+      "deceased": 8,
+      "recovered": 6016
+    },
+    "Gajapati": {
+      "geo": {
+        "lat": "19.19375345",
+        "lng": "84.118695"
+      },
+      "active": 170,
+      "confirmed": 3430,
+      "deceased": 23,
+      "recovered": 3237
+    },
+    "Ganjam": {
+      "geo": {
+        "lat": "19.3884406",
+        "lng": "85.05498625"
+      },
+      "active": 237,
+      "confirmed": 19871,
+      "deceased": 226,
+      "recovered": 19408
+    },
+    "Kalahandi": {
+      "geo": {
+        "lat": "19.818455",
+        "lng": "83.16058005"
+      },
+      "active": 696,
+      "confirmed": 2824,
+      "deceased": 7,
+      "recovered": 2121
+    },
+    "Cuttack": {
+      "geo": {
+        "lat": "20.46310735",
+        "lng": "85.86774585"
+      },
+      "active": 4258,
+      "confirmed": 18359,
+      "deceased": 64,
+      "recovered": 14037
+    },
+    "Others": {
+      "geo": {
+        "lat": "20.2749853",
+        "lng": "85.842682"
+      },
+      "active": 0,
+      "confirmed": 0,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Subarnapur": {
+      "geo": {
+        "lat": "20.84394215",
+        "lng": "83.9028579"
+      },
+      "active": 640,
+      "confirmed": 2658,
+      "deceased": 7,
+      "recovered": 2011
+    },
+    "Rayagada": {
+      "geo": {
+        "lat": "19.17498245",
+        "lng": "83.40931895"
+      },
+      "active": 526,
+      "confirmed": 7060,
+      "deceased": 36,
+      "recovered": 6498
+    },
+    "Angul": {
+      "geo": {
+        "lat": "20.83645055",
+        "lng": "85.1406312"
+      },
+      "active": 1207,
+      "confirmed": 3222,
+      "deceased": 4,
+      "recovered": 2011
+    },
+    "State Pool": {
+      "geo": {
+        "lat": "20.7829755",
+        "lng": "85.16397445"
+      },
+      "active": 2214,
+      "confirmed": 3745,
+      "deceased": 0,
+      "recovered": 1531
+    }
+  },
+  "Punjab": {
+    "Sangrur": {
+      "geo": {
+        "lat": "30.2422132",
+        "lng": "75.84278585"
+      },
+      "active": 456,
+      "confirmed": 3353,
+      "deceased": 134,
+      "recovered": 2763
+    },
+    "Jalandhar": {
+      "geo": {
+        "lat": "31.32239775",
+        "lng": "75.57341925"
+      },
+      "active": 2120,
+      "confirmed": 12113,
+      "deceased": 351,
+      "recovered": 9642
+    },
+    "Faridkot": {
+      "geo": {
+        "lat": "30.67549855",
+        "lng": "74.74819165"
+      },
+      "active": 542,
+      "confirmed": 2547,
+      "deceased": 41,
+      "recovered": 1964
+    },
+    "Moga": {
+      "geo": {
+        "lat": "30.82223955",
+        "lng": "75.18792815"
+      },
+      "active": 401,
+      "confirmed": 2091,
+      "deceased": 62,
+      "recovered": 1628
+    },
+    "Fatehgarh Sahib": {
+      "geo": {
+        "lat": "30.6537893",
+        "lng": "76.39452545"
+      },
+      "active": 256,
+      "confirmed": 1783,
+      "deceased": 76,
+      "recovered": 1451
+    },
+    "Ludhiana": {
+      "geo": {
+        "lat": "30.9003452",
+        "lng": "75.85667325"
+      },
+      "active": 1552,
+      "confirmed": 16986,
+      "deceased": 695,
+      "recovered": 14739
+    },
+    "Gurdaspur": {
+      "geo": {
+        "lat": "32.0426573",
+        "lng": "75.40841555"
+      },
+      "active": 1107,
+      "confirmed": 5437,
+      "deceased": 124,
+      "recovered": 4206
+    },
+    "S.A.S. Nagar": {
+      "geo": {
+        "lat": "30.698324",
+        "lng": "76.69738045"
+      },
+      "active": 2564,
+      "confirmed": 9544,
+      "deceased": 158,
+      "recovered": 6822
+    },
+    "Fazilka": {
+      "geo": {
+        "lat": "30.4019228",
+        "lng": "74.0294114"
+      },
+      "active": 630,
+      "confirmed": 2094,
+      "deceased": 30,
+      "recovered": 1434
+    },
+    "Hoshiarpur": {
+      "geo": {
+        "lat": "31.5266456",
+        "lng": "75.92029285"
+      },
+      "active": 911,
+      "confirmed": 4110,
+      "deceased": 129,
+      "recovered": 3070
+    },
+    "Sri Muktsar Sahib": {
+      "geo": {
+        "lat": "30.4718298",
+        "lng": "74.51472755"
+      },
+      "active": 651,
+      "confirmed": 2261,
+      "deceased": 33,
+      "recovered": 1577
+    },
+    "Mansa": {
+      "geo": {
+        "lat": "29.9990193",
+        "lng": "75.39992095"
+      },
+      "active": 390,
+      "confirmed": 1456,
+      "deceased": 27,
+      "recovered": 1039
+    },
+    "Ferozepur": {
+      "geo": {
+        "lat": "30.9319422",
+        "lng": "74.6242713"
+      },
+      "active": 462,
+      "confirmed": 3475,
+      "deceased": 93,
+      "recovered": 2920
+    },
+    "Bathinda": {
+      "geo": {
+        "lat": "30.20877015",
+        "lng": "74.95868685"
+      },
+      "active": 1726,
+      "confirmed": 5360,
+      "deceased": 100,
+      "recovered": 3534
+    },
+    "Rupnagar": {
+      "geo": {
+        "lat": "30.96263045",
+        "lng": "76.5246677"
+      },
+      "active": 724,
+      "confirmed": 1880,
+      "deceased": 64,
+      "recovered": 1092
+    },
+    "Patiala": {
+      "geo": {
+        "lat": "30.34665515",
+        "lng": "76.40905385"
+      },
+      "active": 1676,
+      "confirmed": 10903,
+      "deceased": 302,
+      "recovered": 8925
+    },
+    "Amritsar": {
+      "geo": {
+        "lat": "31.63354415",
+        "lng": "74.8701203"
+      },
+      "active": 1734,
+      "confirmed": 9056,
+      "deceased": 323,
+      "recovered": 6999
+    },
+    "Tarn Taran": {
+      "geo": {
+        "lat": "31.4522354",
+        "lng": "74.92547575"
+      },
+      "active": 329,
+      "confirmed": 1505,
+      "deceased": 57,
+      "recovered": 1119
+    },
+    "Pathankot": {
+      "geo": {
+        "lat": "32.26943545",
+        "lng": "75.6518555"
+      },
+      "active": 1011,
+      "confirmed": 3191,
+      "deceased": 60,
+      "recovered": 2120
+    },
+    "Barnala": {
+      "geo": {
+        "lat": "30.36670185",
+        "lng": "75.54435255"
+      },
+      "active": 429,
+      "confirmed": 1747,
+      "deceased": 37,
+      "recovered": 1281
+    },
+    "Shahid Bhagat Singh Nagar": {
+      "geo": {
+        "lat": "31.124325",
+        "lng": "76.114783"
+      },
+      "active": 372,
+      "confirmed": 1464,
+      "deceased": 37,
+      "recovered": 1055
+    },
+    "Kapurthala": {
+      "geo": {
+        "lat": "31.3756148",
+        "lng": "75.39187435"
+      },
+      "active": 636,
+      "confirmed": 2864,
+      "deceased": 133,
+      "recovered": 2095
+    }
+  },
+  "Puducherry": {
+    "Karaikal": {
+      "geo": {
+        "lat": "10.9266418",
+        "lng": "79.83455545"
+      },
+      "active": 655,
+      "confirmed": 2135,
+      "deceased": 33,
+      "recovered": 1447
+    },
+    "Puducherry": {
+      "geo": {
+        "lat": "11.9362953",
+        "lng": "79.81352805"
+      },
+      "active": 4122,
+      "confirmed": 20995,
+      "deceased": 414,
+      "recovered": 16459
+    },
+    "Yanam": {
+      "geo": {
+        "lat": "16.73238465",
+        "lng": "82.25008965"
+      },
+      "active": 257,
+      "confirmed": 1565,
+      "deceased": 40,
+      "recovered": 1268
+    },
+    "Mahe": {
+      "geo": {
+        "lat": "11.70080795",
+        "lng": "75.53783585"
+      },
+      "active": 63,
+      "confirmed": 200,
+      "deceased": 0,
+      "recovered": 137
+    }
+  },
+  "Rajasthan": {
+    "Other State": {
+      "geo": {
+        "lat": "26.62827555",
+        "lng": "73.87389705"
+      },
+      "active": 0,
+      "confirmed": 189,
+      "deceased": 39,
+      "recovered": 150
+    },
+    "Ganganagar": {
+      "geo": {
+        "lat": "29.90910305",
+        "lng": "73.87905205"
+      },
+      "active": 191,
+      "confirmed": 1246,
+      "deceased": 12,
+      "recovered": 1043
+    },
+    "Pali": {
+      "geo": {
+        "lat": "25.7773173",
+        "lng": "73.32595665"
+      },
+      "active": 417,
+      "confirmed": 5303,
+      "deceased": 57,
+      "recovered": 4829
+    },
+    "Kota": {
+      "geo": {
+        "lat": "25.1734028",
+        "lng": "75.84694865"
+      },
+      "active": 2193,
+      "confirmed": 8647,
+      "deceased": 95,
+      "recovered": 6359
+    },
+    "Sikar": {
+      "geo": {
+        "lat": "27.6094677",
+        "lng": "75.14280645"
+      },
+      "active": 451,
+      "confirmed": 3801,
+      "deceased": 30,
+      "recovered": 3320
+    },
+    "Nagaur": {
+      "geo": {
+        "lat": "27.2069734",
+        "lng": "73.7245221"
+      },
+      "active": 238,
+      "confirmed": 3323,
+      "deceased": 46,
+      "recovered": 3039
+    },
+    "Pratapgarh": {
+      "geo": {
+        "lat": "24.03122665",
+        "lng": "74.7824282"
+      },
+      "active": 103,
+      "confirmed": 746,
+      "deceased": 10,
+      "recovered": 633
+    },
+    "Chittorgarh": {
+      "geo": {
+        "lat": "24.90483695",
+        "lng": "74.6215942"
+      },
+      "active": 143,
+      "confirmed": 1514,
+      "deceased": 16,
+      "recovered": 1355
+    },
+    "Rajsamand": {
+      "geo": {
+        "lat": "25.0457181",
+        "lng": "73.88503835"
+      },
+      "active": 188,
+      "confirmed": 1687,
+      "deceased": 19,
+      "recovered": 1480
+    },
+    "Jalore": {
+      "geo": {
+        "lat": "25.32989935",
+        "lng": "72.6251129"
+      },
+      "active": 360,
+      "confirmed": 1973,
+      "deceased": 14,
+      "recovered": 1599
+    },
+    "Jhalawar": {
+      "geo": {
+        "lat": "24.5885854",
+        "lng": "76.1576931"
+      },
+      "active": 200,
+      "confirmed": 2320,
+      "deceased": 10,
+      "recovered": 2110
+    },
+    "Jhunjhunu": {
+      "geo": {
+        "lat": "28.1227985",
+        "lng": "75.3932923"
+      },
+      "active": 166,
+      "confirmed": 1484,
+      "deceased": 8,
+      "recovered": 1310
+    },
+    "Tonk": {
+      "geo": {
+        "lat": "26.1654788",
+        "lng": "75.796802"
+      },
+      "active": 192,
+      "confirmed": 1144,
+      "deceased": 17,
+      "recovered": 935
+    },
+    "Sawai Madhopur": {
+      "geo": {
+        "lat": "26.02669745",
+        "lng": "76.3663101"
+      },
+      "active": 109,
+      "confirmed": 820,
+      "deceased": 19,
+      "recovered": 692
+    },
+    "Evacuees": {
+      "geo": {
+        "lat": "26.62827555",
+        "lng": "73.87389705"
+      },
+      "active": 0,
+      "confirmed": 61,
+      "deceased": 0,
+      "recovered": 61
+    },
+    "Jodhpur": {
+      "geo": {
+        "lat": "26.2703594",
+        "lng": "73.03054325"
+      },
+      "active": 3418,
+      "confirmed": 18227,
+      "deceased": 139,
+      "recovered": 14670
+    },
+    "Dholpur": {
+      "geo": {
+        "lat": "26.700736",
+        "lng": "77.8748321"
+      },
+      "active": 150,
+      "confirmed": 2763,
+      "deceased": 24,
+      "recovered": 2589
+    },
+    "Sirohi": {
+      "geo": {
+        "lat": "24.8900359",
+        "lng": "72.8497675"
+      },
+      "active": 145,
+      "confirmed": 1786,
+      "deceased": 21,
+      "recovered": 1620
+    },
+    "Hanumangarh": {
+      "geo": {
+        "lat": "29.58252445",
+        "lng": "74.33117865"
+      },
+      "active": 119,
+      "confirmed": 773,
+      "deceased": 4,
+      "recovered": 650
+    },
+    "Bharatpur": {
+      "geo": {
+        "lat": "27.2197735",
+        "lng": "77.49324455"
+      },
+      "active": 174,
+      "confirmed": 4211,
+      "deceased": 77,
+      "recovered": 3960
+    },
+    "Barmer": {
+      "geo": {
+        "lat": "25.769046",
+        "lng": "71.4050066"
+      },
+      "active": 97,
+      "confirmed": 2655,
+      "deceased": 29,
+      "recovered": 2529
+    },
+    "Dausa": {
+      "geo": {
+        "lat": "26.89355555",
+        "lng": "76.34305005"
+      },
+      "active": 146,
+      "confirmed": 895,
+      "deceased": 9,
+      "recovered": 740
+    },
+    "Karauli": {
+      "geo": {
+        "lat": "26.4986066",
+        "lng": "77.0194387"
+      },
+      "active": 124,
+      "confirmed": 799,
+      "deceased": 10,
+      "recovered": 665
+    },
+    "Jaisalmer": {
+      "geo": {
+        "lat": "26.9035788",
+        "lng": "70.8947302"
+      },
+      "active": 187,
+      "confirmed": 718,
+      "deceased": 10,
+      "recovered": 521
+    },
+    "Alwar": {
+      "geo": {
+        "lat": "27.55464175",
+        "lng": "76.64637575"
+      },
+      "active": 421,
+      "confirmed": 10168,
+      "deceased": 37,
+      "recovered": 9710
+    },
+    "Dungarpur": {
+      "geo": {
+        "lat": "23.8466584",
+        "lng": "73.71379105"
+      },
+      "active": 207,
+      "confirmed": 1603,
+      "deceased": 14,
+      "recovered": 1382
+    },
+    "Baran": {
+      "geo": {
+        "lat": "25.09545865",
+        "lng": "76.48522075"
+      },
+      "active": 160,
+      "confirmed": 1210,
+      "deceased": 17,
+      "recovered": 1033
+    },
+    "Bhilwara": {
+      "geo": {
+        "lat": "25.34142055",
+        "lng": "74.6317362"
+      },
+      "active": 469,
+      "confirmed": 3515,
+      "deceased": 17,
+      "recovered": 3029
+    },
+    "Jaipur": {
+      "geo": {
+        "lat": "26.88521075",
+        "lng": "75.79055785"
+      },
+      "active": 6878,
+      "confirmed": 19001,
+      "deceased": 315,
+      "recovered": 11808
+    },
+    "Udaipur": {
+      "geo": {
+        "lat": "24.6082862",
+        "lng": "73.70705845"
+      },
+      "active": 469,
+      "confirmed": 3910,
+      "deceased": 45,
+      "recovered": 3396
+    },
+    "Bundi": {
+      "geo": {
+        "lat": "25.4359081",
+        "lng": "75.64681295"
+      },
+      "active": 66,
+      "confirmed": 1171,
+      "deceased": 6,
+      "recovered": 1099
+    },
+    "Ajmer": {
+      "geo": {
+        "lat": "26.4532432",
+        "lng": "74.6357137"
+      },
+      "active": 224,
+      "confirmed": 6343,
+      "deceased": 99,
+      "recovered": 6020
+    },
+    "Banswara": {
+      "geo": {
+        "lat": "23.540383",
+        "lng": "74.4353217"
+      },
+      "active": 183,
+      "confirmed": 1117,
+      "deceased": 14,
+      "recovered": 920
+    },
+    "Churu": {
+      "geo": {
+        "lat": "28.29780305",
+        "lng": "74.96679775"
+      },
+      "active": 157,
+      "confirmed": 1568,
+      "deceased": 12,
+      "recovered": 1399
+    },
+    "Bikaner": {
+      "geo": {
+        "lat": "28.02140795",
+        "lng": "73.31954055"
+      },
+      "active": 248,
+      "confirmed": 5942,
+      "deceased": 106,
+      "recovered": 5588
+    },
+    "Italians": {
+      "geo": {
+        "lat": "26.1652273",
+        "lng": "74.21144955"
+      },
+      "active": 0,
+      "confirmed": 2,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "BSF Camp": {
+      "geo": {
+        "lat": "27.30271675",
+        "lng": "73.1728484"
+      },
+      "active": 0,
+      "confirmed": 85,
+      "deceased": 0,
+      "recovered": 85
+    }
+  },
+  "Sikkim": {
+    "East Sikkim": {
+      "geo": {
+        "lat": "27.28339885",
+        "lng": "88.67908155"
+      },
+      "active": 337,
+      "confirmed": 1446,
+      "deceased": 3,
+      "recovered": 1106
+    },
+    "West Sikkim": {
+      "geo": {
+        "lat": "27.35973135",
+        "lng": "88.1758845"
+      },
+      "active": 72,
+      "confirmed": 87,
+      "deceased": 0,
+      "recovered": 15
+    },
+    "South Sikkim": {
+      "geo": {
+        "lat": "27.3076124",
+        "lng": "88.4124984"
+      },
+      "active": 402,
+      "confirmed": 475,
+      "deceased": 0,
+      "recovered": 73
+    },
+    "North Sikkim": {
+      "geo": {
+        "lat": "27.7362357",
+        "lng": "88.5075314"
+      },
+      "active": 0,
+      "confirmed": 1,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "27.598493",
+        "lng": "88.4672778"
+      },
+      "active": -203,
+      "confirmed": 603,
+      "deceased": 28,
+      "recovered": 778
+    }
+  },
+  "Telangana": {
+    "Hyderabad": {
+      "geo": {
+        "lat": "17.4123487",
+        "lng": "78.40804555"
+      },
+      "active": 58796,
+      "confirmed": 59124,
+      "deceased": 23,
+      "recovered": 305
+    },
+    "Jayashankar Bhupalapally": {
+      "geo": {
+        "lat": "18.42774835",
+        "lng": "79.8616068"
+      },
+      "active": 1170,
+      "confirmed": 1170,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Nagarkurnool": {
+      "geo": {
+        "lat": "16.49197385",
+        "lng": "78.30732825"
+      },
+      "active": 2342,
+      "confirmed": 2344,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "Bhadradri Kothagudem": {
+      "geo": {
+        "lat": "14.74304495",
+        "lng": "74.6758388"
+      },
+      "active": 3418,
+      "confirmed": 3422,
+      "deceased": 0,
+      "recovered": 4
+    },
+    "Foreign Evacuees": {
+      "geo": {
+        "lat": "17.87701315",
+        "lng": "79.27703095"
+      },
+      "active": 33,
+      "confirmed": 33,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Nizamabad": {
+      "geo": {
+        "lat": "18.68039365",
+        "lng": "78.09566985"
+      },
+      "active": 5398,
+      "confirmed": 5428,
+      "deceased": 0,
+      "recovered": 30
+    },
+    "Siddipet": {
+      "geo": {
+        "lat": "18.1015589",
+        "lng": "78.849231"
+      },
+      "active": 4393,
+      "confirmed": 4394,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "Ranga Reddy": {
+      "geo": {
+        "lat": "17.27694495",
+        "lng": "78.1052699"
+      },
+      "active": 14781,
+      "confirmed": 14800,
+      "deceased": 2,
+      "recovered": 17
+    },
+    "Sangareddy": {
+      "geo": {
+        "lat": "17.61142335",
+        "lng": "78.0796231"
+      },
+      "active": 4849,
+      "confirmed": 4855,
+      "deceased": 0,
+      "recovered": 6
+    },
+    "Other State": {
+      "geo": {
+        "lat": "17.87701315",
+        "lng": "79.27703095"
+      },
+      "active": 250,
+      "confirmed": 250,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Rajanna Sircilla": {
+      "geo": {
+        "lat": "18.3894599",
+        "lng": "78.8080851"
+      },
+      "active": 2783,
+      "confirmed": 2785,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "Mahabubnagar": {
+      "geo": {
+        "lat": "16.74704445",
+        "lng": "78.0153966"
+      },
+      "active": 2939,
+      "confirmed": 2947,
+      "deceased": 0,
+      "recovered": 8
+    },
+    "Mahabubabad": {
+      "geo": {
+        "lat": "17.60008705",
+        "lng": "79.9992495"
+      },
+      "active": 3217,
+      "confirmed": 3218,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "Medak": {
+      "geo": {
+        "lat": "18.0505663",
+        "lng": "78.2660414"
+      },
+      "active": 2076,
+      "confirmed": 2080,
+      "deceased": 0,
+      "recovered": 4
+    },
+    "Suryapet": {
+      "geo": {
+        "lat": "17.14410895",
+        "lng": "79.6246147"
+      },
+      "active": 3939,
+      "confirmed": 3963,
+      "deceased": 0,
+      "recovered": 24
+    },
+    "Jangaon": {
+      "geo": {
+        "lat": "17.72914095",
+        "lng": "79.1600456"
+      },
+      "active": 2134,
+      "confirmed": 2135,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "Khammam": {
+      "geo": {
+        "lat": "17.24835525",
+        "lng": "80.15043495"
+      },
+      "active": 5374,
+      "confirmed": 5377,
+      "deceased": 0,
+      "recovered": 3
+    },
+    "Medchal Malkajgiri": {
+      "geo": {
+        "lat": "17.4139014",
+        "lng": "78.5855965"
+      },
+      "active": 10347,
+      "confirmed": 10357,
+      "deceased": 1,
+      "recovered": 9
+    },
+    "Karimnagar": {
+      "geo": {
+        "lat": "18.43480505",
+        "lng": "79.1331482"
+      },
+      "active": 7804,
+      "confirmed": 7820,
+      "deceased": 0,
+      "recovered": 16
+    },
+    "Kamareddy": {
+      "geo": {
+        "lat": "18.3223638",
+        "lng": "78.33781955"
+      },
+      "active": 3458,
+      "confirmed": 3466,
+      "deceased": 0,
+      "recovered": 8
+    },
+    "Mulugu": {
+      "geo": {
+        "lat": "18.19249875",
+        "lng": "79.94221125"
+      },
+      "active": 1216,
+      "confirmed": 1218,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "Nalgonda": {
+      "geo": {
+        "lat": "17.05834025",
+        "lng": "79.2720223"
+      },
+      "active": 6530,
+      "confirmed": 6542,
+      "deceased": 0,
+      "recovered": 12
+    },
+    "Narayanpet": {
+      "geo": {
+        "lat": "16.74427315",
+        "lng": "77.49676465"
+      },
+      "active": 676,
+      "confirmed": 677,
+      "deceased": 1,
+      "recovered": 0
+    },
+    "Nirmal": {
+      "geo": {
+        "lat": "19.090558",
+        "lng": "78.34648845"
+      },
+      "active": 1334,
+      "confirmed": 1347,
+      "deceased": 0,
+      "recovered": 13
+    },
+    "Unknown": {
+      "geo": {
+        "lat": "17.87701315",
+        "lng": "79.27703095"
+      },
+      "active": -148171,
+      "confirmed": 457,
+      "deceased": 1040,
+      "recovered": 147588
+    },
+    "Adilabad": {
+      "geo": {
+        "lat": "19.66242795",
+        "lng": "78.5303378"
+      },
+      "active": 1477,
+      "confirmed": 1492,
+      "deceased": 0,
+      "recovered": 15
+    },
+    "Mancherial": {
+      "geo": {
+        "lat": "18.88295235",
+        "lng": "79.46816685"
+      },
+      "active": 3031,
+      "confirmed": 3032,
+      "deceased": 1,
+      "recovered": 0
+    },
+    "Jagtial": {
+      "geo": {
+        "lat": "18.79183505",
+        "lng": "78.9167046"
+      },
+      "active": 3370,
+      "confirmed": 3372,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "Peddapalli": {
+      "geo": {
+        "lat": "18.60760615",
+        "lng": "79.38249065"
+      },
+      "active": 3503,
+      "confirmed": 3504,
+      "deceased": 0,
+      "recovered": 1
+    },
+    "Komaram Bheem": {
+      "geo": {
+        "lat": "19.365486",
+        "lng": "79.2916238"
+      },
+      "active": 807,
+      "confirmed": 809,
+      "deceased": 0,
+      "recovered": 2
+    },
+    "Wanaparthy": {
+      "geo": {
+        "lat": "16.35473185",
+        "lng": "78.0639553"
+      },
+      "active": 2013,
+      "confirmed": 2013,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Vikarabad": {
+      "geo": {
+        "lat": "17.3401196",
+        "lng": "77.8925339"
+      },
+      "active": 1145,
+      "confirmed": 1161,
+      "deceased": 1,
+      "recovered": 15
+    },
+    "Yadadri Bhuvanagiri": {
+      "geo": {
+        "lat": "17.5075948",
+        "lng": "78.8927978"
+      },
+      "active": 2079,
+      "confirmed": 2079,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Warangal Rural": {
+      "geo": {
+        "lat": "17.95814895",
+        "lng": "79.604187"
+      },
+      "active": 2017,
+      "confirmed": 2017,
+      "deceased": 0,
+      "recovered": 0
+    },
+    "Warangal Urban": {
+      "geo": {
+        "lat": "17.96566",
+        "lng": "79.747885"
+      },
+      "active": 7166,
+      "confirmed": 7189,
+      "deceased": 0,
+      "recovered": 23
+    },
+    "Jogulamba Gadwal": {
+      "geo": {
+        "lat": "16.2274599",
+        "lng": "77.804488"
+      },
+      "active": 2343,
+      "confirmed": 2369,
+      "deceased": 1,
+      "recovered": 25
+    }
+  },
+  "Tamil Nadu": {
+    "Sivaganga": {
+      "geo": {
+        "lat": "9.8500133",
+        "lng": "78.4876352"
+      },
+      "active": 298,
+      "confirmed": 4964,
+      "deceased": 117,
+      "recovered": 4549
+    },
+    "Karur": {
+      "geo": {
+        "lat": "10.96515165",
+        "lng": "78.0679576"
+      },
+      "active": 510,
+      "confirmed": 2786,
+      "deceased": 37,
+      "recovered": 2239
+    },
+    "Ranipet": {
+      "geo": {
+        "lat": "12.9533936",
+        "lng": "79.31661125"
+      },
+      "active": 549,
+      "confirmed": 12970,
+      "deceased": 153,
+      "recovered": 12268
+    },
+    "Nilgiris": {
+      "geo": {
+        "lat": "11.4484939",
+        "lng": "76.62406155"
+      },
+      "active": 736,
+      "confirmed": 3364,
+      "deceased": 23,
+      "recovered": 2605
+    },
+    "Virudhunagar": {
+      "geo": {
+        "lat": "9.5734414",
+        "lng": "77.95819045"
+      },
+      "active": 322,
+      "confirmed": 14176,
+      "deceased": 209,
+      "recovered": 13645
+    },
+    "Thoothukkudi": {
+      "geo": {
+        "lat": "8.7766138",
+        "lng": "78.14601745"
+      },
+      "active": 729,
+      "confirmed": 13110,
+      "deceased": 120,
+      "recovered": 12261
+    },
+    "Tirupathur": {
+      "geo": {
+        "lat": "12.499168",
+        "lng": "78.56471545"
+      },
+      "active": 639,
+      "confirmed": 4573,
+      "deceased": 85,
+      "recovered": 3849
+    },
+    "Tenkasi": {
+      "geo": {
+        "lat": "8.95935185",
+        "lng": "77.316109"
+      },
+      "active": 541,
+      "confirmed": 7016,
+      "deceased": 131,
+      "recovered": 6344
+    },
+    "Kanyakumari": {
+      "geo": {
+        "lat": "8.086402",
+        "lng": "77.54587045"
+      },
+      "active": 819,
+      "confirmed": 12138,
+      "deceased": 217,
+      "recovered": 11102
+    },
+    "Thiruvarur": {
+      "geo": {
+        "lat": "10.76743665",
+        "lng": "79.63542375"
+      },
+      "active": 901,
+      "confirmed": 6552,
+      "deceased": 68,
+      "recovered": 5583
+    },
+    "Ramanathapuram": {
+      "geo": {
+        "lat": "9.36782775",
+        "lng": "78.84322325"
+      },
+      "active": 194,
+      "confirmed": 5427,
+      "deceased": 118,
+      "recovered": 5115
+    },
+    "Namakkal": {
+      "geo": {
+        "lat": "11.2188956",
+        "lng": "78.1673575"
+      },
+      "active": 937,
+      "confirmed": 4619,
+      "deceased": 64,
+      "recovered": 3618
+    },
+    "Perambalur": {
+      "geo": {
+        "lat": "11.2342102",
+        "lng": "78.8806852"
+      },
+      "active": 120,
+      "confirmed": 1719,
+      "deceased": 20,
+      "recovered": 1579
+    },
+    "Cuddalore": {
+      "geo": {
+        "lat": "11.7508649",
+        "lng": "79.7666752"
+      },
+      "active": 1807,
+      "confirmed": 18972,
+      "deceased": 212,
+      "recovered": 16953
+    },
+    "Erode": {
+      "geo": {
+        "lat": "11.34662615",
+        "lng": "77.71539695"
+      },
+      "active": 1129,
+      "confirmed": 6029,
+      "deceased": 78,
+      "recovered": 4822
+    },
+    "Thanjavur": {
+      "geo": {
+        "lat": "10.7528199",
+        "lng": "79.1314494"
+      },
+      "active": 1344,
+      "confirmed": 10026,
+      "deceased": 159,
+      "recovered": 8523
+    },
+    "Pudukkottai": {
+      "geo": {
+        "lat": "10.3832865",
+        "lng": "78.800129"
+      },
+      "active": 822,
+      "confirmed": 8536,
+      "deceased": 126,
+      "recovered": 7588
+    },
+    "Chengalpattu": {
+      "geo": {
+        "lat": "12.6729748",
+        "lng": "79.99747785"
+      },
+      "active": 2382,
+      "confirmed": 33626,
+      "deceased": 530,
+      "recovered": 30714
+    },
+    "Tiruchirappalli": {
+      "geo": {
+        "lat": "10.81584465",
+        "lng": "78.689028"
+      },
+      "active": 848,
+      "confirmed": 9986,
+      "deceased": 142,
+      "recovered": 8996
+    },
+    "Tiruvannamalai": {
+      "geo": {
+        "lat": "12.2408568",
+        "lng": "79.0692527"
+      },
+      "active": 1010,
+      "confirmed": 14685,
+      "deceased": 216,
+      "recovered": 13459
+    },
+    "Other State": {
+      "geo": {
+        "lat": "10.8091781",
+        "lng": "78.2885026"
+      },
+      "active": -3,
+      "confirmed": 0,
+      "deceased": 3,
+      "recovered": 0
+    },
+    "Chennai": {
+      "geo": {
+        "lat": "13.04752545",
+        "lng": "80.20901175"
+      },
+      "active": 9941,
+      "confirmed": 159683,
+      "deceased": 3108,
+      "recovered": 146634
+    },
+    "Kallakurichi": {
+      "geo": {
+        "lat": "11.73555925",
+        "lng": "78.9705795"
+      },
+      "active": 618,
+      "confirmed": 8911,
+      "deceased": 94,
+      "recovered": 8199
+    },
+    "Salem": {
+      "geo": {
+        "lat": "11.6537351",
+        "lng": "78.1382972"
+      },
+      "active": 2448,
+      "confirmed": 17692,
+      "deceased": 290,
+      "recovered": 14954
+    },
+    "Dharmapuri": {
+      "geo": {
+        "lat": "12.126953",
+        "lng": "78.15148415"
+      },
+      "active": 1141,
+      "confirmed": 3247,
+      "deceased": 23,
+      "recovered": 2083
+    },
+    "Dindigul": {
+      "geo": {
+        "lat": "10.3623792",
+        "lng": "77.9694579"
+      },
+      "active": 591,
+      "confirmed": 8577,
+      "deceased": 156,
+      "recovered": 7830
+    },
+    "Viluppuram": {
+      "geo": {
+        "lat": "11.93367665",
+        "lng": "79.49950865"
+      },
+      "active": 903,
+      "confirmed": 10876,
+      "deceased": 95,
+      "recovered": 9878
+    },
+    "Kancheepuram": {
+      "geo": {
+        "lat": "12.8184558",
+        "lng": "79.6946586"
+      },
+      "active": 1288,
+      "confirmed": 21204,
+      "deceased": 304,
+      "recovered": 19612
+    },
+    "Thiruvallur": {
+      "geo": {
+        "lat": "13.1230556",
+        "lng": "79.9119526"
+      },
+      "active": 1660,
+      "confirmed": 31065,
+      "deceased": 533,
+      "recovered": 28872
+    },
+    "Tiruppur": {
+      "geo": {
+        "lat": "11.10858225",
+        "lng": "77.3638129"
+      },
+      "active": 1677,
+      "confirmed": 7024,
+      "deceased": 110,
+      "recovered": 5237
+    },
+    "Theni": {
+      "geo": {
+        "lat": "10.01340155",
+        "lng": "77.48059935"
+      },
+      "active": 504,
+      "confirmed": 14473,
+      "deceased": 173,
+      "recovered": 13796
+    },
+    "Ariyalur": {
+      "geo": {
+        "lat": "11.1388749",
+        "lng": "79.07418785"
+      },
+      "active": 145,
+      "confirmed": 3576,
+      "deceased": 38,
+      "recovered": 3393
+    },
+    "Madurai": {
+      "geo": {
+        "lat": "9.91783685",
+        "lng": "78.12282365"
+      },
+      "active": 754,
+      "confirmed": 16175,
+      "deceased": 381,
+      "recovered": 15040
+    },
+    "Tirunelveli": {
+      "geo": {
+        "lat": "8.72156145",
+        "lng": "77.7421778"
+      },
+      "active": 947,
+      "confirmed": 12196,
+      "deceased": 196,
+      "recovered": 11053
+    },
+    "Krishnagiri": {
+      "geo": {
+        "lat": "12.52656585",
+        "lng": "78.2149575"
+      },
+      "active": 795,
+      "confirmed": 4077,
+      "deceased": 53,
+      "recovered": 3229
+    },
+    "Nagapattinam": {
+      "geo": {
+        "lat": "10.77958195",
+        "lng": "79.82446075"
+      },
+      "active": 717,
+      "confirmed": 4952,
+      "deceased": 77,
+      "recovered": 4158
+    },
+    "Vellore": {
+      "geo": {
+        "lat": "12.89930875",
+        "lng": "79.11834235"
+      },
+      "active": 931,
+      "confirmed": 14015,
+      "deceased": 214,
+      "recovered": 12870
+    },
+    "Railway Quarantine": {
+      "geo": {
+        "lat": "10.5946734",
+        "lng": "78.8508685"
+      },
+      "active": 2,
+      "confirmed": 428,
+      "deceased": 0,
+      "recovered": 426
+    },
+    "Airport Quarantine": {
+      "geo": {
+        "lat": "10.87769975",
+        "lng": "78.6172766"
+      },
+      "active": 54,
+      "confirmed": 1858,
+      "deceased": 1,
+      "recovered": 1803
+    },
+    "Coimbatore": {
+      "geo": {
+        "lat": "11.0117096",
+        "lng": "76.967235"
+      },
+      "active": 4655,
+      "confirmed": 28388,
+      "deceased": 402,
+      "recovered": 23331
+    }
+  },
+  "Tripura": {
+    "Dhalai": {
+      "geo": {
+        "lat": "23.82502635",
+        "lng": "91.960585"
+      },
+      "active": 716,
+      "confirmed": 2499,
+      "deceased": 9,
+      "recovered": 1773
+    },
+    "South Tripura": {
+      "geo": {
+        "lat": "23.189865",
+        "lng": "91.56808845"
+      },
+      "active": 847,
+      "confirmed": 2183,
+      "deceased": 13,
+      "recovered": 1320
+    },
+    "Unokoti": {
+      "geo": {
+        "lat": "24.2287545",
+        "lng": "92.059775"
+      },
+      "active": 591,
+      "confirmed": 1594,
+      "deceased": 10,
+      "recovered": 993
+    },
+    "Khowai": {
+      "geo": {
+        "lat": "24.06987755",
+        "lng": "91.6035532"
+      },
+      "active": 268,
+      "confirmed": 1544,
+      "deceased": 24,
+      "recovered": 1252
+    },
+    "Gomati": {
+      "geo": {
+        "lat": "23.518575",
+        "lng": "91.63876495"
+      },
+      "active": 869,
+      "confirmed": 2814,
+      "deceased": 26,
+      "recovered": 1918
+    },
+    "West Tripura": {
+      "geo": {
+        "lat": "23.9165207",
+        "lng": "91.4139257"
+      },
+      "active": 2404,
+      "confirmed": 8718,
+      "deceased": 142,
+      "recovered": 6161
+    },
+    "Sipahijala": {
+      "geo": {
+        "lat": "23.53641995",
+        "lng": "91.3637755"
+      },
+      "active": 316,
+      "confirmed": 2476,
+      "deceased": 21,
+      "recovered": 2139
+    },
+    "North Tripura": {
+      "geo": {
+        "lat": "24.088516",
+        "lng": "92.204885"
+      },
+      "active": 540,
+      "confirmed": 1958,
+      "deceased": 12,
+      "recovered": 1399
+    }
+  },
+  "Uttar Pradesh": {
+    "Sonbhadra": {
+      "geo": {
+        "lat": "24.68418195",
+        "lng": "83.06612495"
+      },
+      "active": 449,
+      "confirmed": 2623,
+      "deceased": 25,
+      "recovered": 2149
+    },
+    "Bhadohi": {
+      "geo": {
+        "lat": "25.38989785",
+        "lng": "82.56834985"
+      },
+      "active": 208,
+      "confirmed": 1553,
+      "deceased": 12,
+      "recovered": 1333
+    },
+    "Azamgarh": {
+      "geo": {
+        "lat": "26.05685185",
+        "lng": "83.1895661"
+      },
+      "active": 534,
+      "confirmed": 4346,
+      "deceased": 63,
+      "recovered": 3749
+    },
+    "Mahoba": {
+      "geo": {
+        "lat": "25.29497775",
+        "lng": "79.869063"
+      },
+      "active": 123,
+      "confirmed": 786,
+      "deceased": 7,
+      "recovered": 656
+    },
+    "Chandauli": {
+      "geo": {
+        "lat": "25.26218105",
+        "lng": "83.26209785"
+      },
+      "active": 377,
+      "confirmed": 3034,
+      "deceased": 28,
+      "recovered": 2629
+    },
+    "Pilibhit": {
+      "geo": {
+        "lat": "28.62756305",
+        "lng": "79.8095107"
+      },
+      "active": 393,
+      "confirmed": 3384,
+      "deceased": 56,
+      "recovered": 2935
+    },
+    "Bijnor": {
+      "geo": {
+        "lat": "29.3786375",
+        "lng": "78.1394395"
+      },
+      "active": 521,
+      "confirmed": 2906,
+      "deceased": 37,
+      "recovered": 2348
+    },
+    "Sultanpur": {
+      "geo": {
+        "lat": "26.2588392",
+        "lng": "82.0655558"
+      },
+      "active": 357,
+      "confirmed": 3024,
+      "deceased": 49,
+      "recovered": 2618
+    },
+    "Bareilly": {
+      "geo": {
+        "lat": "28.3760788",
+        "lng": "79.4219398"
+      },
+      "active": 1745,
+      "confirmed": 9803,
+      "deceased": 134,
+      "recovered": 7924
+    },
+    "Kannauj": {
+      "geo": {
+        "lat": "27.0437589",
+        "lng": "79.9157738"
+      },
+      "active": 275,
+      "confirmed": 2354,
+      "deceased": 25,
+      "recovered": 2054
+    },
+    "Kasganj": {
+      "geo": {
+        "lat": "27.8046971",
+        "lng": "78.64374545"
+      },
+      "active": 203,
+      "confirmed": 1308,
+      "deceased": 3,
+      "recovered": 1102
+    },
+    "Chitrakoot": {
+      "geo": {
+        "lat": "25.1697919",
+        "lng": "80.85761555"
+      },
+      "active": 211,
+      "confirmed": 1211,
+      "deceased": 7,
+      "recovered": 993
+    },
+    "Hardoi": {
+      "geo": {
+        "lat": "27.3868216",
+        "lng": "80.13902885"
+      },
+      "active": 664,
+      "confirmed": 4253,
+      "deceased": 63,
+      "recovered": 3526
+    },
+    "Maharajganj": {
+      "geo": {
+        "lat": "27.1494324",
+        "lng": "83.55358875"
+      },
+      "active": 471,
+      "confirmed": 4472,
+      "deceased": 66,
+      "recovered": 3935
+    },
+    "Mainpuri": {
+      "geo": {
+        "lat": "27.22875345",
+        "lng": "79.0235665"
+      },
+      "active": 446,
+      "confirmed": 2612,
+      "deceased": 41,
+      "recovered": 2125
+    },
+    "Moradabad": {
+      "geo": {
+        "lat": "28.84315345",
+        "lng": "78.7675523"
+      },
+      "active": 1369,
+      "confirmed": 8184,
+      "deceased": 136,
+      "recovered": 6679
+    },
+    "Lalitpur": {
+      "geo": {
+        "lat": "24.68878135",
+        "lng": "78.4092737"
+      },
+      "active": 499,
+      "confirmed": 2345,
+      "deceased": 37,
+      "recovered": 1809
+    },
+    "Balrampur": {
+      "geo": {
+        "lat": "27.4145495",
+        "lng": "82.20052325"
+      },
+      "active": 332,
+      "confirmed": 1503,
+      "deceased": 22,
+      "recovered": 1149
+    },
+    "Mirzapur": {
+      "geo": {
+        "lat": "25.1434603",
+        "lng": "82.5514787"
+      },
+      "active": 353,
+      "confirmed": 2360,
+      "deceased": 26,
+      "recovered": 1981
+    },
+    "Ambedkar Nagar": {
+      "geo": {
+        "lat": "26.4073301",
+        "lng": "82.67817005"
+      },
+      "active": 224,
+      "confirmed": 1366,
+      "deceased": 27,
+      "recovered": 1115
+    },
+    "Hamirpur": {
+      "geo": {
+        "lat": "25.9547256",
+        "lng": "80.1552415"
+      },
+      "active": 117,
+      "confirmed": 971,
+      "deceased": 17,
+      "recovered": 837
+    },
+    "Kanpur Dehat": {
+      "geo": {
+        "lat": "26.45844495",
+        "lng": "79.84899495"
+      },
+      "active": 332,
+      "confirmed": 1633,
+      "deceased": 19,
+      "recovered": 1282
+    },
+    "Ayodhya": {
+      "geo": {
+        "lat": "26.7897752",
+        "lng": "82.19916785"
+      },
+      "active": 974,
+      "confirmed": 5594,
+      "deceased": 67,
+      "recovered": 4553
+    },
+    "Meerut": {
+      "geo": {
+        "lat": "28.9872622",
+        "lng": "77.6989603"
+      },
+      "active": 2617,
+      "confirmed": 8700,
+      "deceased": 220,
+      "recovered": 5863
+    },
+    "Farrukhabad": {
+      "geo": {
+        "lat": "27.38121515",
+        "lng": "79.59211705"
+      },
+      "active": 483,
+      "confirmed": 2222,
+      "deceased": 38,
+      "recovered": 1701
+    },
+    "Sitapur": {
+      "geo": {
+        "lat": "27.56344775",
+        "lng": "80.6807033"
+      },
+      "active": 500,
+      "confirmed": 3403,
+      "deceased": 38,
+      "recovered": 2865
+    },
+    "Auraiya": {
+      "geo": {
+        "lat": "26.46194185",
+        "lng": "79.5133358"
+      },
+      "active": 383,
+      "confirmed": 2136,
+      "deceased": 27,
+      "recovered": 1726
+    },
+    "Firozabad": {
+      "geo": {
+        "lat": "27.1567632",
+        "lng": "78.3945992"
+      },
+      "active": 319,
+      "confirmed": 2519,
+      "deceased": 54,
+      "recovered": 2146
+    },
+    "Mau": {
+      "geo": {
+        "lat": "25.93965775",
+        "lng": "83.5626217"
+      },
+      "active": 297,
+      "confirmed": 2296,
+      "deceased": 24,
+      "recovered": 1975
+    },
+    "Hapur": {
+      "geo": {
+        "lat": "28.72747195",
+        "lng": "77.783246"
+      },
+      "active": 404,
+      "confirmed": 2519,
+      "deceased": 40,
+      "recovered": 2075
+    },
+    "Ghaziabad": {
+      "geo": {
+        "lat": "28.69965315",
+        "lng": "77.39502835"
+      },
+      "active": 1753,
+      "confirmed": 13050,
+      "deceased": 74,
+      "recovered": 11223
+    },
+    "Kushinagar": {
+      "geo": {
+        "lat": "26.74169575",
+        "lng": "83.88933865"
+      },
+      "active": 485,
+      "confirmed": 4587,
+      "deceased": 35,
+      "recovered": 4067
+    },
+    "Rampur": {
+      "geo": {
+        "lat": "28.79311465",
+        "lng": "79.0248742"
+      },
+      "active": 361,
+      "confirmed": 4577,
+      "deceased": 39,
+      "recovered": 4177
+    },
+    "Rae Bareli": {
+      "geo": {
+        "lat": "26.2362547",
+        "lng": "81.24186625"
+      },
+      "active": 577,
+      "confirmed": 2592,
+      "deceased": 71,
+      "recovered": 1944
+    },
+    "Basti": {
+      "geo": {
+        "lat": "26.8034441",
+        "lng": "82.75168825"
+      },
+      "active": 417,
+      "confirmed": 3387,
+      "deceased": 69,
+      "recovered": 2901
+    },
+    "Sant Kabir Nagar": {
+      "geo": {
+        "lat": "26.75469005",
+        "lng": "83.02808"
+      },
+      "active": 177,
+      "confirmed": 2480,
+      "deceased": 34,
+      "recovered": 2269
+    },
+    "Barabanki": {
+      "geo": {
+        "lat": "26.9387069",
+        "lng": "81.1960102"
+      },
+      "active": 809,
+      "confirmed": 5913,
+      "deceased": 55,
+      "recovered": 5049
+    },
+    "Fatehpur": {
+      "geo": {
+        "lat": "25.92276595",
+        "lng": "80.8164597"
+      },
+      "active": 330,
+      "confirmed": 2108,
+      "deceased": 38,
+      "recovered": 1740
+    },
+    "Baghpat": {
+      "geo": {
+        "lat": "28.94420765",
+        "lng": "77.2280991"
+      },
+      "active": 157,
+      "confirmed": 1252,
+      "deceased": 23,
+      "recovered": 1072
+    },
+    "Lucknow": {
+      "geo": {
+        "lat": "26.848692",
+        "lng": "80.94251275"
+      },
+      "active": 9391,
+      "confirmed": 49615,
+      "deceased": 644,
+      "recovered": 39580
+    },
+    "Bulandshahr": {
+      "geo": {
+        "lat": "28.405901",
+        "lng": "77.85575095"
+      },
+      "active": 606,
+      "confirmed": 3472,
+      "deceased": 58,
+      "recovered": 2808
+    },
+    "Gorakhpur": {
+      "geo": {
+        "lat": "26.76371515",
+        "lng": "83.4039116"
+      },
+      "active": 1952,
+      "confirmed": 14568,
+      "deceased": 230,
+      "recovered": 12386
+    },
+    "Shahjahanpur": {
+      "geo": {
+        "lat": "27.87980675",
+        "lng": "79.9204012"
+      },
+      "active": 768,
+      "confirmed": 5375,
+      "deceased": 72,
+      "recovered": 4535
+    },
+    "Lakhimpur Kheri": {
+      "geo": {
+        "lat": "27.94266145",
+        "lng": "80.77957935"
+      },
+      "active": 894,
+      "confirmed": 4485,
+      "deceased": 47,
+      "recovered": 3544
+    },
+    "Amroha": {
+      "geo": {
+        "lat": "28.89997965",
+        "lng": "78.46558895"
+      },
+      "active": 425,
+      "confirmed": 2519,
+      "deceased": 28,
+      "recovered": 2066
+    },
+    "Banda": {
+      "geo": {
+        "lat": "25.4779879",
+        "lng": "80.34451955"
+      },
+      "active": 360,
+      "confirmed": 1824,
+      "deceased": 19,
+      "recovered": 1445
+    },
+    "Ballia": {
+      "geo": {
+        "lat": "28.197255",
+        "lng": "79.36431505"
+      },
+      "active": 680,
+      "confirmed": 5644,
+      "deceased": 73,
+      "recovered": 4891
+    },
+    "Muzaffarnagar": {
+      "geo": {
+        "lat": "29.4751257",
+        "lng": "77.7088578"
+      },
+      "active": 1129,
+      "confirmed": 4302,
+      "deceased": 68,
+      "recovered": 3105
+    },
+    "Mathura": {
+      "geo": {
+        "lat": "27.47437435",
+        "lng": "77.6841546"
+      },
+      "active": 794,
+      "confirmed": 3788,
+      "deceased": 79,
+      "recovered": 2915
+    },
+    "Kanpur Nagar": {
+      "geo": {
+        "lat": "26.44110995",
+        "lng": "80.2441549"
+      },
+      "active": 4229,
+      "confirmed": 23796,
+      "deceased": 622,
+      "recovered": 18945
+    },
+    "Gautam Buddha Nagar": {
+      "geo": {
+        "lat": "28.35898255",
+        "lng": "77.550762"
+      },
+      "active": 1699,
+      "confirmed": 12010,
+      "deceased": 50,
+      "recovered": 10261
+    },
+    "Agra": {
+      "geo": {
+        "lat": "27.1761745",
+        "lng": "77.98001295"
+      },
+      "active": 1024,
+      "confirmed": 5312,
+      "deceased": 120,
+      "recovered": 4168
+    },
+    "Shamli": {
+      "geo": {
+        "lat": "29.44841515",
+        "lng": "77.30735785"
+      },
+      "active": 481,
+      "confirmed": 2225,
+      "deceased": 16,
+      "recovered": 1728
+    },
+    "Budaun": {
+      "geo": {
+        "lat": "28.0248591",
+        "lng": "79.1289855"
+      },
+      "active": 447,
+      "confirmed": 2605,
+      "deceased": 30,
+      "recovered": 2128
+    },
+    "Etah": {
+      "geo": {
+        "lat": "27.5569982",
+        "lng": "78.65549595"
+      },
+      "active": 401,
+      "confirmed": 1688,
+      "deceased": 12,
+      "recovered": 1275
+    },
+    "Siddharthnagar": {
+      "geo": {
+        "lat": "27.2524549",
+        "lng": "82.88219495"
+      },
+      "active": 325,
+      "confirmed": 2998,
+      "deceased": 31,
+      "recovered": 2642
+    },
+    "Aligarh": {
+      "geo": {
+        "lat": "27.90609925",
+        "lng": "78.08867855"
+      },
+      "active": 1383,
+      "confirmed": 7836,
+      "deceased": 32,
+      "recovered": 6421
+    },
+    "Etawah": {
+      "geo": {
+        "lat": "26.78749225",
+        "lng": "79.0175377"
+      },
+      "active": 625,
+      "confirmed": 3772,
+      "deceased": 54,
+      "recovered": 3093
+    },
+    "Sambhal": {
+      "geo": {
+        "lat": "28.5850844",
+        "lng": "78.57383255"
+      },
+      "active": 246,
+      "confirmed": 2128,
+      "deceased": 38,
+      "recovered": 1844
+    },
+    "Ghazipur": {
+      "geo": {
+        "lat": "25.5746144",
+        "lng": "83.57119555"
+      },
+      "active": 324,
+      "confirmed": 3701,
+      "deceased": 48,
+      "recovered": 3329
+    },
+    "Jalaun": {
+      "geo": {
+        "lat": "26.14156475",
+        "lng": "79.33040855"
+      },
+      "active": 337,
+      "confirmed": 2105,
+      "deceased": 27,
+      "recovered": 1741
+    },
+    "Saharanpur": {
+      "geo": {
+        "lat": "29.96363345",
+        "lng": "77.5564273"
+      },
+      "active": 1294,
+      "confirmed": 6620,
+      "deceased": 96,
+      "recovered": 5230
+    },
+    "Deoria": {
+      "geo": {
+        "lat": "26.49729665",
+        "lng": "83.7802792"
+      },
+      "active": 498,
+      "confirmed": 5518,
+      "deceased": 71,
+      "recovered": 4949
+    },
+    "Gonda": {
+      "geo": {
+        "lat": "27.1435449",
+        "lng": "81.95333925"
+      },
+      "active": 455,
+      "confirmed": 3609,
+      "deceased": 40,
+      "recovered": 3114
+    },
+    "Kaushambi": {
+      "geo": {
+        "lat": "25.3590346",
+        "lng": "81.40474315"
+      },
+      "active": 131,
+      "confirmed": 1403,
+      "deceased": 19,
+      "recovered": 1253
+    },
+    "Jaunpur": {
+      "geo": {
+        "lat": "25.744688",
+        "lng": "82.680524"
+      },
+      "active": 505,
+      "confirmed": 4846,
+      "deceased": 61,
+      "recovered": 4280
+    },
+    "Jhansi": {
+      "geo": {
+        "lat": "25.44111785",
+        "lng": "78.5622883"
+      },
+      "active": 999,
+      "confirmed": 6838,
+      "deceased": 146,
+      "recovered": 5693
+    },
+    "Unnao": {
+      "geo": {
+        "lat": "26.5441465",
+        "lng": "80.48412325"
+      },
+      "active": 565,
+      "confirmed": 3219,
+      "deceased": 69,
+      "recovered": 2585
+    },
+    "Hathras": {
+      "geo": {
+        "lat": "27.5905877",
+        "lng": "78.05350545"
+      },
+      "active": 131,
+      "confirmed": 946,
+      "deceased": 7,
+      "recovered": 808
+    },
+    "Prayagraj": {
+      "geo": {
+        "lat": "25.40226375",
+        "lng": "81.80158455"
+      },
+      "active": 3325,
+      "confirmed": 17705,
+      "deceased": 260,
+      "recovered": 14120
+    },
+    "Pratapgarh": {
+      "geo": {
+        "lat": "25.89977005",
+        "lng": "81.944465"
+      },
+      "active": 706,
+      "confirmed": 3474,
+      "deceased": 39,
+      "recovered": 2729
+    },
+    "Amethi": {
+      "geo": {
+        "lat": "26.15549995",
+        "lng": "81.81506005"
+      },
+      "active": 359,
+      "confirmed": 2275,
+      "deceased": 16,
+      "recovered": 1900
+    },
+    "Shrawasti": {
+      "geo": {
+        "lat": "27.60585155",
+        "lng": "81.92847175"
+      },
+      "active": 101,
+      "confirmed": 923,
+      "deceased": 12,
+      "recovered": 810
+    },
+    "Varanasi": {
+      "geo": {
+        "lat": "25.32076265",
+        "lng": "82.99110895"
+      },
+      "active": 2155,
+      "confirmed": 12865,
+      "deceased": 235,
+      "recovered": 10475
+    },
+    "Bahraich": {
+      "geo": {
+        "lat": "27.5743289",
+        "lng": "81.6023269"
+      },
+      "active": 310,
+      "confirmed": 2902,
+      "deceased": 51,
+      "recovered": 2541
+    }
+  },
+  "Uttarakhand": {
+    "Tehri Garhwal": {
+      "geo": {
+        "lat": "30.38538995",
+        "lng": "78.46905705"
+      },
+      "active": 284,
+      "confirmed": 2106,
+      "deceased": 3,
+      "recovered": 1815
+    },
+    "Bageshwar": {
+      "geo": {
+        "lat": "29.84147565",
+        "lng": "79.7750652"
+      },
+      "active": 197,
+      "confirmed": 567,
+      "deceased": 4,
+      "recovered": 366
+    },
+    "Udham Singh Nagar": {
+      "geo": {
+        "lat": "29.044875",
+        "lng": "79.3970235"
+      },
+      "active": 1371,
+      "confirmed": 7972,
+      "deceased": 55,
+      "recovered": 6476
+    },
+    "Rudraprayag": {
+      "geo": {
+        "lat": "30.28539125",
+        "lng": "78.97971515"
+      },
+      "active": 144,
+      "confirmed": 635,
+      "deceased": 1,
+      "recovered": 489
+    },
+    "Pithoragarh": {
+      "geo": {
+        "lat": "29.59048585",
+        "lng": "80.2309013"
+      },
+      "active": 317,
+      "confirmed": 970,
+      "deceased": 4,
+      "recovered": 649
+    },
+    "Uttarkashi": {
+      "geo": {
+        "lat": "30.7249581",
+        "lng": "78.4289288"
+      },
+      "active": 422,
+      "confirmed": 1766,
+      "deceased": 6,
+      "recovered": 1324
+    },
+    "Pauri Garhwal": {
+      "geo": {
+        "lat": "29.85011",
+        "lng": "78.74570505"
+      },
+      "active": 597,
+      "confirmed": 1622,
+      "deceased": 15,
+      "recovered": 987
+    },
+    "Almora": {
+      "geo": {
+        "lat": "29.60150955",
+        "lng": "79.65329245"
+      },
+      "active": 355,
+      "confirmed": 1324,
+      "deceased": 5,
+      "recovered": 961
+    },
+    "Chamoli": {
+      "geo": {
+        "lat": "30.4953402",
+        "lng": "79.58206"
+      },
+      "active": 316,
+      "confirmed": 856,
+      "deceased": 0,
+      "recovered": 537
+    },
+    "Champawat": {
+      "geo": {
+        "lat": "29.33493975",
+        "lng": "80.09208285"
+      },
+      "active": 201,
+      "confirmed": 658,
+      "deceased": 4,
+      "recovered": 453
+    },
+    "Haridwar": {
+      "geo": {
+        "lat": "29.95264985",
+        "lng": "78.11592575"
+      },
+      "active": 2055,
+      "confirmed": 8642,
+      "deceased": 81,
+      "recovered": 6480
+    },
+    "Dehradun": {
+      "geo": {
+        "lat": "30.32542845",
+        "lng": "78.01713465"
+      },
+      "active": 4048,
+      "confirmed": 11841,
+      "deceased": 262,
+      "recovered": 7493
+    },
+    "Nainital": {
+      "geo": {
+        "lat": "29.3824502",
+        "lng": "79.45527075"
+      },
+      "active": 1200,
+      "confirmed": 5445,
+      "deceased": 102,
+      "recovered": 4124
+    }
+  },
+  "West Bengal": {
+    "Jalpaiguri": {
+      "geo": {
+        "lat": "26.53245035",
+        "lng": "88.6817265"
+      },
+      "active": 639,
+      "confirmed": 5650,
+      "deceased": 53,
+      "recovered": 4958
+    },
+    "Other State": {
+      "geo": {
+        "lat": "24.372814",
+        "lng": "87.8504985"
+      },
+      "active": 0,
+      "confirmed": 66,
+      "deceased": 3,
+      "recovered": 63
+    },
+    "Alipurduar": {
+      "geo": {
+        "lat": "26.4910478",
+        "lng": "89.53086695"
+      },
+      "active": 673,
+      "confirmed": 4264,
+      "deceased": 44,
+      "recovered": 3547
+    },
+    "South 24 Parganas": {
+      "geo": {
+        "lat": "22.085335",
+        "lng": "88.5954558"
+      },
+      "active": 1615,
+      "confirmed": 15994,
+      "deceased": 293,
+      "recovered": 14086
+    },
+    "Uttar Dinajpur": {
+      "geo": {
+        "lat": "25.87014",
+        "lng": "88.16600295"
+      },
+      "active": 346,
+      "confirmed": 3317,
+      "deceased": 35,
+      "recovered": 2936
+    },
+    "Malda": {
+      "geo": {
+        "lat": "25.0072988",
+        "lng": "88.13801175"
+      },
+      "active": 555,
+      "confirmed": 6455,
+      "deceased": 54,
+      "recovered": 5846
+    },
+    "Purulia": {
+      "geo": {
+        "lat": "23.3307462",
+        "lng": "86.36238815"
+      },
+      "active": 624,
+      "confirmed": 3086,
+      "deceased": 17,
+      "recovered": 2445
+    },
+    "Darjeeling": {
+      "geo": {
+        "lat": "27.0331949",
+        "lng": "88.26467505"
+      },
+      "active": 789,
+      "confirmed": 7392,
+      "deceased": 101,
+      "recovered": 6502
+    },
+    "Nadia": {
+      "geo": {
+        "lat": "23.487535",
+        "lng": "88.4642621"
+      },
+      "active": 831,
+      "confirmed": 6635,
+      "deceased": 78,
+      "recovered": 5726
+    },
+    "Murshidabad": {
+      "geo": {
+        "lat": "24.18324335",
+        "lng": "88.27557565"
+      },
+      "active": 648,
+      "confirmed": 5406,
+      "deceased": 60,
+      "recovered": 4698
+    },
+    "Purba Bardhaman": {
+      "geo": {
+        "lat": "23.24093505",
+        "lng": "87.8511432"
+      },
+      "active": 670,
+      "confirmed": 4582,
+      "deceased": 45,
+      "recovered": 3867
+    },
+    "Jhargram": {
+      "geo": {
+        "lat": "22.45119005",
+        "lng": "87.0004851"
+      },
+      "active": 192,
+      "confirmed": 642,
+      "deceased": 3,
+      "recovered": 447
+    },
+    "Paschim Medinipur": {
+      "geo": {
+        "lat": "22.35816505",
+        "lng": "87.22749495"
+      },
+      "active": 1304,
+      "confirmed": 9033,
+      "deceased": 109,
+      "recovered": 7620
+    },
+    "Cooch Behar": {
+      "geo": {
+        "lat": "26.3299676",
+        "lng": "89.44663065"
+      },
+      "active": 698,
+      "confirmed": 5255,
+      "deceased": 33,
+      "recovered": 4524
+    },
+    "Kolkata": {
+      "geo": {
+        "lat": "22.6759958",
+        "lng": "88.32972875"
+      },
+      "active": 4650,
+      "confirmed": 52456,
+      "deceased": 1633,
+      "recovered": 46173
+    },
+    "Birbhum": {
+      "geo": {
+        "lat": "24.06230005",
+        "lng": "87.55564995"
+      },
+      "active": 489,
+      "confirmed": 3477,
+      "deceased": 26,
+      "recovered": 2962
+    },
+    "Hooghly": {
+      "geo": {
+        "lat": "22.90274505",
+        "lng": "88.3897331"
+      },
+      "active": 1303,
+      "confirmed": 11897,
+      "deceased": 203,
+      "recovered": 10391
+    },
+    "Howrah": {
+      "geo": {
+        "lat": "22.5567995",
+        "lng": "88.1759477"
+      },
+      "active": 1362,
+      "confirmed": 17196,
+      "deceased": 525,
+      "recovered": 15309
+    },
+    "Purba Medinipur": {
+      "geo": {
+        "lat": "22.05930995",
+        "lng": "87.81454"
+      },
+      "active": 1093,
+      "confirmed": 10005,
+      "deceased": 119,
+      "recovered": 8793
+    },
+    "Kalimpong": {
+      "geo": {
+        "lat": "27.0620078",
+        "lng": "88.4772456"
+      },
+      "active": 158,
+      "confirmed": 856,
+      "deceased": 7,
+      "recovered": 691
+    },
+    "Dakshin Dinajpur": {
+      "geo": {
+        "lat": "25.3882127",
+        "lng": "88.58617695"
+      },
+      "active": 365,
+      "confirmed": 5050,
+      "deceased": 32,
+      "recovered": 4653
+    },
+    "Bankura": {
+      "geo": {
+        "lat": "23.22916105",
+        "lng": "87.0630459"
+      },
+      "active": 803,
+      "confirmed": 5049,
+      "deceased": 47,
+      "recovered": 4199
+    },
+    "North 24 Parganas": {
+      "geo": {
+        "lat": "22.68333705",
+        "lng": "88.7155888"
+      },
+      "active": 4480,
+      "confirmed": 47498,
+      "deceased": 1031,
+      "recovered": 41987
+    },
+    "Paschim Bardhaman": {
+      "geo": {
+        "lat": "23.2462207",
+        "lng": "87.86624915"
+      },
+      "active": 934,
+      "confirmed": 6608,
+      "deceased": 55,
+      "recovered": 5619
+    }
+  }
+}

@@ -1,61 +1,64 @@
+const masterData = {...require('./geo.json')};
+const axios = require('axios');
+
 const users = {
     junaid: {
         name: "Junaid Karim",
         password: "pass123",
         isManager: true,
-        geo: {
-            lat: "",
-            lng: ""
+        address: {
+            state: "Delhi",
+            dist: "South Delhi",
         }
     },
     lokesh: {
         name: "Lokesh Puri",
         password: "pass123",
         isManager: true,
-        geo: {
-            lat: "",
-            lng: ""
+        address: {
+            state: "Uttar Pradesh",
+            dist: "Gautam Buddha Nagar",
         }
     },
     nikhil: {
         name: "Nikhil",
         password: "pass123",
         isManager: true,
-        geo: {
-            lat: "",
-            lng: ""
+        address: {
+            state: "Delhi",
+            dist: "North East Delhi",
         }
     },
     ramsha: {
         name: "Ramsha",
         password: "pass123",
-        geo: {
-            lat: "",
-            lng: ""
+        address: {
+            state: "Uttar Pradesh",
+            dist: "Ghazipur",
         }
     },
     poonam: {
         name: "Poonam Rajput",
         password: "pass123",
-        geo: {
-            lat: "",
-            lng: ""
+        address: {
+            state: "Delhi",
+            dist: "South West Delhi",
         }
     },
     pankaj: {
         name: "Pankaj Kumawat",
         password: "pass123",
-        geo: {
-            lat: "",
-            lng: ""
+        address: {
+            state: "Uttar Pradesh",
+            dist: "Gautam Buddha Nagar",
         }
     },
     mustufa: {
         name: "Mustufa Gunderwala",
         password: "pass123",
-        geo: {
-            lat: "",
-            lng: ""
+        address: {
+            state: "Uttar Pradesh",
+            dist: "Gautam Buddha Nagar",
         }
     }
 }
@@ -94,8 +97,113 @@ module.exports.fetchUser = function (username) {
 module.exports.getReportees = function (username) {
     return new Promise((resolve, reject) => {
             const employees = [];
-            team_assigned[username].teams.forEach(teamName => teams[teamName].forEach(member => employees.push(users[member])));
+            let amIin = false;
+            team_assigned[username].teams.forEach(teamName => teams[teamName].forEach(member => {
+                if(member == username)
+                    amIin = true;
+                const user = users[member];
+                const covidStats = {
+                    ...masterData[user.address.state][user.address.dist]
+                }
+                const geo = {...covidStats.geo};
+                delete covidStats[geo];
+
+                employees.push({
+                    ...user,
+                    isManager: (user.isManager === true),
+                    ...covidStats
+                })
+            }));
+            if(!amIin) {
+                const user = users[username];
+                employees.push({
+                    ...user,
+                    isManager: (user.isManager === true),
+                    ...masterData[user.address.state][user.address.dist]
+                })
+            }
             resolve(employees);
         }
     );
+}
+
+module.exports.masterData = masterData;
+
+module.exports.getll = function (address) {
+    return new Promise((resolve, reject) => {
+        axios.get(`https://www.google.co.in/maps/search/${address}`)
+            .then(response => {
+                try {
+                    const ll = response
+                        .data
+                        .match(/staticmap\?center=.*&/g)[0]
+                        .replace('%2C', ',')
+                        .split('=')[1]
+                        .split('&')[0]
+                        .split(',');
+
+                    // console.log(ll);
+                    resolve({
+                        lat: ll[0],
+                        lng: ll[1]
+                    });
+                } catch (error) {
+                    resolve({
+                        lat: -1,
+                        lng: -1
+                    })
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                reject(error);
+            });
+    });
+}
+
+module.exports.getCovidData = function () {
+    console.log("Data Refreshed");
+    const nextTime = new Date();
+    nextTime.setHours(nextTime.getHours() + 12);
+    console.log(`Next refresh scheduled ${nextTime}`);
+    setTimeout(require('./db').getCovidData, 12 * 60 * 1000);
+    return new Promise((resolve, reject) => {
+        let newFetching = false;
+        axios.get("https://api.covid19india.org/state_district_wise.json")
+            .then(response => {
+                const json = response.data;
+                Object.keys(json).forEach(state => {
+                    const stateJson = json[state].districtData;
+                    if (stateJson) {
+                        Object.keys(stateJson).forEach(dist => {
+                            const distData = stateJson[dist];
+                            if (!masterData[state])
+                                masterData[state] = {};
+                            if (!masterData[state][dist]) {
+                                console.log("I DID NOT EXPECT THIS... OR IS THIS A NEW DIST or STATE?");
+                                newFetching = true;
+                                getll(`${dist}, ${state}`).then(ll => {
+                                    masterData[state][dist] = {
+                                        geo: {...ll}
+                                    };
+                                })
+                            }
+
+                            masterData[state][dist] = {
+                                ...masterData[state][dist],
+                                active: distData.active,
+                                confirmed: distData.confirmed,
+                                deceased: distData.deceased,
+                                recovered: distData.recovered
+                            };
+                        });
+                    }
+                });
+                setTimeout(
+                    () => resolve(masterData), newFetching ? 5000 : 0);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+    });
 }
