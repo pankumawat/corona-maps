@@ -33,8 +33,8 @@ const users = {
         name: "Ramsha",
         password: "pass123",
         address: {
-            state: "Uttar Pradesh",
-            dist: "Ghazipur",
+            state: "Haryana",
+            dist: "Gurugram",
         }
     },
     poonam: {
@@ -100,7 +100,8 @@ module.exports.fetchUser = function (username) {
 
 module.exports.getReportees = function (username) {
     return new Promise((resolve, reject) => {
-            const employees = [];
+            const employees = {people: [],
+                                geoCenter: { }};
             let amIin = false;
             team_assigned[username].teams.forEach(teamName => teams[teamName].forEach(member => {
                 if (member == username)
@@ -113,22 +114,37 @@ module.exports.getReportees = function (username) {
                 const geo = {...covidStats.geo};
                 delete covidStats[geo];
 
-                employees.push({
+                employees.people.push({
                     ...user,
                     isManager: (user.isManager === true),
-                    ...covidStats
+                    ...covidStats,
+                    profile: `/images/pp/${member}.png`
                 })
             }));
             if (!amIin) {
                 const user = users[username];
                 delete user.password;
-                employees.push({
+                employees.people.push({
                     ...user,
                     isManager: (user.isManager === true),
-                    ...masterData[user.address.state][user.address.dist]
+                    ...masterData[user.address.state][user.address.dist],
+                    profile: `http://localhost:3001/images/pp/${username}.png`
                 })
             }
-            resolve(employees);
+
+        let totalPeople = employees.people.length;
+        let latSum = 0;
+        let lngSum = 0;
+
+        employees.people.forEach(user => {
+            latSum+=parseFloat(user.geo.lat);
+            lngSum+=parseFloat(user.geo.lng);
+        })
+        employees.geoCenter = {
+            lat: latSum/totalPeople,
+            lng: lngSum/totalPeople
+        }
+        resolve(employees);
         }
     );
 }
