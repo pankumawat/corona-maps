@@ -3,6 +3,9 @@ dotenv.config();
 const cors = require('cors');
 const tokenMaster = require('./src/tokenMaster');
 const db = require('./src/db');
+const HTMLParser = require('node-html-parser');
+
+const axios = require('axios');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -19,6 +22,35 @@ app.get('/help', (req, res) => {
 // public route
 app.get('/health', (req, res) => {
     res.status(200).send("<hr/><h1 style=\"text-align:center\">I am up and running, fortunately Corona does not kill machines. :)</h1><hr/>")
+});
+
+app.get('/getlatlong/:address', (req, res) => {
+    /*
+        fetch(`https://www.google.co.in/maps/place/${req.params.address}`)
+            .then((response) => {
+                console.log(response.url);
+            })
+            .catch((error) => {
+                console.log('Looks like there was a problem: \n', error);
+            });
+    */
+        axios.get(`https://www.google.co.in/maps/search/${req.params.address}`)
+            .then(response => {
+
+                const node = HTMLParser.parse(response.data);
+
+                console.log(JSON.stringify(node, undefined, 4));
+                console.log(response.request.res.responseURL);
+                console.log(response.request.res.responseURL);
+
+                console.log(response.data.url);
+                console.log(response.data.explanation);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+
+    //res.status(200).send("<hr/><h1 style=\"text-align:center\">I am up and running, fortunately Corona does not kill machines. :)</h1><hr/>")
 });
 
 const isTest = true;

@@ -1,11 +1,11 @@
 {
-  "health": {},
-  "help": {},
+  "/health": {},
+  "/help": {},
   "/login": {
     "method": "POST",
     "params": {
       "username": "string",
-      "username": "string"
+      "password": "string"
     },
     "description": "returns jwt token with 24 hour expiry"
   },

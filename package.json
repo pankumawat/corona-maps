@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "deploy-node-app": "^1.4.3",
+    "axios": "^0.20.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "deploy-node-app": "^1.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^1.2.21",
     "nodemon": "^2.0.4",
     "uuid": "^8.2.0"
   },
