@@ -90,7 +90,11 @@ const team_assigned = {
 
 module.exports.fetchUser = function (username) {
     return new Promise((resolve, reject) => {
-        resolve(users[username]);
+        if(users[username]) {
+            resolve(users[username]);
+        } else {
+            reject(new Error("No such user exists."))
+        }
     });
 }
 

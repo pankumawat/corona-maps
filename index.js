@@ -48,10 +48,10 @@ app.post('/login', (req, res) => {
                 ).then(tokenObj => {
                     const localUsrObj = {...user}
                     delete localUsrObj.password;
-                    return res.json({
+                    return res.json(getSuccessResponse({
                         user: {username: username, ...localUsrObj},
                         ...tokenObj
-                    })
+                    }))
                 }).catch(error => {
                     console.log(error.stack)
                     return res.status(500).json(getErrorResponse(error.message));
