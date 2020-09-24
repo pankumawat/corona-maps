@@ -18,7 +18,7 @@ app.get('/help', (req, res) => {
 
 // public route
 app.get('/health', (req, res) => {
-    res.status(200).send("I am up and running, fortunately Corona do not kill machines. :)")
+    res.status(200).send("<hr/><h1 style=\"text-align:center\">I am up and running, fortunately Corona does not kill machines. :)</h1><hr/>")
 });
 
 const isTest = true;
