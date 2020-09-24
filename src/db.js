@@ -106,6 +106,7 @@ module.exports.getReportees = function (username) {
                 if (member == username)
                     amIin = true;
                 const user = users[member];
+                delete user.password;
                 const covidStats = {
                     ...masterData[user.address.state][user.address.dist]
                 }
@@ -120,6 +121,7 @@ module.exports.getReportees = function (username) {
             }));
             if (!amIin) {
                 const user = users[username];
+                delete user.password;
                 employees.push({
                     ...user,
                     isManager: (user.isManager === true),
@@ -192,21 +194,19 @@ module.exports.getCovidData = function () {
                                     };
                                 })
                             }
-                            
+
                             let riskNumber = (distData.confirmed > 0 ? ((distData.active + 5 * distData.deceased)) : 0);
                             let risk = 0;
-                            if (riskNumber > 0 && riskNumber <= 20)
+                            if (riskNumber > 0 && riskNumber <= 50)
                                 risk = 1;
-                            else if (riskNumber > 20 && riskNumber <= 80)
+                            else if (riskNumber > 50 && riskNumber <= 200)
                                 risk = 2;
-                            else if (riskNumber > 80 && riskNumber <= 200)
-                                risk = 3;
                             else if (riskNumber > 200 && riskNumber <= 500)
-                                risk = 4;
+                                risk = 3;
                             else if (riskNumber > 500 && riskNumber <= 1000)
-                                risk = 5;
+                                risk = 4;
                             else if (riskNumber > 1000)
-                                risk = 6;
+                                risk = 5;
 
                             masterData[state][dist] = {
                                 ...masterData[state][dist],
