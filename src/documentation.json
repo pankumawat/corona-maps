@@ -9,7 +9,7 @@
     },
     "description": "returns jwt token with 24 hour expiry"
   },
-  "/details": {
+  "/details/:manager": {
     "method": "GET",
     "params": {
       "manager": "string"
