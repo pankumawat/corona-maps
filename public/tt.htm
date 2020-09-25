@@ -11,9 +11,12 @@
 </head>
 <body>
 <style>
-    /**
-* Profile image component
-*/
+    .vl {
+        margin-top: 8px;
+        border-left: 4px solid green;
+        height: 8px;
+    }
+
     .profile-header-container {
         margin: 0 auto;
         text-align: center;
@@ -44,70 +47,103 @@
         padding: 5px 10px 5px 10px;
         border-radius: 27px;
     }
+    #map {
+        margin-top: -20px;
+    }
 </style>
+
+<script>
+    if (!localStorage.getItem("user"))
+        window.location.replace("http://localhost:3001/login.htm");
+
+    function logout() {
+        localStorage.removeItem("user");
+        window.location.replace("http://localhost:3001/login.htm");
+    }
+</script>
+<nav class="navbar navbar-inverse">
+    <p class="navbar-text pull-left" id="loggedInUser"></p>
+    <ul class="nav navbar-nav pull-right">
+        <li><a href="/tt.htm?mgr=nikhil" class="">Nikhil</a></li>
+        <li><a href="/tt.htm?mgr=junaid" class="">Junaid</a></li>
+        <li><a href="/tt.htm?mgr=lokesh">Lokesh</a></li>
+        <li><a class="vl"></a></li>
+        <li><a href="#" onclick="logout();">Logout</a></li>
+    </ul>
+</nav>
 <div id='map'></div>
 <script>
+    if (localStorage.getItem("user"))
+        document.getElementById("loggedInUser").innerHTML = localStorage.getItem("user").name;
     const mapElem = document.getElementById("map");
     mapElem.style.height = `${window.innerHeight}px`;
     mapElem.style.width = `${window.innerWidth}px`;
 
     const params = new URLSearchParams(window.location.search)
-    manager = params.has("mgr") ? params.get("mgr") : "nikhil";
-    let people;
-    let time = 0;
-    fetch(`/details/${manager}`).then(
-        response => response.json()).then(json => {
-            json = json.data;
-            json.people.push(
-                {
-                    company: true,
-                    name: "Adobe Systems pvt. ltd.",
-                    profile: "/images/pp/adobe.png",
-                    geo: {
-                        lat: 28.5071403,
-                        lng: 77.3790237
+    manager = params.has("mgr") ? params.get("mgr") : undefined;
+    if (manager) {
+        let people;
+        let time = 0;
+        fetch(`/details/${manager}`).then(
+            response => response.json()).then(json => {
+                json = json.data;
+                json.people.push(
+                    {
+                        company: true,
+                        name: "Adobe Systems pvt. ltd.",
+                        profile: "/images/pp/adobe.png",
+                        geo: {
+                            lat: 28.5071403,
+                            lng: 77.3790237
+                        }
                     }
-                }
-            )
+                )
 
-            people = json.people;
+                people = json.people;
+                var map = tt.map({
+                    container: 'map',
+                    key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
+                    center: [json.geoCenter.lng, json.geoCenter.lat],
+                    zoom: 9
+                });
 
-            console.dir(json);
-            var map = tt.map({
-                container: 'map',
-                key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
-                center: [json.geoCenter.lng, json.geoCenter.lat],
-                zoom: 9
-            });
+                json.people.forEach(emp => {
+                    const person = document.createElement("DIV");
+                    person.classList.add("profile-header-container");
 
-            json.people.forEach(emp => {
-                const person = document.createElement("DIV");
-                person.classList.add("profile-header-container");
+                    person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span><br><span class="label label-default" style="background: #220033" id="sd_${emp.username}"></span></div></div><img width="20" height="20" src="https://www.flaticon.com/svg/static/icons/svg/626/626013.svg" class="loaded">`;
 
-                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span><br><span class="label label-default" style="background: #220033" id="sd_${emp.username}"></span></div></div><img width="20" height="20" src="https://www.flaticon.com/svg/static/icons/svg/626/626013.svg" class="loaded">`;
+                    new tt.Marker({
+                        element: person
+                    })
+                        .setLngLat([emp.geo.lng, emp.geo.lat])
+                        .addTo(map);
 
-                new tt.Marker({
-                    element: person
+                    if (emp.company !== true) {
+                        setTimeout(() => {
+                            const distanceUrl = `https://api.tomtom.com/routing/1/calculateRoute/28.5071403,77.3790237:${emp.geo.lat},${emp.geo.lng}/json?avoid=unpavedRoads&key=cIAeadsUq9FLomONz35wTAbx6NwfcsWY&vehicleMaxSpeed=50`
+                            fetch(distanceUrl).then(response => response.json()).then(response => {
+                                const route = response.routes[0];
+                                //console.dir(route)
+
+                                const distanceInKms = (route.summary.lengthInMeters / 1000).toFixed(1);
+                                const mins = (route.summary.travelTimeInSeconds / 60).toFixed(0);
+                                document.getElementById(`sd_${emp.username}`).innerHTML = `${distanceInKms}kms(${mins}m)`
+                            })
+                        }, time++ * 1000);
+                    }
                 })
-                    .setLngLat([emp.geo.lng, emp.geo.lat])
-                    .addTo(map);
+            }
+        )
+    } else {
+        var map = tt.map({
+            container: 'map',
+            key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
+            center: [77.3790237, 28.5071403],
+            zoom: 12
+        });
 
-                if (emp.company !== true) {
-                    setTimeout(() => {
-                        const distanceUrl = `https://api.tomtom.com/routing/1/calculateRoute/28.5071403,77.3790237:${emp.geo.lat},${emp.geo.lng}/json?avoid=unpavedRoads&key=cIAeadsUq9FLomONz35wTAbx6NwfcsWY&vehicleMaxSpeed=50`
-                        fetch(distanceUrl).then(response => response.json()).then(response => {
-                            const route = response.routes[0];
-                            //console.dir(route)
-
-                            const distanceInKms = (route.summary.lengthInMeters / 1000).toFixed(1);
-                            const mins = (route.summary.travelTimeInSeconds / 60).toFixed(0);
-                            document.getElementById(`sd_${emp.username}`).innerHTML = `${distanceInKms}kms(${mins}m)`
-                        })
-                    }, time++ * 1000);
-                }
-            })
-        }
-    )
+    }
 </script>
 </body>
 </html>
