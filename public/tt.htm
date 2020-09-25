@@ -54,6 +54,7 @@
     const params = new URLSearchParams(window.location.search)
     manager = params.has("mgr") ? params.get("mgr") : "nikhil";
     let people;
+    let time=0;
     fetch(`/details/${manager}`).then(
         response => response.json()).then(json => {
             json = json.data;
@@ -82,13 +83,24 @@
                 const person = document.createElement("DIV");
                 person.classList.add("profile-header-container");
 
-                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span></div></div>`;
+                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name} <span class="label label-default" style="background: #220033" id="sd_${emp.username}">        </span></span></div></div>`;
 
                 new tt.Marker({
                     element: person
                 })
                     .setLngLat([emp.geo.lng, emp.geo.lat])
                     .addTo(map);
+
+                setTimeout(() => {
+                const distanceUrl = `https://api.tomtom.com/routing/1/calculateRoute/28.5071403,77.3790237:${emp.geo.lat},${emp.geo.lng}/json?avoid=unpavedRoads&key=cIAeadsUq9FLomONz35wTAbx6NwfcsWY&vehicleMaxSpeed=50`
+                fetch(distanceUrl).then(response => response.json()).then(response => {
+                    const route = response.routes[0];
+                    //console.dir(route)
+
+                    const distanceInKms = (route.summary.lengthInMeters / 1000).toFixed(1);
+                    const mins = (route.summary.travelTimeInSeconds / 60).toFixed(0);
+                    document.getElementById(`sd_${emp.username}`).innerHTML = `${distanceInKms}kms(${mins}m)`
+                }) },time++*1000);
             })
         }
     )

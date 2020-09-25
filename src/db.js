@@ -16,8 +16,8 @@ const users = {
         password: "pass123",
         isManager: true,
         address: {
-            state: "Uttar Pradesh",
-            dist: "Gautam Buddha Nagar",
+            state: "Haryana",
+            dist: "Faridabad",
         }
     },
     nikhil: {
@@ -49,8 +49,8 @@ const users = {
         name: "Pankaj Kumawat",
         password: "pass123",
         address: {
-            state: "Uttar Pradesh",
-            dist: "Gautam Buddha Nagar",
+            state: "Delhi",
+            dist: "West Delhi",
         }
     },
     mustufa: {
@@ -115,6 +115,7 @@ module.exports.getReportees = function (username) {
                 delete covidStats[geo];
 
                 employees.people.push({
+                    username: member,
                     ...user,
                     isManager: (user.isManager === true),
                     ...covidStats,
@@ -125,6 +126,7 @@ module.exports.getReportees = function (username) {
                 const user = users[username];
                 delete user.password;
                 employees.people.push({
+                    username: username,
                     ...user,
                     isManager: (user.isManager === true),
                     ...masterData[user.address.state][user.address.dist],
