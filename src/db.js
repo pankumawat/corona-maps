@@ -213,24 +213,30 @@ module.exports.getCovidData = function () {
 
                             let riskNumber = (distData.confirmed > 0 ? ((distData.active + 5 * distData.deceased)) : 0);
                             let risk = 0;
-                            if (riskNumber > 0 && riskNumber <= 50)
+                            if (riskNumber > 50 && riskNumber <= 200)
                                 risk = 1;
-                            else if (riskNumber > 50 && riskNumber <= 200)
-                                risk = 2;
                             else if (riskNumber > 200 && riskNumber <= 500)
-                                risk = 3;
+                                risk = 2;
                             else if (riskNumber > 500 && riskNumber <= 1000)
-                                risk = 4;
+                                risk = 3;
                             else if (riskNumber > 1000)
-                                risk = 5;
+                                risk = 4;
 
+                            const riskColors = [
+                                "#00AA00",
+                                "#438823",
+                                "#FFBF00",
+                                "#FF7700",
+                                "#D2222D",
+                            ]
                             masterData[state][dist] = {
                                 ...masterData[state][dist],
                                 active: distData.active,
                                 confirmed: distData.confirmed,
                                 deceased: distData.deceased,
                                 recovered: distData.recovered,
-                                risk: risk
+                                riskColor: riskColors[risk],
+                                riskLevel: risk
                             };
                         });
                     }

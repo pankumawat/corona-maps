@@ -1,58 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title>My map</title>
-        <link rel='stylesheet' type='text/css' href='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps.css'/>
-        <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps-web.min.js'></script>
-        <style>
-            #map {
-              height: 1000px;
-              width: 1000px;
-          }
-        </style>
-    </head>
-    <body>
-        <div id='map'></div>
-        <script>
+<head>
+    <title>My map</title>
+    <link rel='stylesheet' type='text/css' href='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps.css'/>
+    <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps-web.min.js'></script>
 
-            const params = new URLSearchParams(window.location.search)
-            manager = params.has("mgr") ? params.get("mgr") : "nikhil";
-            fetch(`/details/${manager}`).then(
-                response => response.json()).then(json => {
-                    json = json.data;
-                    console.dir(json);
-                    var map = tt.map({
-                        container: 'map',
-                        key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
-                        center: [json.geoCenter.lng, json.geoCenter.lat],
-                        zoom: 10
-                    });
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<style>
+    /**
+* Profile image component
+*/
+    .profile-header-container{
+        margin: 0 auto;
+        text-align: center;
+    }
 
-                    json.people.forEach(emp => {
-                        const person = document.createElement("DIV");
-                        const pic = document.createElement("IMG");
-                        pic.setAttribute("src", emp.profile);
-                        pic.setAttribute("width", "50");
-                        pic.setAttribute("height", "58");
-                        pic.setAttribute("alt", "The Pulpit Rock");
+    .profile-header-img {
+        padding: 44px;
+    }
 
+    .img-circle {
+        width: 75px;
+        height: 80px;
+        border: 2px solid #51D2B7;
+    }
 
-                        person.appendChild(pic)
-                        const name = document.createElement("LABEL");
-                        name.innerHTML=`<br>${emp.name} (${emp.risk})`;
+    .profile-header {
+        margin-top: 43px;
+    }
 
-                        person.appendChild(name)
+    .rank-label-container {
+        margin-top: -10px;
+        /* z-index: 1000; */
+        text-align: center;
+    }
 
-                        new tt.Marker({
-                            element: person
-                        })
-                            .setLngLat([emp.geo.lng,emp.geo.lat])
-                            .addTo(map);
-                    })
+    .label.label-default.rank-label {
+        background-color: rgb(81, 210, 183);
+        padding: 5px 10px 5px 10px;
+        border-radius: 27px;
+    }
+</style>
+<div id='map'></div>
+<script>
+    const mapElem = document.getElementById("map");
+    mapElem.style.height = `${window.innerHeight}px`;
+    mapElem.style.width = `${window.innerWidth}px`;
+
+    const params = new URLSearchParams(window.location.search)
+    manager = params.has("mgr") ? params.get("mgr") : "nikhil";
+    fetch(`/details/${manager}`).then(
+        response => response.json()).then(json => {
+            json = json.data;
+            json.people.push(
+                {
+                    name: "Adobe Systems pvt. ltd.",
+                    profile: "/images/pp/adobe.png",
+                    geo: {
+                        lat: 28.5071403,
+                        lng: 77.3790237
+                    }
                 }
             )
-            // const json = JSON.parse('{"people":[{"name":"Junaid Karim","isManager":true,"address":{"state":"Delhi","dist":"South Delhi"},"geo":{"lat":"28.48209","lng":"77.188555"},"active":70,"confirmed":70,"deceased":0,"recovered":0,"risk":2,"profile":"http://localhost:3001/images/pp/junaid.png"},{"name":"Pankaj Kumawat","address":{"state":"Uttar Pradesh","dist":"Gautam Buddha Nagar"},"isManager":false,"geo":{"lat":"28.35898255","lng":"77.550762"},"active":1699,"confirmed":12010,"deceased":50,"recovered":10261,"risk":5,"profile":"http://localhost:3001/images/pp/pankaj.png"},{"name":"Mustufa Gunderwala","address":{"state":"Uttar Pradesh","dist":"Gautam Buddha Nagar"},"isManager":false,"geo":{"lat":"28.35898255","lng":"77.550762"},"active":1699,"confirmed":12010,"deceased":50,"recovered":10261,"risk":5,"profile":"http://localhost:3001/images/pp/mustufa.png"}],"geoCenter":{"lat":28.400018366666668,"lng":77.43002633333333}}');
+            console.dir(json);
+            var map = tt.map({
+                container: 'map',
+                key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
+                center: [json.geoCenter.lng, json.geoCenter.lat],
+                zoom: 10
+            });
 
-        </script>
-    </body>
+            json.people.forEach(emp => {
+                const person = document.createElement("DIV");
+                person.classList.add("profile-header-container");
+
+                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span></div></div>`;
+
+                new tt.Marker({
+                    element: person
+                })
+                    .setLngLat([emp.geo.lng, emp.geo.lat])
+                    .addTo(map);
+            })
+        }
+    )
+</script>
+</body>
 </html>
