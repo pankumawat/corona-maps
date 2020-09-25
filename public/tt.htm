@@ -83,7 +83,7 @@
                 const person = document.createElement("DIV");
                 person.classList.add("profile-header-container");
 
-                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name} <span class="label label-default" style="background: #220033" id="sd_${emp.username}">        </span></span></div></div>`;
+                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span><br><span class="label label-default" style="background: #220033" id="sd_${emp.username}"></span></div></div>`;
 
                 new tt.Marker({
                     element: person
