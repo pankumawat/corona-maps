@@ -14,7 +14,7 @@
     /**
 * Profile image component
 */
-    .profile-header-container{
+    .profile-header-container {
         margin: 0 auto;
         text-align: center;
     }
@@ -54,7 +54,7 @@
     const params = new URLSearchParams(window.location.search)
     manager = params.has("mgr") ? params.get("mgr") : "nikhil";
     let people;
-    let time=0;
+    let time = 0;
     fetch(`/details/${manager}`).then(
         response => response.json()).then(json => {
             json = json.data;
@@ -92,16 +92,19 @@
                     .setLngLat([emp.geo.lng, emp.geo.lat])
                     .addTo(map);
 
-                setTimeout(() => {
-                const distanceUrl = `https://api.tomtom.com/routing/1/calculateRoute/28.5071403,77.3790237:${emp.geo.lat},${emp.geo.lng}/json?avoid=unpavedRoads&key=cIAeadsUq9FLomONz35wTAbx6NwfcsWY&vehicleMaxSpeed=50`
-                fetch(distanceUrl).then(response => response.json()).then(response => {
-                    const route = response.routes[0];
-                    //console.dir(route)
+                if (emp.company !== true) {
+                    setTimeout(() => {
+                        const distanceUrl = `https://api.tomtom.com/routing/1/calculateRoute/28.5071403,77.3790237:${emp.geo.lat},${emp.geo.lng}/json?avoid=unpavedRoads&key=cIAeadsUq9FLomONz35wTAbx6NwfcsWY&vehicleMaxSpeed=50`
+                        fetch(distanceUrl).then(response => response.json()).then(response => {
+                            const route = response.routes[0];
+                            //console.dir(route)
 
-                    const distanceInKms = (route.summary.lengthInMeters / 1000).toFixed(1);
-                    const mins = (route.summary.travelTimeInSeconds / 60).toFixed(0);
-                    document.getElementById(`sd_${emp.username}`).innerHTML = `${distanceInKms}kms(${mins}m)`
-                }) },time++*1000);
+                            const distanceInKms = (route.summary.lengthInMeters / 1000).toFixed(1);
+                            const mins = (route.summary.travelTimeInSeconds / 60).toFixed(0);
+                            document.getElementById(`sd_${emp.username}`).innerHTML = `${distanceInKms}kms(${mins}m)`
+                        })
+                    }, time++ * 1000);
+                }
             })
         }
     )
