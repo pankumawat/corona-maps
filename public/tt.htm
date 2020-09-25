@@ -53,6 +53,93 @@
     }
 </style>
 
+
+<style>
+    .box > .icon {
+        text-align: center;
+        position: relative;
+    }
+
+    .box > .icon > .image {
+        position: relative;
+        z-index: 2;
+        margin: auto;
+        width: 54px;
+        height: 48px;
+        border: 8px solid white;
+        line-height: 48px;
+        border-radius: 50%;
+        background: #428bca;
+        vertical-align: middle;
+    }
+
+    .box > .icon > .image > i {
+        font-size: 36px !important;
+        color: #fff !important;
+    }
+
+    .box > .icon:hover > .image > i {
+        color: white !important;
+    }
+
+    .box > .icon > .info {
+        margin-top: -24px;
+        background: rgba(0, 0, 0, 0.04);
+        border: 1px solid #e0e0e0;
+        padding: 15px 5px 10px 0;
+    }
+
+    .box > .icon > .info > h3.title {
+        font-family: sans-serif !important;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .box > .icon > .info > p {
+        font-family: sans-serif !important;
+        font-size: 13px;
+        color: #666;
+        line-height: 1.5em;
+        margin: 20px;
+    }
+
+    .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a {
+
+    }
+
+    .box > .icon > .info > .more a {
+        font-family: sans-serif !important;
+        font-size: 12px;
+        color: #222;
+        line-height: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .box > .icon:hover > .info > .more > a {
+        color: #fff;
+        padding: 6px 8px;
+        background-color: #63B76C;
+    }
+
+    .box .space {
+        height: 30px;
+    }
+
+    .modal-header-primary {
+        color: #fff;
+        padding: 9px 15px;
+        border-bottom: 1px solid #eee;
+        background-color: #428bca;
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+</style>
+
 <script>
     if (!localStorage.getItem("user"))
         window.location.replace("http://localhost:3001/login.htm");
@@ -101,6 +188,15 @@
                     }
                 )
 
+                const popupOffsets = {
+                    top: [0, 0],
+                    bottom: [0, -70],
+                    'bottom-right': [0, -70],
+                    'bottom-left': [0, -70],
+                    left: [0, 0],
+                    right: [0, 0]
+                }
+
                 people = json.people;
                 var map = tt.map({
                     container: 'map',
@@ -115,12 +211,13 @@
 
                     person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span><br><span class="label label-default" style="background: #220033" id="sd_${emp.username}"></span></div></div><img width="20" height="20" src="https://www.flaticon.com/svg/static/icons/svg/626/626013.svg" class="loaded">`;
 
-                    new tt.Marker({
+                    const marker = new tt.Marker({
                         element: person
                     })
                         .setLngLat([emp.geo.lng, emp.geo.lat])
                         .addTo(map);
 
+                    const popupDiv = window.document.createElement('div');
                     if (emp.company !== true) {
                         setTimeout(() => {
                             const distanceUrl = `https://api.tomtom.com/routing/1/calculateRoute/28.5071403,77.3790237:${emp.geo.lat},${emp.geo.lng}/json?avoid=unpavedRoads&key=cIAeadsUq9FLomONz35wTAbx6NwfcsWY&vehicleMaxSpeed=50`
@@ -131,21 +228,53 @@
                                 const distanceInKms = (route.summary.lengthInMeters / 1000).toFixed(1);
                                 const mins = (route.summary.travelTimeInSeconds / 60).toFixed(0);
                                 document.getElementById(`sd_${emp.username}`).innerHTML = `${distanceInKms}kms(${mins}m)`
+
+                                popupDiv.innerHTML = `<div class="col-xs-12 col-sm-12 col-lg-12">
+                                                                <div class="box">
+                                                                    <div class="icon">
+                                                                            <img class="img-circle" src="${emp.profile}" />
+                                                                            <div style="background-color: ${emp.riskColor}; padding-top:10px; height:70px" >
+                                                                                <h4 style="color:white;" class="title">${emp.name}</h4>
+                                                                            </div>
+                                                                            <table class="table table-sm table-dark">
+                                                                              <tbody>
+                                                                                   <tr><td>Risk Score (0-5)</td> <td>${emp.riskLevel}</td></tr>
+                                                                                    <tr><td>Active Cases</td> <td>${emp.active}</td></tr>
+                                                                                    <tr><td>Confirmed Cases</td> <td>${emp.confirmed}</td></tr>
+                                                                                    <tr><td>Deceased</td> <td>${emp.deceased}</td></tr>
+                                                                                    <tr><td>Recovered</td> <td>${emp.recovered}</td></tr>
+                                                                                    <!-- <tr><td>Distance</td> <td>${distanceInKms}</td></tr>
+                                                                                    <tr><td>Travel Time</td> <td>${mins}</td></tr>
+                                                                                    -->
+                                                                              </tbody>
+                                                                            </table>
+                                                                            </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>`;
                             })
                         }, time++ * 1000);
+
+                        if (emp.company !== true) {
+                            var popup = new tt.Popup({offset: popupOffsets}).setDOMContent(popupDiv);
+                            popup.setMaxWidth("310px");
+                            marker.setPopup(popup)
+                        }
                     }
                 })
             }
         )
-    } else {
-        var map = tt.map({
-            container: 'map',
-            key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
-            center: [77.3790237, 28.5071403],
-            zoom: 12
-        });
+    } else
+        {
+            var map = tt.map({
+                container: 'map',
+                key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
+                center: [77.3790237, 28.5071403],
+                zoom: 12
+            });
 
-    }
+        }
 </script>
 </body>
 </html>
