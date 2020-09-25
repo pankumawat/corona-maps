@@ -20,7 +20,7 @@
     }
 
     .profile-header-img {
-        padding: 44px;
+        padding: 4px;
     }
 
     .img-circle {
@@ -34,7 +34,7 @@
     }
 
     .rank-label-container {
-        margin-top: -10px;
+        margin-top: -5px;
         /* z-index: 1000; */
         text-align: center;
     }
@@ -83,7 +83,7 @@
                 const person = document.createElement("DIV");
                 person.classList.add("profile-header-container");
 
-                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span><br><span class="label label-default" style="background: #220033" id="sd_${emp.username}"></span></div></div>`;
+                person.innerHTML = `<div class="profile-header-img"><img class="img-circle" src="${emp.profile}" /><div class="rank-label-container"><span class="label label-default rank-label" style="background: ${emp.riskColor}">${emp.name}</span><br><span class="label label-default" style="background: #220033" id="sd_${emp.username}"></span></div></div><img width="20" height="20" src="https://www.flaticon.com/svg/static/icons/svg/626/626013.svg" class="loaded">`;
 
                 new tt.Marker({
                     element: person
