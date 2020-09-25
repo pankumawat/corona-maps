@@ -91,7 +91,9 @@ const team_assigned = {
 module.exports.fetchUser = function (username) {
     return new Promise((resolve, reject) => {
         if (users[username]) {
-            resolve(users[username]);
+            const returnObj = {...users[username]};
+            console.log(JSON.stringify(returnObj));
+            resolve(returnObj);
         } else {
             reject(new Error("No such user exists."))
         }
@@ -100,13 +102,15 @@ module.exports.fetchUser = function (username) {
 
 module.exports.getReportees = function (username) {
     return new Promise((resolve, reject) => {
-            const employees = {people: [],
-                                geoCenter: { }};
+            const employees = {
+                people: [],
+                geoCenter: {}
+            };
             let amIin = false;
             team_assigned[username].teams.forEach(teamName => teams[teamName].forEach(member => {
                 if (member == username)
                     amIin = true;
-                const user = users[member];
+                const user = {...users[member]};
                 delete user.password;
                 const covidStats = {
                     ...masterData[user.address.state][user.address.dist]
@@ -123,7 +127,7 @@ module.exports.getReportees = function (username) {
                 })
             }));
             if (!amIin) {
-                const user = users[username];
+                const user = {...users[username]};
                 delete user.password;
                 employees.people.push({
                     username: username,
@@ -134,19 +138,19 @@ module.exports.getReportees = function (username) {
                 })
             }
 
-        let totalPeople = employees.people.length;
-        let latSum = 0;
-        let lngSum = 0;
+            let totalPeople = employees.people.length;
+            let latSum = 0;
+            let lngSum = 0;
 
-        employees.people.forEach(user => {
-            latSum+=parseFloat(user.geo.lat);
-            lngSum+=parseFloat(user.geo.lng);
-        })
-        employees.geoCenter = {
-            lat: latSum/totalPeople,
-            lng: lngSum/totalPeople
-        }
-        resolve(employees);
+            employees.people.forEach(user => {
+                latSum += parseFloat(user.geo.lat);
+                lngSum += parseFloat(user.geo.lng);
+            })
+            employees.geoCenter = {
+                lat: latSum / totalPeople,
+                lng: lngSum / totalPeople
+            }
+            resolve(employees);
         }
     );
 }

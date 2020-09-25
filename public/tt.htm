@@ -47,6 +47,7 @@
         padding: 5px 10px 5px 10px;
         border-radius: 27px;
     }
+
     #map {
         margin-top: -20px;
     }
@@ -81,7 +82,7 @@
     mapElem.style.width = `${window.innerWidth}px`;
 
     const params = new URLSearchParams(window.location.search)
-    manager = params.has("mgr") ? params.get("mgr") : undefined;
+    manager = params.has("mgr") ? params.get("mgr") : JSON.parse(localStorage.getItem("user")).username;
     if (manager) {
         let people;
         let time = 0;

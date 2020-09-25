@@ -46,7 +46,7 @@ app.post('/login', (req, res) => {
             password: password
         })
         db.fetchUser(username).then(function (user) {
-            if (user.password === password) {
+            if (user.password == password) {
                 tokenMaster.getJwtToken(
                     {username: username, ...user}
                 ).then(tokenObj => {
@@ -61,7 +61,7 @@ app.post('/login', (req, res) => {
                     return res.status(500).json(getErrorResponse(error.message));
                 });
             } else {
-                return res.status(401).json(getErrorResponse('Incorrect username or password'));
+                return res.status(401).json(getErrorResponse(`Incorrect username or password ${user.password}   ${password}`));
             }
         }).catch(function (error) {
             console.log(error.message)
@@ -82,7 +82,7 @@ app.get('/details/:manager', verifyToken, (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    return res.redirect(301, '/help');
+    return res.redirect(301, '/login.htm');
 });
 
 function verifyToken(req, res, next) {
