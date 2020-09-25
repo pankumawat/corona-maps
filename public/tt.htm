@@ -53,6 +53,7 @@
 
     const params = new URLSearchParams(window.location.search)
     manager = params.has("mgr") ? params.get("mgr") : "nikhil";
+    let people;
     fetch(`/details/${manager}`).then(
         response => response.json()).then(json => {
             json = json.data;
@@ -66,12 +67,15 @@
                     }
                 }
             )
+
+            people = json.people;
+
             console.dir(json);
             var map = tt.map({
                 container: 'map',
                 key: 'cIAeadsUq9FLomONz35wTAbx6NwfcsWY',
                 center: [json.geoCenter.lng, json.geoCenter.lat],
-                zoom: 10
+                zoom: 9
             });
 
             json.people.forEach(emp => {
