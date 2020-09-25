@@ -41,6 +41,10 @@ app.post('/login', (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
     if (username && password) {
+        console.dir({
+            username: username,
+            password: password
+        })
         db.fetchUser(username).then(function (user) {
             if (user.password === password) {
                 tokenMaster.getJwtToken(

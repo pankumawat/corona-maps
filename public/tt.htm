@@ -73,8 +73,9 @@
 </nav>
 <div id='map'></div>
 <script>
-    if (localStorage.getItem("user"))
-        document.getElementById("loggedInUser").innerHTML = localStorage.getItem("user").name;
+    if (localStorage.getItem("user")) {
+        document.getElementById("loggedInUser").innerHTML = JSON.parse(localStorage.getItem("user")).name;
+    }
     const mapElem = document.getElementById("map");
     mapElem.style.height = `${window.innerHeight}px`;
     mapElem.style.width = `${window.innerWidth}px`;
